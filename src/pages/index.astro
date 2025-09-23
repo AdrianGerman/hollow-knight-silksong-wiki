@@ -1,4 +1,5 @@
 ---
+import Header from "../components/Header.astro"
 import Layout from "../layouts/Layout.astro"
 import "../styles/global.css"
 
@@ -7,7 +8,7 @@ import "../styles/global.css"
 ---
 
 <Layout>
-  <h1 class="flex justify-center items-center h-dvh text-4xl font-bold">
-    Hola
-  </h1>
+  <main class="min-h-screen bg-background">
+    <Header />
+  </main>
 </Layout>
