@@ -1,0 +1,30 @@
+---
+// Asume que existen secciones con ids: #bosses, #blasones, #zonas (de momento no lo tenemos)
+const navItems = [
+  { id: "bosses", label: "Jefes", icon: "⚔️" },
+  { id: "blasones", label: "Blasones", icon: "💎" },
+  { id: "zonas", label: "Zonas", icon: "🗺️" }
+]
+---
+
+<nav
+  class="sticky top-0 z-50 border-b bg-white/80 backdrop-blur-md border-slate-200 dark:bg-slate-900/80 dark:border-slate-800"
+>
+  <div class="container mx-auto px-4">
+    <div class="flex items-center justify-center py-4 gap-2">
+      {
+        navItems.map((item) => (
+          <button
+            type="button"
+            data-section={item.id}
+            class="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-transform duration-300 hover:scale-105
+                 text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800 cursor-pointer"
+          >
+            <span class="text-lg">{item.icon}</span>
+            <span class="hidden sm:inline">{item.label}</span>
+          </button>
+        ))
+      }
+    </div>
+  </div>
+</nav>
