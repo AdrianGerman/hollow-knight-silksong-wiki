@@ -3,7 +3,9 @@
 const navItems = [
   { id: "bosses", label: "Jefes", icon: "⚔️" },
   { id: "blasones", label: "Blasones", icon: "💎" },
-  { id: "zonas", label: "Zonas", icon: "🗺️" }
+  { id: "zonas", label: "Zonas", icon: "🗺️" },
+  { id: "herramientas", label: "Herramientas", icon: "🛠️" },
+  { id: "enemigos", label: "Enemigos", icon: "ℹ️" }
 ]
 ---
 
@@ -28,3 +30,64 @@ const navItems = [
     </div>
   </div>
 </nav>
+
+<script is:inline>
+  const buttons = Array.from(document.querySelectorAll("button[data-section]"))
+  const activeClasses = [
+    "bg-indigo-600",
+    "text-white",
+    "hover:bg-indigo-600",
+    "dark:bg-indigo-500",
+    "dark:text-white",
+    "dark:hover:bg-indigo-500"
+  ]
+  const inactiveClasses = [
+    "text-slate-700",
+    "hover:bg-slate-100",
+    "dark:text-slate-200",
+    "dark:hover:bg-slate-800"
+  ]
+
+  function setActive(id) {
+    buttons.forEach((btn) => {
+      const isActive = btn.dataset.section === id
+      btn.classList.remove(...activeClasses, ...inactiveClasses)
+      if (isActive) {
+        btn.classList.add(
+          "rounded-md",
+          "px-3",
+          "py-2",
+          "text-sm",
+          "font-medium",
+          "transition-transform",
+          "duration-300",
+          "hover:scale-105",
+          ...activeClasses
+        )
+      } else {
+        btn.classList.add(
+          "rounded-md",
+          "px-3",
+          "py-2",
+          "text-sm",
+          "font-medium",
+          "transition-transform",
+          "duration-300",
+          "hover:scale-105",
+          ...inactiveClasses
+        )
+      }
+    })
+  }
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.section
+      const el = document.getElementById(id)
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" })
+        setActive(id)
+      }
+    })
+  })
+</script>
