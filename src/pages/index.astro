@@ -1,16 +1,53 @@
 ---
-import Header from "../components/Header.astro"
-import Navigation from "../components/Navigation.astro"
-import Layout from "../layouts/Layout.astro"
+import Layout from "@/layouts/Layout.astro"
 import "../styles/global.css"
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-  <main class="min-h-screen bg-background">
-    <Header />
-    <Navigation />
-  </main>
+<Layout title="Pharloom Archives">
+  <section class="mx-auto max-w-5xl px-4 py-16 text-center">
+    <h1 class="hl-title text-4xl md:text-6xl">Pharloom Archives</h1>
+    <p class="mt-4 text-lg text-[--color-ink-muted] max-w-2xl mx-auto">
+      Una wiki minimalista dedicada a <strong>Hollow Knight: Silksong</strong>,
+      para registrar jefes, criaturas, herramientas y secretos del misterioso
+      reino de Pharloom.
+    </p>
+
+    <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <a class="card p-6 hover:translate-y-[-2px] transition" href="/jefes">
+        <div class="text-sm uppercase tracking-wider text-[--color-ink-muted]">
+          Categoría
+        </div>
+        <div class="hl-title text-2xl">Jefes</div>
+      </a>
+
+      <a class="card p-6 hover:translate-y-[-2px] transition" href="/enemigos">
+        <div class="text-sm uppercase tracking-wider text-[--color-ink-muted]">
+          Categoría
+        </div>
+        <div class="hl-title text-2xl">Criaturas</div>
+      </a>
+
+      <a
+        class="card p-6 hover:translate-y-[-2px] transition"
+        href="/instrumentos"
+      >
+        <div class="text-sm uppercase tracking-wider text-[--color-ink-muted]">
+          Categoría
+        </div>
+        <div class="hl-title text-2xl">Instrumentos</div>
+      </a>
+
+      <a class="card p-6 hover:translate-y-[-2px] transition" href="/zonas">
+        <div class="text-sm uppercase tracking-wider text-[--color-ink-muted]">
+          Categoría
+        </div>
+        <div class="hl-title text-2xl">Zonas</div>
+      </a>
+    </div>
+
+    <p class="mt-16 text-sm text-[--color-ink-muted] italic">
+      “El viaje de Hornet a través de Pharloom: un ascenso lleno de seda, canto
+      y desafío.”
+    </p>
+  </section>
 </Layout>
