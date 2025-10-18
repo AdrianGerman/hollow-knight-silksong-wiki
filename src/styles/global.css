@@ -1,1 +1,46 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+
+@theme {
+--color-ink: #d7e7ff;
+--color-ink-muted: #a7b7cc;
+--color-bg: #070b12;
+--color-surface: #0b1018;
+--color-border: #1a2230;
+--color-accent: #8fd3ff;
+--color-accent-2: #9aa2ff;
+--radius-xl: 1.25rem;
+--shadow-soft: 0 10px 30px rgba(0,0,0,.35);
+
+
+--font-display: "Cinzel", ui-serif, Georgia, serif;
+--font-body: "Crimson Pro", ui-serif, Georgia, serif;
+}
+
+
+:root { color-scheme: dark; }
+html { background: var(--color-bg); }
+
+
+.prose-hk {
+@apply prose prose-invert max-w-none;
+}
+
+
+.card {
+@apply rounded-[--radius-xl] bg-[--color-surface] shadow-[--shadow-soft] border border-[--color-border];
+}
+
+
+.blur-motes {
+position: fixed; inset: -20vmax; z-index: -1; pointer-events: none;
+background: radial-gradient(80vmax 80vmax at 20% 10%, #25304755, transparent 60%),
+radial-gradient(60vmax 60vmax at 90% 20%, #1b2a4055, transparent 60%),
+radial-gradient(50vmax 50vmax at 40% 90%, #16304a55, transparent 60%);
+filter: blur(18px);
+}
+
+
+.hl-title { @apply font-[--font-display] tracking-wide text-[--color-ink]; }
+.hl-accent { color: var(--color-accent); }
