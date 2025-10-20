@@ -1,0 +1,26 @@
+---
+const links = [
+  { href: "/jefes", label: "Jefes" },
+  { href: "/enemigos", label: "Enemigos" },
+  { href: "/blasones-herramientas", label: "Blasones / Herr." },
+  { href: "/pulgas", label: "Pulgas" },
+  { href: "/habilidades", label: "Habilidades" },
+  { href: "/fragmentos-mascara", label: "Frag. máscara" },
+  { href: "/fragmentos-carrete", label: "Frag. carrete" },
+  { href: "/zonas", label: "Zonas / Mapas" },
+]
+---
+
+<aside class="card p-4 text-sm">
+  <ul class="space-y-2">
+    {
+      links.map((l) => (
+        <li>
+          <a class="block px-3 py-2 rounded hover:bg-white/5" href={l.href}>
+            {l.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</aside>
