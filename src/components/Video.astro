@@ -1,0 +1,11 @@
+---
+const { url, title = "Video" } = Astro.props
+---
+
+<div class="card overflow-hidden">
+  <iframe
+    src={url.replace("watch?v=", "embed/")}
+    title={title}
+    allowfullscreen
+    class="w-full aspect-video"></iframe>
+</div>
