@@ -1,5 +1,5 @@
 ---
-import DocsLayout from "@/layouts/DocsLayout.astro"
+import Layout from "@/layouts/Layout.astro"
 import { getCollection } from "astro:content"
 import { CATEGORIES, type Category } from "@/lib/categories"
 
@@ -12,7 +12,7 @@ const category = params.category as Category
 const items = await getCollection(category)
 ---
 
-<DocsLayout title={category?.toUpperCase()}>
+<Layout title={category?.toUpperCase()}>
   <ul class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
     {
       items
@@ -52,4 +52,4 @@ const items = await getCollection(category)
         ))
     }
   </ul>
-</DocsLayout>
+</Layout>
