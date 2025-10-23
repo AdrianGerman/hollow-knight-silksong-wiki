@@ -3,29 +3,10 @@ import Layout from "@/layouts/Layout.astro"
 import Video from "@/components/Video.astro"
 import Gallery from "@/components/Gallery.astro"
 import { getCollection, getEntry } from "astro:content"
-import { CATEGORIES, type Category } from "@/lib/categories"
-
-export async function getStaticPaths() {
-  const paths = await Promise.all(
-    CATEGORIES.map(async (category) => {
-      const items = await getCollection(category)
-      return items.map(({ slug }) => ({ params: { category, slug } }))
-    }),
-  )
-  return paths.flat()
-}
 
 const { params } = Astro
-const category = params.category as Category
-const slug = params.slug
-
-const entry = await getEntry(category, slug)
-if (!entry) {
-  throw new Error(`No se encontró la entrada ${category}/${slug}`)
-}
-
-const { data } = entry
-const { Content } = await entry.render()
+const entry = await getEntry(params.category, params.slug)
+const { data, body } = entry
 ---
 
 <Layout title={data.title}>
@@ -33,19 +14,15 @@ const { Content } = await entry.render()
     data.cover?.src && (
       <img
         src={data.cover.src}
-        alt={data.cover.alt ?? data.title}
+        alt={data.cover.alt}
         class="w-full rounded-[--radius-xl] mb-6"
-        loading="lazy"
       />
     )
   }
-
-  <section class="prose-hk">
-    <Content />
-  </section>
+  <section class="prose-hk" set:html={await body()} />
 
   {
-    Array.isArray(data.videos) && data.videos.length > 0 && (
+    data.videos?.length > 0 && (
       <div class="mt-8 space-y-4">
         {data.videos.map((u) => (
           <Video url={u} />
@@ -55,7 +32,7 @@ const { Content } = await entry.render()
   }
 
   {
-    Array.isArray(data.gallery) && data.gallery.length > 0 && (
+    data.gallery?.length > 0 && (
       <div class="mt-8">
         <Gallery images={data.gallery} />
       </div>
