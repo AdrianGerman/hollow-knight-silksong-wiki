@@ -1,0 +1,16 @@
+---
+const { class: klass = "" } = Astro.props
+---
+
+<div class={`pointer-events-none fixed inset-0 -z-10 ${klass}`}>
+  <div
+    class="absolute inset-0"
+    style="
+    background:
+      radial-gradient(60vmax 40vmax at 10% -10%, #1b233155 0%, transparent 60%),
+      radial-gradient(50vmax 35vmax at 100% 0%, #19233055 0%, transparent 55%),
+      linear-gradient(180deg, #0d1117 0%, #0b1016 100%);
+  "
+  >
+  </div>
+</div>
