@@ -1,0 +1,42 @@
+---
+interface Props {
+  title?: string
+  accent?: string
+  subtitle?: string
+}
+const {
+  title = "Pharloom Archives",
+  accent = "#d4b46a",
+  subtitle = "Una wiki minimalista dedicada a Hollow Knight: Silksong.",
+} = Astro.props as Props
+---
+
+<section class="mx-auto max-w-6xl px-4 pt-16 pb-10 text-center">
+  <h1
+    class="font-[Cinzel] tracking-wide text-4xl md:text-6xl lg:text-7xl text-white"
+  >
+    {title.split(" ")[0]}
+    <span style={`color:${accent}`}>{title.split(" ").slice(1).join(" ")}</span>
+  </h1>
+  <p
+    class="mt-4 md:mt-6 text-base md:text-lg text-white/80 max-w-3xl mx-auto leading-relaxed"
+    set:html={subtitle}
+  />
+  <div
+    class="mx-auto mt-8 flex items-center justify-center gap-3"
+    style={`color:${accent}B3`}
+  >
+    <span class="h-px w-12" style="background: currentColor; opacity:.4"></span>
+    <svg
+      class="h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path
+        d="M12 3l2.7 5.47L21 9.24l-4.5 4.39L17.4 21 12 17.77 6.6 21l.9-7.37L3 9.24l6.3-.77L12 3z"
+      ></path>
+    </svg>
+    <span class="h-px w-12" style="background: currentColor; opacity:.4"></span>
+  </div>
+</section>
