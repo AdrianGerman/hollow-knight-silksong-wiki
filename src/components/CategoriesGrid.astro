@@ -1,0 +1,38 @@
+---
+type Cat = { href: string; label: string; desc?: string }
+interface Props {
+  items: Cat[]
+  accent?: string
+}
+const { items = [], accent = "#d4b46a" } = Astro.props as Props
+---
+
+<section class="mx-auto max-w-6xl px-4 pb-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    {
+      items.map((c) => (
+        <a
+          href={c.href}
+          class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition
+                hover:-translate-y-0.5 hover:bg-white/[0.05] hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="text-[10px] tracking-[0.22em] uppercase text-white/60">
+            Categoría
+          </div>
+          <div class="mt-2 font-[Cinzel] text-2xl text-white">{c.label}</div>
+          {c.desc && <p class="mt-1 text-sm text-white/60">{c.desc}</p>}
+          <div
+            class="mt-6 flex items-center gap-2 text-sm opacity-80 group-hover:opacity-100"
+            style={`color:${accent}`}
+          >
+            Explorar <span>→</span>
+          </div>
+          <div
+            class="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full blur-2xl"
+            style={`background:${accent}1A`}
+          />
+        </a>
+      ))
+    }
+  </div>
+</section>
