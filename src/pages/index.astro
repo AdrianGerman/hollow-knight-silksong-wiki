@@ -4,19 +4,9 @@ import "../styles/global.css"
 
 import Background from "@/components/Background.astro"
 import Hero from "@/components/Hero.astro"
-import CategoriesGrid from "@/components/CategoriesGrid.astro"
-import Intro from "@/components/Intro.astro"
-import Quote from "@/components/Quote.astro"
-
-const accent = "#d4b46a"
-const categories = [
-  { href: "/jefes", label: "Jefes", desc: "Encuentros y estrategias" },
-  { href: "/enemigos", label: "Criaturas", desc: "Patrones y debilidades" },
-  {
-    href: "/instrumentos",
-    label: "Instrumentos",
-    desc: "Herramientas y builds",
-  },
-  { href: "/zonas", label: "Zonas", desc: "Lugares y conexiones" },
-]
 ---
+
+<Layout title="Pharloom Archives">
+  <Background />
+  <Hero />
+</Layout>
