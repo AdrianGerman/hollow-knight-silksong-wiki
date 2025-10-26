@@ -1,16 +1,20 @@
 ---
-type Cat = { href: string; label: string; desc?: string }
-interface Props {
-  items: Cat[]
-  accent?: string
-}
-const { items = [], accent = "#d4b46a" } = Astro.props as Props
+const categories = [
+  { href: "/jefes", label: "Jefes", desc: "Encuentros y estrategias" },
+  { href: "/enemigos", label: "Criaturas", desc: "Patrones y debilidades" },
+  {
+    href: "/instrumentos",
+    label: "Instrumentos",
+    desc: "Herramientas y builds",
+  },
+  { href: "/zonas", label: "Zonas", desc: "Lugares y conexiones" },
+]
 ---
 
 <section class="mx-auto max-w-6xl px-4 pb-6">
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
     {
-      items.map((c) => (
+      categories.map((c) => (
         <a
           href={c.href}
           class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition
@@ -21,16 +25,10 @@ const { items = [], accent = "#d4b46a" } = Astro.props as Props
           </div>
           <div class="mt-2 font-[Cinzel] text-2xl text-white">{c.label}</div>
           {c.desc && <p class="mt-1 text-sm text-white/60">{c.desc}</p>}
-          <div
-            class="mt-6 flex items-center gap-2 text-sm opacity-80 group-hover:opacity-100"
-            style={`color:${accent}`}
-          >
+          <div class="mt-6 flex items-center gap-2 text-sm text-[#d4b46a]/90 opacity-80 group-hover:opacity-100">
             Explorar <span>→</span>
           </div>
-          <div
-            class="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full blur-2xl"
-            style={`background:${accent}1A`}
-          />
+          <div class="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-[#d4b46a]/10 blur-2xl" />
         </a>
       ))
     }
