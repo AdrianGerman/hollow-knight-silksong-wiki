@@ -1,36 +1,52 @@
 ---
-const { title = "Introducción", meta = [] } = Astro.props
+const meta = [
+  { label: "Género", value: "Metroidvania / Acción y Aventura" },
+  { label: "Desarrollador", value: "Team Cherry" },
+  { label: "Protagonista", value: "Hornet" },
+  { label: "Ambientación", value: "Reino de Pharloom" },
+]
 ---
 
 <section
   class="mx-auto max-w-5xl rounded-2xl border border-white/10 bg-white/[0.03] p-6 md:p-8
          shadow-[0_12px_30px_rgba(0,0,0,.25)]"
 >
-  {
-    title && (
-      <header class="mb-6">
-        <h2 class="font-[Cinzel] text-2xl md:text-3xl">{title}</h2>
-        <div class="mt-1 h-px w-20 bg-white/10" />
-      </header>
-    )
-  }
+  <header class="mb-6">
+    <h2 class="font-[Cinzel] text-2xl md:text-3xl">
+      Hollow Knight: Silksong — Introducción
+    </h2>
+    <div class="mt-1 h-px w-20 bg-white/10"></div>
+  </header>
 
-  {
-    meta?.length > 0 && (
-      <dl class="mb-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-        {meta.map(({ label, value }) => (
-          <div class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3">
-            <dt class="text-[10px] uppercase tracking-[0.22em] text-white/60">
-              {label}
-            </dt>
-            <dd class="mt-1 text-sm md:text-base text-white">{value}</dd>
-          </div>
-        ))}
-      </dl>
-    )
-  }
+  <dl class="mb-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+    {
+      meta.map(({ label, value }) => (
+        <div class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3">
+          <dt class="text-[10px] uppercase tracking-[0.22em] text-white/60">
+            {label}
+          </dt>
+          <dd class="mt-1 text-sm md:text-base text-white">{value}</dd>
+        </div>
+      ))
+    }
+  </dl>
 
   <article class="prose prose-invert max-w-none text-white/90">
-    <slot />
+    <p>
+      <strong>Silksong</strong> sigue el viaje de <em>Hornet</em> hacia la cima de
+      <em>Pharloom</em>, un reino desconocido lleno de seda, canto y desafío. La
+      aventura enfatiza la
+      <strong>exploración vertical</strong>, el <strong>combate técnico</strong>
+      y el descubrimiento de atajos y secretos, con nuevas mecánicas de movilidad,
+      herramientas e instrumentos.
+    </p>
+    <p>
+      Esta wiki organiza <strong>jefes</strong>, <strong>criaturas</strong>, <strong
+        >instrumentos</strong
+      > y
+      <strong>zonas</strong>, además de rutas de progreso y consejos de
+      optimización. Si es tu primera vez, empieza por <a href="/zonas">Zonas</a>
+      y luego visita <a href="/instrumentos">Instrumentos</a> para planear tu build.
+    </p>
   </article>
 </section>
