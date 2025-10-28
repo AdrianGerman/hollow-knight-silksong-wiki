@@ -1,0 +1,90 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import "../../styles/global.css"
+
+import CategoryHeader from "@/components/Bosses/CategoryHeader.astro"
+import EntryCard from "@/components/Bosses/EntryCard.astro"
+
+const bosses = [
+  {
+    href: "/jefes/madremusgo",
+    title: "Madremusgo",
+    excerpt:
+      "La bienvenida, el primer jefe del juego y el único en el cual es casi imposible morir ante sus garras.",
+    cover: "/images/jefes/madremusgo.jpg",
+    tags: ["Cruces Carmesí", "Duelos"],
+  },
+  {
+    href: "/jefes/seamstress",
+    title: "La Hilandera",
+    excerpt: "Invoca lacayos y trampas de seda. Control de espacio y ritmo.",
+    cover: "/images/jefes/hilandera.jpg",
+    tags: ["Seda", "Invocaciones"],
+  },
+  {
+    href: "/jefes/warden",
+    title: "El Alcaide",
+    excerpt: "Golpes pesados, parrys y ondas de choque. Aprovecha altura.",
+    cover: "/images/jefes/alcaide.jpg",
+    tags: ["Fortaleza", "Defensa"],
+  },
+]
+---
+
+<Layout title="Jefes — Pharloom Archives">
+  <div class="pointer-events-none fixed inset-0 -z-10">
+    <div
+      class="absolute inset-0"
+      style="background: radial-gradient(60vmax 40vmax at 10% -10%, #18202d55 0%, transparent 60%), radial-gradient(50vmax 35vmax at 100% 0%, #151f2a55 0%, transparent 55%), #0b1016;"
+    >
+    </div>
+  </div>
+
+  <CategoryHeader />
+
+  <section class="mx-auto max-w-6xl px-4 pb-12">
+    <div class="mb-5 flex flex-wrap items-center gap-2">
+      <input
+        placeholder="Buscar jefe…"
+        class="w-full sm:w-72 bg-transparent border border-white/10 rounded-xl px-3 py-2 text-sm outline-none focus:border-[#d4b46a]"
+      />
+      <button
+        class="rounded-xl border border-white/10 px-3 py-2 text-sm bg-white/[0.03] hover:bg-white/[0.06]"
+      >
+        Todos
+      </button>
+      <button
+        class="rounded-xl border border-white/10 px-3 py-2 text-sm bg-white/[0.03] hover:bg-white/[0.06]"
+      >
+        Duelos
+      </button>
+      <button
+        class="rounded-xl border border-white/10 px-3 py-2 text-sm bg-white/[0.03] hover:bg-white/[0.06]"
+      >
+        Fortaleza
+      </button>
+    </div>
+
+    <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {
+        bosses.map((b) => (
+          <li>
+            <EntryCard {...b} />
+          </li>
+        ))
+      }
+    </ul>
+
+    <nav class="mt-8 flex items-center justify-center gap-2">
+      <a
+        class="px-3 py-2 text-sm rounded-lg border border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"
+        href="#">&larr; Anterior</a
+      >
+      <span class="px-3 py-2 text-sm text-white/60">1</span>
+      <a
+        class="px-3 py-2 text-sm rounded-lg border border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"
+        href="#">Siguiente &rarr;</a
+      >
+    </nav>
+  </section>
+</Layout>
