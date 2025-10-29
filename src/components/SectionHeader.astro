@@ -1,0 +1,14 @@
+---
+interface Props {
+  title: string
+  description?: string
+  accent?: string
+}
+const { title, description = "", accent = "#d4b46a" } = Astro.props as Props
+---
+
+<section class="mx-auto max-w-6xl px-4 pt-12 pb-6">
+  <h1 class="font-[Cinzel] text-3xl md:text-5xl text-white">{title}</h1>
+  {description && <p class="mt-3 text-white/70 max-w-2xl">{description}</p>}
+  <div class="mt-6 h-px w-24" style={`background:${accent}33`}></div>
+</section>
