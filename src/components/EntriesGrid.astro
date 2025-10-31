@@ -1,19 +1,31 @@
 ---
-type Item = { href: string; title: string; excerpt?: string; cover?: string; tags?: string[] }
+import EntryCard from "./EntryCard.astro"
+
+type Item = {
+  href: string
+  title: string
+  excerpt?: string
+  cover?: string
+  tags?: string[]
+}
+
 const { items = [] as Item[] } = Astro.props as { items: Item[] }
 ---
 
 <section class="mx-auto max-w-6xl px-4 pb-12">
   <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    {items.map((it) => (
-      <li>
-        <Fragment>
-          {Astro.slots.has('card')
-            ? <slot name="card" { ...it } />
-            : (await import('./EntryCard.astro')).default({ ...it })
-          }
-        </Fragment>
-      </li>
-    ))}
+    {
+      items.map((it) => (
+        <li>
+          <EntryCard
+            href={it.href}
+            title={it.title}
+            excerpt={it.excerpt}
+            cover={it.cover}
+            tags={it.tags}
+          />
+        </li>
+      ))
+    }
   </ul>
 </section>
