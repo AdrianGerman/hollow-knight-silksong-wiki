@@ -1,0 +1,31 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import "../../styles/global.css"
+
+import SectionHeader from "@/components/SectionHeader.astro"
+import EntriesGrid from "@/components/EntriesGrid.astro"
+import Background from "@/components/Background.astro"
+import { getCollection } from "astro:content"
+
+const docs = await getCollection("enemigos")
+const items = docs
+  .sort((a, b) => a.data.order - b.data.order)
+  .map(({ data, slug, collection }) => ({
+    href: `/${collection}/${slug}`,
+    title: data.title,
+    excerpt: data.excerpt || "",
+    cover: data.cover?.src || "",
+    tags: data.tags || [],
+  }))
+---
+
+<Layout title="Criaturas — Pharloom Archives">
+  <Background />
+
+  <SectionHeader
+    title="Criaturas"
+    description="Enemigos y fauna de Pharloom. Patrones, resistencias y consejos para sobrevivir a sus ataques."
+  />
+
+  <EntriesGrid items={items} />
+</Layout>
