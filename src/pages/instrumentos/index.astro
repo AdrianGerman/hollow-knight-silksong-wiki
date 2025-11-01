@@ -1,0 +1,32 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import "../../styles/global.css"
+
+import SectionHeader from "@/components/SectionHeader.astro"
+import EntriesGrid from "@/components/EntriesGrid.astro"
+import Background from "@/components/Background.astro"
+import { getCollection } from "astro:content"
+
+const docs = await getCollection("instrumentos")
+
+const items = docs
+  .sort((a, b) => a.data.order - b.data.order)
+  .map(({ data, slug, collection }) => ({
+    href: `/${collection}/${slug}`,
+    title: data.title,
+    excerpt: data.excerpt || "",
+    cover: data.cover?.src || "",
+    tags: data.tags || [],
+  }))
+---
+
+<Layout title="Instrumentos — Pharloom Archives">
+  <Background />
+
+  <SectionHeader
+    title="Instrumentos"
+    description="Herramientas, amuletos y objetos de utilidad que Hornet encuentra en su viaje. Descubre sus efectos, mejoras y combinaciones ideales."
+  />
+
+  <EntriesGrid items={items} />
+</Layout>
