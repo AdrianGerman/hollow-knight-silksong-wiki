@@ -6,3 +6,28 @@ const {
   accent = "#d4b46a",
 } = Astro.props
 ---
+
+<section class="mx-auto max-w-6xl px-4 pb-4">
+  <div
+    class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between"
+  >
+    <div class="relative w-full md:w-96">
+      <input
+        id="q"
+        type="search"
+        placeholder={placeholder}
+        class="w-full bg-transparent border border-white/10 rounded-xl px-3 py-2 text-sm outline-none focus:border-[--accent]"
+        style={`--accent:${accent}`}
+      />
+      <div
+        class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-white/50"
+      >
+        ⌕
+      </div>
+    </div>
+
+    <div class="text-sm text-white/60">
+      Mostrando <span id="count">0</span> resultados
+    </div>
+  </div>
+</section>
