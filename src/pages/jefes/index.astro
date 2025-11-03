@@ -4,8 +4,10 @@ import "../../styles/global.css"
 
 import SectionHeader from "@/components/SectionHeader.astro"
 import EntriesGrid from "@/components/EntriesGrid.astro"
-import { getCollection } from "astro:content"
+import CategoryToolbar from "@/components/CategoryToolbar.astro"
 import Background from "@/components/Background.astro"
+
+import { getCollection } from "astro:content"
 
 const docs = await getCollection("jefes")
 const items = docs
@@ -17,6 +19,10 @@ const items = docs
     cover: data.cover?.src || "",
     tags: data.tags || [],
   }))
+
+const tagSet = new Set<string>()
+items.forEach((i) => (i.tags || []).forEach((t) => tagSet.add(t)))
+const tags = Array.from(tagSet)
 ---
 
 <Layout title="Jefes — Pharloom Archives">
@@ -25,6 +31,12 @@ const items = docs
   <SectionHeader
     title="Jefes"
     description="Encuentros principales de Pharloom. Guías de estrategia, patrones y recompensas."
+  />
+
+  <CategoryToolbar
+    targetId="grid-jefes"
+    tags={tags}
+    placeholder="Buscar jefe…"
   />
 
   <EntriesGrid items={items} />
