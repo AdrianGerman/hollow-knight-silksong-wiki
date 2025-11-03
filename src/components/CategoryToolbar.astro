@@ -47,4 +47,27 @@ const {
       </div>
     )
   }
+
+  <style>
+    .chip {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.03);
+      padding: 0.4rem 0.7rem;
+      border-radius: 0.75rem;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.85);
+      transition:
+        background 0.2s ease,
+        transform 0.1s ease;
+    }
+    .chip:hover {
+      background: rgba(255, 255, 255, 0.06);
+      transform: translateY(-1px);
+    }
+    .chip.active {
+      background: color-mix(in oklab, var(--accent, #d4b46a) 85%, black);
+      border-color: transparent;
+      color: #1a0e12;
+    }
+  </style>
 </section>
