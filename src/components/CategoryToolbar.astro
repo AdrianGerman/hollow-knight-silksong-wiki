@@ -30,4 +30,21 @@ const {
       Mostrando <span id="count">0</span> resultados
     </div>
   </div>
+
+  {
+    tags.length > 0 && (
+      <div class="mt-3 flex flex-wrap gap-2">
+        <button class="chip" data-tag="__all__">
+          Todos
+        </button>
+        {tags
+          .sort((a, b) => a.localeCompare(b))
+          .map((t) => (
+            <button class="chip" data-tag={t}>
+              {t}
+            </button>
+          ))}
+      </div>
+    )
+  }
 </section>
