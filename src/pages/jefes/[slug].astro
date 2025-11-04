@@ -19,4 +19,14 @@ const { Content } = await entry.render()
 
 <Layout title={data.title}>
   <Background />
+
+  <section class="mx-auto max-w-4xl px-4 pt-10 pb-4">
+    <nav class="mb-3 text-sm text-white/60">
+      <a href="/" class="hover:underline">Inicio</a>
+      <span class="mx-2">/</span>
+      <a href="/jefes" class="hover:underline">Jefes</a>
+      <span class="mx-2">/</span>
+      <span class="text-white/80">{data.title}</span>
+    </nav>
+  </section>
 </Layout>
