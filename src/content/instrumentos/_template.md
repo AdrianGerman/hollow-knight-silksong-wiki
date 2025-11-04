@@ -1,5 +1,5 @@
 ---
-title: "NOMBRE DEL JEFE"
+title: "NOMBRE DEL JEFE instrumentos"
 excerpt: "Descripción corta"
 order: 1
 tags: ["zona-x", "tipo-y"]
