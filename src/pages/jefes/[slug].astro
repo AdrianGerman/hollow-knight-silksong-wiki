@@ -44,5 +44,22 @@ const { Content } = await entry.render()
     }
   </section>
 
-  {}
+  {
+    data.cover?.src && (
+      <div class="mx-auto max-w-4xl px-4">
+        <img
+          src={data.cover.src}
+          alt={data.cover.alt}
+          class="w-full rounded-2xl border border-white/10 bg-white/[0.02]"
+          loading="lazy"
+        />
+      </div>
+    )
+  }
+
+  <section class="mx-auto max-w-4xl px-4 py-8">
+    <article class="prose prose-invert max-w-none">
+      <Content />
+    </article>
+  </section>
 </Layout>

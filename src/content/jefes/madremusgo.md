@@ -1,5 +1,5 @@
 ---
-title: "Hornet (Enfrentamiento I)"
+title: "Hornet (Enfrentamiento I) test"
 excerpt: "La guardiana ágil de Hallownest, duelo en Cruces Olvidados."
 order: 1
 cover: { src: "./hornet.jpg", alt: "Hornet en combate" }
