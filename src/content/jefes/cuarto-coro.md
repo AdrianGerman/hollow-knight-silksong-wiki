@@ -1,7 +1,7 @@
 ---
 title: "Cuarto Coro"
 excerpt: "Una gigantesca construcción automática yace dormida en los pozos de lava de los Campos Lejanos, lista para activarse contra Hornet."
-order: 1
+order: 4
 cover: { 
   src: "/images/jefes/cuarto-coro.webp", 
   alt: "Bestia campana en combate" 

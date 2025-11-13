@@ -1,7 +1,7 @@
 ---
 title: "Lace"
 excerpt: "Duelista letal tejida íntegramente con seda que se enfrenta por primera vez en los Muelles Profundos."
-order: 2
+order: 3
 cover: { 
   src: "/images/jefes/lace.webp", 
   alt: "Lace en combate" 
