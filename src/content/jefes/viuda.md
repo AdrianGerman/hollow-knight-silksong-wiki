@@ -42,5 +42,6 @@ El combate con Viuda se divide en dos fases. Es necesario prestar mucha atenció
 - **Ataques de área ampliados en fase 2:** Más campanas, trayectoria diagonal, mayor alcance y velocidad.
 
 ## Localización
+Para llegar a Viuda necesitas haber progresado hacia la zona de Campanilla desde el Bosque Coraza. Debes tener desbloqueada la habilidad “Agarre de pinza” (o equivalente) para escalar paredes y acceder a los túneles que conducen a la arena de combate.
 
 ## Video
