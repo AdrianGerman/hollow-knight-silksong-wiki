@@ -26,17 +26,20 @@ El combate con Viuda se divide en dos fases. Es necesario prestar mucha atenció
 
 
 ## Fase 1
-
+- Viuda lanza campanas que caen desde el techo, a veces de manera vertical o diagonal.
+- Realiza cargas o embestidas hacia Hornet tras saltar o desplazarse.
+- Momento ideal para atacar: cuando ella tensa los hilos antes de lanzar las campanas — ese es el “telegráfico” para atacar.
 
 
 ## Fase 2
+- Aumenta agresividad: más campanas, patrones más densos, menos pausas.
+- Las cargas suelen ser más rápidas, y el jugador debe priorizar esquivar antes que atacar.
 
 
 ## Ataques
-- **Combo de tres golpes:** Sister Splinter golpea tres veces desde el techo con sus garras, alternando manos.
-- **Invocación de ramas-espina:** Desde el techo caen “cordones” de espinas que bloquean y dañan al contacto; destrúyelos o mantente fuera.
-- **Invocación de minions (Splinterbarks):** En la segunda fase, los minions vuelan hacia ti y pueden ser peligrosos si se acumulan.
-
+- **Lanzamiento de campanas:** Hilos de seda marcan dónde caerán campanas que rebotan al caer.
+- **Carga/embestida:** Viuda sale corriendo o salta para abalanzarse sobre Hornet.
+- **Ataques de área ampliados en fase 2:** Más campanas, trayectoria diagonal, mayor alcance y velocidad.
 
 ## Localización
 
