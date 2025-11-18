@@ -45,6 +45,33 @@ El combate está centrado en la **lectura de trayectorias** y la **gestión del 
 
 ---
 
+## Ataques
 
+- **Taladro horizontal**
+  Salen desde la izquierda o derecha atravesando la sala en línea recta.
+
+- **Taladro vertical**
+  Ascienden o descienden desde los extremos superior/inferior con la misma mecánica.
+
+- **Taladro cruzado**
+  Ambas Moscarolas se lanzan en direcciones opuestas, cruzándose en el centro.
+
+- **Lanzamiento de pincho**
+  En momentos puntuales se detienen brevemente y disparan un pincho rojo que rebota varias veces por la sala.
+
+---
+
+## Localización
+
+Las Grandes Moscarolas se encuentran en la parte media de **Escalones Ajados**, zona ubicada al oeste de Bosque Coraza.  
+Para llegar a este combate debes:
+
+1. Entrar a Escalones Ajados desde Bosque Coraza.  
+2. Avanzar por la subida principal, sorteando enemigos y plataformas.  
+3. Llegar a una cámara cerrada donde se desencadena el enfrentamiento.
+
+Su derrota abre el camino hacia el **taller de la Alfilera**, quien enseña a Hornet un ataque avanzado con la aguja.
+
+---
 
 ## Video
