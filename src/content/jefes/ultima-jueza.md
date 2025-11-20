@@ -65,6 +65,43 @@ Al alcanzar la mitad de vida, adopta una postura más agresiva:
 
 ---
 
+## Ataques
+
+- **Estocada ceremonial**  
+  Ataque directo en línea recta. Muy rápido.
+
+- **Corte lateral**  
+  Desaparece un instante y reaparece al lado de Hornet haciendo un corte horizontal.
+
+- **Golpe ascendente**  
+  Un ataque vertical hacia arriba que cubre corto alcance.
+
+- **Corte descendente**  
+  Salta y cae con un tajo que deja un destello rojo en el suelo.
+
+- **Estocada marcada (fase 2)**  
+  Dibuja una línea roja; un momento después se lanza por esa ruta a gran velocidad.
+
+- **Combo triple/quíntuple (fase 2)**  
+  Encadena varios golpes seguidos, aumentando el ritmo.
+
+---
+
+## Localización
+
+La Última Jueza se encuentra en la cámara más alta de **Escalones Ajados**.  
+Para acceder a ella debes:
+
+1. Entrar en Escalones Ajados desde Bosque Coraza.  
+2. Superar los desafíos verticales de la zona.  
+3. Derrotar a las **Grandes Moscarolas**, que bloquean el acceso al tramo final.  
+4. Continuar hasta la cámara del juicio, donde se inicia la batalla.
+
+Su derrota desbloquea el avance hacia las zonas superiores del reino (inicio del **Acto II**).
+
+---
+
+## Video
 
 
 
