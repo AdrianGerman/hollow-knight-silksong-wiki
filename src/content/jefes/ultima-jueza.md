@@ -17,4 +17,54 @@ videos:
   - "https://www.youtube.com/watch?v=7bg4EavyIqs"
 ---
 
+## Descripción
+
+La **Última Jueza** es la figura de autoridad que gobierna y vigila **Escalones Ajados**.  
+Su misión es preservar el orden y evitar que cualquier intruso alcance las alturas que conectan con regiones más avanzadas del reino de Pharloom.
+
+Hornet es sometida a juicio por ella en un duelo directo, usando una **aguja ceremonial** que domina con precisión absoluta.
+
+Este combate marca el **final del Acto I** del juego y abre paso a las zonas superiores del reino.
+
+---
+
+## Comportamiento y tácticas
+
+La Última Jueza pelea con un estilo refinado, preciso y rápido.  
+Su batalla se divide en **dos fases claramente diferenciadas**.
+
+### Fase 1 — Juicio de Acero
+
+- Usa una postura rígida y clásica, basada en estocadas y desplazamientos rápidos.
+- Realiza ataques limpios en línea recta con su aguja ceremonial.
+- Puede cubrir grandes distancias de la arena con:
+  - **Estocada veloz**
+  - **Desplazamiento lateral seguido de corte**
+  - **Golpe ascendente** tras situarse cerca
+
+**Táctica recomendada:**
+
+- Mantén distancia media.
+- Esquiva hacia atrás o en diagonal cuando se prepare para estocar.
+- Contraataca tras su recuperación: deja una ventana corta después de cada ataque.
+
+### Fase 2 — Juicio Ardiente
+
+Al alcanzar la mitad de vida, adopta una postura más agresiva:
+
+- Su aguja adquiere **una estela roja**, indicando aumento de potencia.
+- Combina ataques en **cadena de 3 a 5 golpes**.
+- Realiza un salto vertical y ejecuta un **corte descendente** que deja un pequeño destello en el suelo.
+- En ocasiones marca con la aguja **una línea roja** en el espacio: esa línea será el recorrido de su siguiente estocada fulminante.
+
+**Táctica recomendada:**
+
+- Evita quedar arrinconado, mantente en el centro.
+- Prioriza esquivar: los combos largos requieren paciencia.
+- Ataca después de su corte descendente: es su momento más vulnerable.
+
+---
+
+
+
 
