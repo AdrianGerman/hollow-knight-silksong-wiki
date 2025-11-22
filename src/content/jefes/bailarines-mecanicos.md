@@ -67,10 +67,29 @@ Al llegar a mitad de vida, ambos Bailarines se sincronizan aún más y activan s
 
 
 ## Ataques
+- **Corte giratorio**  
+  Se desplazan mientras giran con los brazos extendidos.
+
+- **Giro en cruz**  
+  Ambos se cruzan en el centro de la arena mientras realizan un tajo circular.
+
+- **Deslizamiento lateral**  
+  Uno de ellos avanza en línea recta con cuchillas abiertas.
+
+- **Corte ascendente**  
+  Un salto rápido que termina en un corte vertical hacia arriba.
+
+- **Corte descendente doble (fase 2)**  
+  Ambos saltan casi al mismo tiempo y caen con un tajo sincronizado.
+
+- **Láser rotatorio (fase 2)**  
+  Uno activa un aro rojo que gira a su alrededor; contacto = daño.
 
 
 ## Localización
-
+- Zona: **Cámaras Corales**, dentro de la **Ciudadela**, justo en la intersección con el **Núcleo Engranaje**.
+- Prerrequisito: Progresar lo suficiente en la historia del Acto II para acceder al elevador/ascenso.
+- Tras derrotarlos, se desbloquea el ascensor que abre paso a nuevas zonas de la Ciudadela.
 
 ## Video
 
