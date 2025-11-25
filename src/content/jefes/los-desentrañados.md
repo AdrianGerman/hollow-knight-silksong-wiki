@@ -28,13 +28,22 @@ Aunque no todos los detalles de sus recompensas han sido confirmados públicamen
 El combate está dividido en **tres fases**, cada una con un tipo distinto de Desentrañados.
 
 ### Fase 1
+- Se arrastra por el suelo como si su cuerpo no pudiera sostenerse.  
+- Ataques simples pero en ráfagas rápidas.  
+- Movimiento principal: **Zarpazo doble** hacia delante.  
+- Ocasionalmente se lanza en una **carga baja** sostenida por hilos.
 
 ### Fase 2
+- Variante más alta; combinaciones de ataques horizontales + **tijeretazos de seda**.  
+- Invoca hilos tensados entre paredes como trampas
 
 ### Fase 3
+- La versión más peligrosa: alcance, velocidad y volumen aumentados.  
+- Movimientos clave: **Corte circular**, **Golpe aéreo descendente**, **Trampa de seda desde el techo**.
 
 
 ## Ataques
+
 
 
 ## Localización
