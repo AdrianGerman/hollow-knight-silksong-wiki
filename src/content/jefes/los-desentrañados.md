@@ -43,10 +43,15 @@ El combate está dividido en **tres fases**, cada una con un tipo distinto de De
 
 
 ## Ataques
-
-
+- **Zarpazo doble** — ataque frontal rápido.  
+- **Corte circular** — giro amplio.  
+- **Carga baja** — avance pegado al suelo.  
+- **Golpe descendente** — salto + tajo al aterrizar.  
+- **Trampas de seda** — hilos tensados que inmovilizan.  
 
 ## Localización
+Los Desentrañados se encuentran en **Ala Blanca**, una zona elevada y luminosa dentro del reino de Pharloom.  
+Para llegar allí debes progresar desde zonas anteriores como Cámaras Corales y obtener la llave necesaria para acceder al ascensor de Ala Blanca.
 
 
 ## Video
