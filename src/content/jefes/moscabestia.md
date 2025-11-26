@@ -23,3 +23,13 @@ Es un **jefe opcional** pero muy relevante: primero aparece como guardiana de la
 
 En su **primer enfrentamiento** (Acto 1), derrotarla otorga el **Blasón de la Bestia**, un blasón muy valorado por las builds centradas en daño y cacería.  
 En el **segundo enfrentamiento** (Acto 2), ligada a la misión de Gran Caza “Moscabestia Salvaje”, la encuentras de nuevo en **Campos Lejanos**, reapareciendo en la arena donde luchaste contra el **Cuarto Coro**, y al vencerla consigues un **fragmento de máscara**.
+
+## Comportamiento y tácticas generales
+
+La Moscabestia Salvaje es casi siempre un combate **aéreo**: pasa buena parte del tiempo volando y cargando a gran velocidad.  
+En ambos encuentros comparte patrón base, pero el entorno cambia muchísimo:
+
+- En la **Capilla de la Bestia** el combate es en una sala cerrada.
+- En **Campos Lejanos** la arena está sobre un pozo de lava con plataformas temporales (la misma estructura del Cuarto Coro).
+
+La clave del combate es **leer bien sus cargas** y no entrar en pánico cuando empieza a encadenarlas.
