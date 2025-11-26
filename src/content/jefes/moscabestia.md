@@ -16,3 +16,10 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=zIla6jhKpCU"
 ---
+
+## Descripción
+La Moscabestia Salvaje es una versión adulta y enfurecida de las moscas de caza que pueblan Pharloom.  
+Es un **jefe opcional** pero muy relevante: primero aparece como guardiana de la **Capilla de la Bestia** en la **Marcha del Cazador**, y más adelante vuelve a ser objetivo de una **Gran Caza** que te lleva hasta **Campos Lejanos**.
+
+En su **primer enfrentamiento** (Acto 1), derrotarla otorga el **Blasón de la Bestia**, un blasón muy valorado por las builds centradas en daño y cacería.  
+En el **segundo enfrentamiento** (Acto 2), ligada a la misión de Gran Caza “Moscabestia Salvaje”, la encuentras de nuevo en **Campos Lejanos**, reapareciendo en la arena donde luchaste contra el **Cuarto Coro**, y al vencerla consigues un **fragmento de máscara**.
