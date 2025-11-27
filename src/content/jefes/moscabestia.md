@@ -33,3 +33,24 @@ En ambos encuentros comparte patrón base, pero el entorno cambia muchísimo:
 - En **Campos Lejanos** la arena está sobre un pozo de lava con plataformas temporales (la misma estructura del Cuarto Coro).
 
 La clave del combate es **leer bien sus cargas** y no entrar en pánico cuando empieza a encadenarlas.
+
+---
+
+## Primer encuentro: Capilla de la Bestia (Marcha del Cazador)
+
+### Localización
+
+- Zona: **Marcha del Cazador**.  
+- Subzona: **Capilla de la Bestia**, al extremo de la región.  
+- Requisito: tener una habilidad de movilidad tipo capa/planeo (la “Capa del Flotador” o equivalente), para llegar a la capilla.
+
+Al llegar al fondo de la Marcha del Cazador y entrar en la Capilla de la Bestia, se inicia el combate.
+
+### Comportamiento
+
+En esta primera versión la Moscabestia:
+
+- Se coloca a tu altura antes de cargar.
+- Alterna entre **cargas horizontales** y **embestidas en diagonal**.
+- Puede **invocar moscas menores** que te rodean y te obligan a dividir la atención.
+- Tiene un par de patrones sencillos, pero pega muchísimo y tiene mucha vida, de ahí la mala fama del jefe.
