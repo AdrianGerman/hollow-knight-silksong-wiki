@@ -54,3 +54,24 @@ En esta primera versión la Moscabestia:
 - Alterna entre **cargas horizontales** y **embestidas en diagonal**.
 - Puede **invocar moscas menores** que te rodean y te obligan a dividir la atención.
 - Tiene un par de patrones sencillos, pero pega muchísimo y tiene mucha vida, de ahí la mala fama del jefe.
+
+### Ataques (Capilla de la Bestia)
+
+- **Cargazo horizontal**  
+  Se alinea a tu altura, retrocede ligeramente y se lanza en línea recta. Si te mueves antes de que salga disparada, puede corregir algo la altura.
+
+- **Cargazo en diagonal / embate aéreo**  
+  Se eleva y luego cae en diagonal hacia tu posición, ocupando buena parte de la pantalla.
+
+- **Sacudida de ala**  
+  Cambia rápidamente de altura y se reposiciona para encadenar otra carga.
+
+- **Invocación de moscas**  
+  Llama a varios enemigos voladores pequeños que se suman al combate y te presionan mientras esquivas sus cargas.
+
+  ### Consejos
+
+- Quédate hacia el centro de la arena y **mira siempre su posición vertical**: si se pone a tu altura, viene carga horizontal.
+- Cuando cargue contra una pared, queda un momento aturdida: **aprovecha para golpear 1–3 veces** según tu seguridad.
+- Elimina los adds cuando puedas, pero **no sacrifiques tu posición** solo por cazarlos.
+- Curarse: hazlo tras una carga fallida contra la pared o cuando se vaya al extremo opuesto de la sala.
