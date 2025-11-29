@@ -75,3 +75,19 @@ En esta primera versión la Moscabestia:
 - Cuando cargue contra una pared, queda un momento aturdida: **aprovecha para golpear 1–3 veces** según tu seguridad.
 - Elimina los adds cuando puedas, pero **no sacrifiques tu posición** solo por cazarlos.
 - Curarse: hazlo tras una carga fallida contra la pared o cuando se vaya al extremo opuesto de la sala.
+
+---
+
+## Segundo encuentro: Gran Caza en Campos Lejanos
+
+### Cómo se desbloquea
+
+- En el Acto 2, en el **muro de los deseos** de **Campanilla** (Bellhart), aparece una **Gran Caza: Moscabestia salvaje**.
+- Al aceptar la misión, se marca el objetivo en **Campos Lejanos**.
+- Esta versión de Moscabestia reaparece en la **misma arena donde luchaste contra el Cuarto Coro**, pero ahora sobre lava y con plataformas limitadas.
+
+### Cambios en la arena
+
+- La Moscabestia irrumpe desde la lava y **rompe parte de las plataformas centrales**.
+- Varias plataformas son **temporales**: si se apoya o cae encima de ellas repetidamente, se hunden en la lava.
+- Caer a la lava causa daño extra y puede dejarte vendido.
