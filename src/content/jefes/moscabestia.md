@@ -91,3 +91,19 @@ En esta primera versión la Moscabestia:
 - La Moscabestia irrumpe desde la lava y **rompe parte de las plataformas centrales**.
 - Varias plataformas son **temporales**: si se apoya o cae encima de ellas repetidamente, se hunden en la lava.
 - Caer a la lava causa daño extra y puede dejarte vendido.
+
+### Ataques (Gran Caza en Campos Lejanos)
+
+Los ataques básicos son los mismos, pero:
+
+- La **carga horizontal** se encadena más veces (puede hacer hasta tres seguidas atravesando el espacio entre plataformas).
+- El **embate desde arriba** se vuelve más peligroso porque puede destruir plataformas o dejarte sin sitio.
+- En algunas versiones avanzadas del combate puede añadir **proyectiles** o patrones más rápidos, dependiendo del acto/condición del mundo.
+
+### Consejos
+
+- No gastes todas las plataformas al principio: intenta **pelear usando los bordes y las esquinas**, dejando “seguro” un par de plataformas por si te quedas sin suelo.
+- Si ves que se prepara para embestir a través de varias plataformas, **salta a la contraria y deja que se estrelle en el extremo**, luego castiga.
+- Curarte aquí es más arriesgado: hazlo solo cuando la Moscabestia se aleje al otro lado y tú estés en una plataforma estable.
+
+---
