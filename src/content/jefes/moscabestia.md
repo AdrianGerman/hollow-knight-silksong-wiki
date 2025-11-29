@@ -107,3 +107,29 @@ Los ataques básicos son los mismos, pero:
 - Curarte aquí es más arriesgado: hazlo solo cuando la Moscabestia se aleje al otro lado y tú estés en una plataforma estable.
 
 ---
+
+## Ataques (resumen general)
+
+- **Carga horizontal**  
+  Se alinea contigo y se lanza a gran velocidad de lado a lado.
+
+- **Embate diagonal / vertical**  
+  Se eleva y se deja caer hacia donde estás, a veces en varias cadenas.
+
+- **Sacudida / Reposicionamiento aéreo**  
+  Cambios rápidos de altura para preparar su siguiente carga.
+
+- **Invocación de moscas menores** (sobre todo en la Capilla de la Bestia)  
+  Invoca pequeños enemigos voladores que pueden saturar la pantalla si no los controlas.
+
+---
+
+## Recompensas
+
+- **Capilla de la Bestia (Marcha del Cazador)**  
+  - **Blasón de la Bestia**: blasón muy potente centrado en la cacería y el daño.
+
+- **Gran Caza: Moscabestia salvaje (Campos Lejanos)**  
+  - **Fragmento de máscara**, parte de los coleccionables necesarios para ampliar tu salud máxima.
+
+---
