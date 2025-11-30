@@ -57,3 +57,33 @@ La explosión del eco falso se reconoce por un pitido agudo del órgano.
 
 ---
 
+## Ataques
+
+- **Onda frontal** – una línea de energía sonora que recorre el suelo.
+- **Doble onda** – dos ondas seguidas en la fase 2.
+- **Pulso vertical** – salto + caída que genera un estallido hacia abajo.
+- **Teletransporte espectral** – se recoloca y ataca en línea recta.
+- **Eco explosivo** – copia falsa que estalla a los 1.0 s.
+- **Onda radial** – círculos pequeños que se expanden desde el centro.
+
+---
+
+## Localización
+
+El Fantasma aparece en:
+
+- La zona del **Órgano de Escape**, parte baja de la Ciudadela.
+- Específicamente, en la **cámara de presión intermedia**, justo antes de los ductos finales que llevan al canal inferior del órgano.
+- Tras derrotarlo, se abre el **conducto hacia el ascenso posterior**, permitiendo continuar la secuencia de escape y avanzar hacia la parte final del Acto II.
+
+---
+
+## Recompensas
+
+- **Nota Resonante** – un objeto usado para abrir puertas musicales o completar melodías en la Ciudadela.  
+- **Apertura del canal inferior del órgano**, requerida para seguir la ruta principal del acto.
+
+---
+
+## Video
+
