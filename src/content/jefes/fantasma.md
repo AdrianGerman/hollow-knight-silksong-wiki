@@ -29,36 +29,44 @@ Además, al avanzar por el único camino tras el jefe, se desbloquea un **atajo 
 
 ## Comportamiento y tácticas
 
-El Fantasma tiene **tres patrones** principales, cada uno más agresivo que el anterior, y se basa siempre en **ondas, pulsos y desplazamientos que siguen el ritmo del órgano**.
+Fantasma es **muy ágil** y casi nunca se queda quieta. El combate se basa en:
 
-### Fase 1 — Eco Vacilante
-- Aparición tenue, movimientos lentos.
-- Proyecta una **onda semicircular** hacia delante.
-- Desaparece y reaparece a corta distancia dejando un retardo de luz.
+- Esperar a que termine un ataque,
+- Meter **un golpe rápido**,  
+- Y **retroceder enseguida** para evitar su parry o el siguiente patrón.
 
-**Consejo:** Mantente a media distancia y muévete siempre hacia adelante o hacia atrás, no en diagonal. Es muy fácil esquivar en esta fase.
+Tiene **dos fases**, pero los patrones base se mantienen; en la fase 2 se vuelven más rápidos y añade teletransportes.
 
----
+### Fase 1
 
-### Fase 2 — Resonancia Creciente
-- El Fantasma se duplica brevemente en un “eco” detrás suyo.
-- Envía **dos ondas consecutivas** que viajan por el suelo.
-- Hace un **salto flotado** y cae con un pulso vertical.
+Antes de que empiece la pelea como tal, ya te hace una entrada:
 
-**Consejo:** Cuando veas doble silueta, prepárate para esquivar dos ondas seguidas.  
-Tras la caída vertical, siempre queda vulnerable unos segundos.
+- **Entrada con columnas de vapor:**  
+  Aparecen 2 columnas de vapor/energía desde el suelo que hacen daño, hay que esquivarlas nada más entrar en la arena.
 
----
+Luego usa estos ataques:
 
-### Fase 3 — Pulso Desatado
-- Se vuelve más brillante y rápido.
-- Emite **ondas radiales** desde su cuerpo (pequeños círculos que se expanden).
-- Realiza teletransportes cortos seguidos de un **corte espectral** en línea recta.
-- Puede crear un **eco falso** que explota después de 1 segundo.
+- **Lanzamiento de bastón:**  
+  Lanza su bastón hacia Hornet.  
+  - Si golpea una superficie, se clava.  
+  - Si no, se queda suspendido en el aire.  
+  Después, Fantasma se desplaza a toda velocidad hacia el bastón para recuperarlo.  
+  → Es tu ventana de castigo: ya sabes hacia dónde se moverá, así que la puedes recibir con ataque aéreo descendente o un golpe normal bien colocado.
 
-**Consejo:** Mantente en los bordes y aprovecha los momentos entre teletransportes.  
-La explosión del eco falso se reconoce por un pitido agudo del órgano.
+- **Estocada triple:**  
+  Tres golpes rápidos hacia delante desde el suelo.  
+  → Se puede aprovechar haciendo pogo (ataque descendente) sobre ella durante la cadena, y luego, si hay tiempo, darle un golpe extra por la espalda al terminar.
 
+- **Parry (postura de guardia):**  
+  Adopta una postura defensiva con el bastón delante.  
+  → Si la golpeas en esa postura, hará un **contraataque muy fuerte** del que muchas veces no te libras salvo que salgas con dash en el mismo instante.
+
+- **Ataque en Picado Supremo (primera aparición):**  
+  Desaparece y, un momento después, aparece una zona iluminada en el suelo.  
+  Esa marca indica dónde se va a tirar en picado, generando una **columna de energía** hacia arriba.  
+  → Sal de la zona iluminada, deja que caiga, corre hacia ella, le metes un golpe rápido (idealmente ataque en carrera) y te alejas con dash para evitar represalia.
+
+Cuando se detiene un momento y suelta un grito, comienza la **fase 2**.
 ---
 
 ## Ataques
