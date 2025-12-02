@@ -1,27 +1,31 @@
 ---
 title: "Fantasma"
-excerpt: "Entidad etérea formada por resonancias del Órgano de Escape, que bloquea el paso repitiendo ataques musicales en eco."
+excerpt: "Jefe secreto del Órgano de Escape que domina el parry y bloquea la salida de La Niebla. Otorga la poderosa habilidad de seda Punto de cruz"
 order: 1
 cover:
   src: "/images/jefes/fantasma.webp"
   alt: "Fantasma del Órgano de Escape"
-tags: ["Órgano de Escape", "Ciudadela", "Jefe menor", "Acto II"]
+tags: ["Órgano de Escape", "La Niebla", "Jefe secreto", "Acto I"]
 location: "Órgano de Escape"
 difficulty: "media-alta"
 salud: "Baja-media"
 fases: 3
 recompensas:
-  - "Nota Resonante"
-  - "Apertura del canal inferior del órgano"
+  - "Habilidad de Seda: Punto de cruz"
+  - "Atajo hacia Cámaras Corales (Acto II)"
+  - "Relicario de memorias"
+  - "Acceso temprano a Vías Campana y ascensor Ventrica de Ciudadela"
 videos:
   - "https://www.youtube.com/watch?v=FzM8dYvZy4M"
 ---
 
 ## Descripción
-**Fantasma** es una entidad semi-etérea generada por las **ondas de presión y las vibraciones del órgano gigante** que atraviesa la Ciudadela.  
-No es un espíritu real, sino una **forma hecha de sonido, eco y seda suspendida**, que imita movimientos humanoides mientras bloquea la ruta hacia la salida inferior del órgano.
 
-Este jefe aparece durante la **secuencia de escape de Acto II**, y es la manera alternativa de entrar al acto II sin derrotar a la **Ultima Jueza**.
+**Fantasma** es un jefe secreto de Hollow Knight: Silksong que se encuentra al final de **La Niebla**, en la cámara superior del **Órgano de Escape** dentro de **Aguas biliares**.
+
+Es un duelo muy técnico, centrado en **parrys, contraataques y lectura de patrones**, que recuerda bastante a combates tipo Grimm del primer Hollow Knight. Vencerla otorga la **Habilidad de Seda “Puntada Cruzada”**, un parry real que envuelve la aguja de Hornet en seda y permite bloquear y contraatacar automáticamente si clavas bien el timing.  
+
+Además, al avanzar por el único camino tras el jefe, se desbloquea un **atajo hacia Cámaras Corales (Acto II)**, un **Relicario de memorias**, las **Vías Campana de Cámaras Corales** y el **ascensor Ventrica** hacia la Ciudadela, permitiéndote saltarte incluso a la Última Jueza si quieres seguir esa ruta alternativa.
 
 ## Comportamiento y tácticas
 
