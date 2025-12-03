@@ -95,12 +95,23 @@ La estrategia no cambia demasiado:
 
 ## Ataques
 
-- **Onda frontal** – una línea de energía sonora que recorre el suelo.
-- **Doble onda** – dos ondas seguidas en la fase 2.
-- **Pulso vertical** – salto + caída que genera un estallido hacia abajo.
-- **Teletransporte espectral** – se recoloca y ataca en línea recta.
-- **Eco explosivo** – copia falsa que estalla a los 1.0 s.
-- **Onda radial** – círculos pequeños que se expanden desde el centro.
+- **Entrada con columnas de vapor:**  
+  Dos columnas de vapor/energía verticales al comienzo, que hacen daño al contacto.
+
+- **Lanzamiento de bastón:**  
+  Lanza el bastón; se clava o queda flotando, luego Fantasma viaja hasta él. Momento perfecto para esperar y golpearla justo cuando llega.
+
+- **Estocada triple:**  
+  Tres golpes hacia delante. Se puede aprovechar para pogo + golpe extra al final.
+
+- **Parry / Postura defensiva:**  
+  Fantasma se queda quieta en guardia. Si la golpeas, te suelta un contraataque muy fuerte. Lo correcto es **no pegar** y esperar a que salga de la postura.
+
+- **Ataque en Picado Supremo:**  
+  Desaparece, aparece un área iluminada en el suelo y luego cae desde arriba, creando una columna de energía. En fase 2 puede encadenar varios seguidos.
+
+- **Teletransportes (solo fase 2):**  
+  Se teletransporta para reposicionarse y hacer más difícil acertarle.
 
 ---
 
