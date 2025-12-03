@@ -67,6 +67,30 @@ Luego usa estos ataques:
   → Sal de la zona iluminada, deja que caiga, corre hacia ella, le metes un golpe rápido (idealmente ataque en carrera) y te alejas con dash para evitar represalia.
 
 Cuando se detiene un momento y suelta un grito, comienza la **fase 2**.
+
+---
+
+### Fase 2
+
+La fase 2 arranca directamente con una cadena del **Ataque en Picado Supremo**:
+
+- Al inicio, encadena varios picados seguidos.  
+  → Aquí no intentes pegarle: solo esquivar hasta que termine el combo de picados.
+
+Después, el combate sigue con los **mismos ataques** que en la fase 1, pero:
+
+- Puede hacer **dos Ataques en Picado Supremo seguidos** de vez en cuando.
+- Empieza a usar **teletransportes** cortos para reposicionarse, lo que complica golpearla.
+
+La estrategia no cambia demasiado:
+
+- Golpe único y rápido justo cuando termina un ataque.
+- Mucho cuidado con el parry: si la ves en postura defensiva, NO pegues.
+- En esta fase, el **Ataque en Picado Supremo** es muy bueno para castigarla:
+  - Esquivas el picado,
+  - Entras con ataque en carrera o aéreo,
+  - Y te retiras enseguida.
+
 ---
 
 ## Ataques
