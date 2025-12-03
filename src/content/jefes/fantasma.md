@@ -125,5 +125,13 @@ Fantasma se encuentra en una ruta **secreta** del Acto I:
 4. Al salir de La Niebla, llegas al **Órgano de Escape** (también llamado Órgano de Agotamiento en algunas guías).  
 5. Sube hasta la **cámara superior del Órgano de Escape**: allí se activa el combate contra Fantasma.
 
+Tras derrotarla:
+
+- Obtienes la Habilidad de Seda **Puntada Cruzada (parry)**.
+- Siguiendo el único camino tras la arena, activas una palanca que abre un **atajo hacia Cámaras Corales (Acto II)**.
+- En esa misma ruta puedes encontrar un **Relicario de memorias**, además de las **Vías Campana de Cámaras Corales** y el **ascensor Ventrica** hacia la Ciudadela, lo que te da movilidad brutal entre Acto I y Acto II mucho antes de lo normal.
+
+---
+
 ## Video
 
