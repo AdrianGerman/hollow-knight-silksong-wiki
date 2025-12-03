@@ -117,20 +117,13 @@ La estrategia no cambia demasiado:
 
 ## Localización
 
-El Fantasma aparece en:
+Fantasma se encuentra en una ruta **secreta** del Acto I:
 
-- La zona del **Órgano de Escape**, parte baja de la Ciudadela.
-- Específicamente, en la **cámara de presión intermedia**, justo antes de los ductos finales que llevan al canal inferior del órgano.
-- Tras derrotarlo, se abre el **conducto hacia el ascenso posterior**, permitiendo continuar la secuencia de escape y avanzar hacia la parte final del Acto II.
-
----
-
-## Recompensas
-
-- **Nota Resonante** – un objeto usado para abrir puertas musicales o completar melodías en la Ciudadela.  
-- **Apertura del canal inferior del órgano**, requerida para seguir la ruta principal del acto.
-
----
+1. Avanza por **Camino del Pecador**.
+2. Desde ahí, accede a **Aguabilis** → **La Niebla**, una zona laberíntica llena de puertas y niebla.
+3. Para superar La Niebla, debes seguir las pistas de una Llave-aguja / Needolin y las mariposas blancas que marcan la salida correcta en cada sala.
+4. Al salir de La Niebla, llegas al **Órgano de Escape** (también llamado Órgano de Agotamiento en algunas guías).  
+5. Sube hasta la **cámara superior del Órgano de Escape**: allí se activa el combate contra Fantasma.
 
 ## Video
 
