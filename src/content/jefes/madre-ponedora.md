@@ -15,3 +15,9 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=OtegKdzgCmg"
 ---
+
+## Descripción
+
+La Madre Ponedora es una criatura voladora grotesca que domina una cámara oculta en La Losa. No aparecerá hasta que actives la misión/deseo **“La madre que se lamenta”** desde el muro de deseos del Enclave Cancioneril. En su guarida convoca enjambres de moscas explosivas y criaturas voladoras defensivas, lo que convierte el combate en un reto de manejo de hordas además de enfrentamiento directo.
+
+---
