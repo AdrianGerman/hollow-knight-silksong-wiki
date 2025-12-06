@@ -41,3 +41,10 @@ Una vez limpias las oleadas, la Madre Ponedora aparece y usa sus ataques princip
 - Usa herramientas de daño en área (Herramientas amarillas/rojas) si las tienes para limpiar los enemigos primero.
 
 ---
+
+## Localización y requisitos
+
+- Zona: **La Losa**.
+- Para que aparezca: debes aceptar el deseo/misión **“La madre que se lamenta”** en el muro del Enclave Cancioneril. Hasta entonces, no habrá indicios de su guarida.
+
+---
