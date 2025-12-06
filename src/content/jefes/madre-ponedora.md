@@ -48,3 +48,13 @@ Una vez limpias las oleadas, la Madre Ponedora aparece y usa sus ataques princip
 - Para que aparezca: debes aceptar el deseo/misión **“La madre que se lamenta”** en el muro del Enclave Cancioneril. Hasta entonces, no habrá indicios de su guarida.
 
 ---
+
+## Recompensa
+
+- Item: **Ojo de la Madre Ponedora** — necesario para completar la misión / deseo.  
+- Al entregar el ojo en el muro de deseos obtendrás como recompensa un **collar de rosarios pesado** (220 rosarios).  
+
+---
+
+## Video
+
