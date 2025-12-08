@@ -24,3 +24,14 @@ Ahora reside en las cuevas del Camino del Pecador, donde continúa con su cocina
 Este jefe forma parte de la misión secundaria/deseo Gran Sabor de Telalejana, y su derrota es necesaria para conseguir el ingrediente clave “Gusasucio en escabeche”.
 
 ---
+
+## Comportamiento y tácticas
+
+Al iniciar el combate, primero pelearás contra dos enemigos menores (“Roachservers”). Una vez eliminados, Lugoli caerá desde el techo y comenzará la batalla.
+
+### Ataques principales
+
+- **Golpe con cucharón:** al impactar, genera 2 bolas de gusanos en parábola.  
+- **Salto / embestida con trasero:** puede aterrizar causando daño y generar gusanos.  
+- **Golpe con impacto al suelo desde altura:** produce 4 bolas de gusanos al caer.  
+- **Buceo + ataque desde abajo (fase 2):** desaparece bajo el suelo, emerge y lanza globs de gusanos por ondas múltiples.
