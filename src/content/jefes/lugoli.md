@@ -35,3 +35,15 @@ Al iniciar el combate, primero pelearás contra dos enemigos menores (“Roachse
 - **Salto / embestida con trasero:** puede aterrizar causando daño y generar gusanos.  
 - **Golpe con impacto al suelo desde altura:** produce 4 bolas de gusanos al caer.  
 - **Buceo + ataque desde abajo (fase 2):** desaparece bajo el suelo, emerge y lanza globs de gusanos por ondas múltiples.
+
+### Mecánica especial: infestación de gusanos
+
+Las bolas lanzadas infectan tu carrete de seda, impidiendo usar habilidades hasta que cures/ligues de nuevo.
+
+### Consejos
+
+- Mantente **en movimiento constante**, evita quedarte en esquinas o paredes.
+- Tras golpes al suelo, esquiva la explosión de gusanos, da un ataque rápido, y retrocede.
+- Si tienes la Guirnalda de Pureza o armas/herramientas a distancia, úsalas para mitigar la infección y aprovechar daño a distancia.
+
+---
