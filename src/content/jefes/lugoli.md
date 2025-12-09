@@ -47,3 +47,11 @@ Las bolas lanzadas infectan tu carrete de seda, impidiendo usar habilidades hast
 - Si tienes la Guirnalda de Pureza o armas/herramientas a distancia, úsalas para mitigar la infección y aprovechar daño a distancia.
 
 ---
+
+## Recompensas
+
+- **Gusasucio en escabeche** — ingrediente necesario para la misión “Gran Sabor de Telalejana”.
+
+---
+
+## Video
