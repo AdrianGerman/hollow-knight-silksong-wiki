@@ -66,3 +66,30 @@ La lluvia de fuego no persigue: es cuestión de ritmo, no de reacción extrema.
 
 ---
 
+## Ataques
+
+- **Bola de fuego perseguidora**  
+  Proyectil que ajusta trayectoria hacia Hornet (fase 1).
+
+- **Lluvia de fuego radial**  
+  Docenas de proyectiles en expansión circular (fase 2).
+
+- **Explosión al caer una lámpara**  
+  Una pequeña onda de calor cuando una lámpara es destruida.
+
+- **Vibración del tótem**  
+  Señal de que va a lanzar una nueva oleada de fuego.
+
+---
+
+## Localización
+
+El Padre de la Llama está en:
+
+- **Espesura Fatua**, zona boscosa ardiente del Acto II.  
+- Cámara principal situada **al oeste del banco** de la zona.  
+- Para acceder necesitas la habilidad **Capa de Faydown** (doble salto), ya que las lámparas están fuera del alcance sin ella.
+
+---
+
+
