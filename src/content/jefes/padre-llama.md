@@ -25,3 +25,30 @@ El combate es completamente único: primero debes desactivar sus **lámparas de 
 
 ---
 
+## Comportamiento y tácticas
+
+El jefe tiene **dos fases** claramente diferenciadas: una de desmontaje y otra de ráfagas de fuego.
+
+---
+
+### Fase 1 — Lámparas Ardientes
+
+El Padre de la Llama permanece inmóvil, pero:
+
+- Lanza **bolas de fuego perseguidoras**.  
+- Mantiene activas varias **lámparas de fuego** colgando de sus brazos.  
+- No recibe daño directo al cuerpo.
+
+**Objetivo:** destruir todas las lámparas.
+
+#### Cómo romper las lámparas
+- Usa **doble salto** (Capa de Faydown).  
+- Rebotar en **bolsas flotantes** te permite ganar altura.  
+- Haz **pogo descendente** (ataque hacia abajo) sobre las lámparas hasta romperlas.
+
+**Puntos a considerar:**
+- Las bolas de fuego te **persiguen**, así que mantente en movimiento.  
+- Usa el espacio lateral para esquivar de forma amplia.
+
+---
+
