@@ -52,3 +52,17 @@ El Padre de la Llama permanece inmóvil, pero:
 
 ---
 
+### Fase 2 — Corazón Expuesto
+
+Una vez destruyes todas las lámparas:
+
+- El tótem se encorva.  
+- El **corazón ardiente queda vulnerable**.  
+- Cambia el patrón de ataques: ya no persigue, ahora dispara **ráfagas de fuego en todas direcciones**.
+
+**Consejo clave:**  
+Busca los huecos entre proyectiles, golpea 1–2 veces y retrocede.  
+La lluvia de fuego no persigue: es cuestión de ritmo, no de reacción extrema.
+
+---
+
