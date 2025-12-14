@@ -24,3 +24,10 @@ Signis es el primero en ser enfrentado, y tras hacerle suficiente daño aparece 
 
 ---
 
+## Localización
+
+- Zona: **Muelles Profundos** (Deep Docks).  
+- El combate tiene lugar en una cámara profunda con fondo de lava, accesible tras usar una **Simple Key** y progresar por el laberinto inferior de la zona.
+- Necesitas habilidades como **Garra elástica (Clawline)** para desbloquear el acceso y alcanzar la cámara del jefe.
+
+---
