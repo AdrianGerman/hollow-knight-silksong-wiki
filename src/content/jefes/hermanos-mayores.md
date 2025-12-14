@@ -16,3 +16,11 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VxkWVUCey1o"
 ---
+
+## Descripción
+
+Los **Hermanos Mayores: Signis y Gron** son dos jefes opcionales que actúan como supervisores de los **Muelles Profundos**, encargados de la excavación y castigo de los trabajadores incluso después de estar dominados por la Haunting.
+Signis es el primero en ser enfrentado, y tras hacerle suficiente daño aparece su hermano Gron, dando lugar a una batalla de dos contra uno que combina ataques cuerpo a cuerpo, proyectiles y terreno peligroso con lava en el fondo.
+
+---
+
