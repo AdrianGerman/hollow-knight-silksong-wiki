@@ -31,3 +31,21 @@ Signis es el primero en ser enfrentado, y tras hacerle suficiente daño aparece 
 - Necesitas habilidades como **Garra elástica (Clawline)** para desbloquear el acceso y alcanzar la cámara del jefe.
 
 ---
+
+## Comportamiento y tácticas
+
+La batalla contra Signis y Gron se desarrolla en **tres fases** distintas.
+
+### Fase 1 — Signis solo
+
+Al entrar, solo **Signis** aparece y comienza el combate.  
+Sus ataques básicos incluyen:
+
+- **Balanceo de arma doble:** Signis usa su arma larga para cortar en un amplio arco horizontal mientras se desplaza.
+- **Lanzamiento de arma (Boomerang):** gira su arma y la lanza en línea recta; luego regresa.  
+- **Reposicionamiento y salto:** se mueve lateralmente para cambiar de zona.  
+- **Invocación de enemigos menores:** Signis puede llamar a trabajadores enemigos que caen desde el techo como ayuda.
+
+Cuando Signis pierde suficiente vida, activa la siguiente fase.
+
+---
