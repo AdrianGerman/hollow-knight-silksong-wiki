@@ -49,3 +49,14 @@ Sus ataques básicos incluyen:
 Cuando Signis pierde suficiente vida, activa la siguiente fase.
 
 ---
+
+### Fase 2 — Ambos juntos
+
+Gron entra al combate tras caer a Signis a cierta salud.  
+Gron usa:
+
+- **Lanzamiento de lanza en salto:** salta y arroja su lanza que explota o se incrusta y luego explota.  
+- **Buceo explosivo:** se eleva y se lanza en picado, causando explosión al impactar.  
+- Mientras tanto, Signis mantiene sus patrones iniciales, lo que obliga a Hornet a gestionar ataques cuerpo a cuerpo y distantes a la vez.
+
+---
