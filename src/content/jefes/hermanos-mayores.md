@@ -88,3 +88,15 @@ Si uno de los hermanos muere y el otro queda con poca salud, comienza una tercer
 - **Gestión de arenas:** evita zonas cerca de lava para no recibir daño ambiental.
 
 ---
+
+## Recompensas
+
+- **Acceso al Campanario de Buceo** — continuación de la ruta principal hacia el Abismo.
+- **Acceso a la sauna** en Deep Docks (beneficio de ruta y atajos).
+- No hay recompensa directa como objeto único, pero vencerlos es necesario para avanzar.
+
+
+## Video
+
+Ejemplo de combate contra Signis & Gron:
+---
