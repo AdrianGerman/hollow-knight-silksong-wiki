@@ -69,3 +69,13 @@ Si uno de los hermanos muere y el otro queda con poca salud, comienza una tercer
 - El hermano restante adopta patrones más defensivos y mantiene ataques que obligan a mantener distancia y esquiva.
 
 ---
+
+## Ataques principales
+
+- **Balanceo de arma doble (Signis):** dos barridos consecutivos que cubren ancho del espacio.
+- **Boomerang (Signis):** arma arrojada que regresa; esquívalo con doble salto.  
+- **Salto con lanza y explosión (Gron):** salta y lanza su lanza, que explota o detona luego de clavarse.
+- **Buceo explosivo (Gron):** lanza la lanza hacia abajo creando daño en área.  
+- **Minions invocados:** en fases tempranas Signis puede invocar apoyos molestos.
+
+---
