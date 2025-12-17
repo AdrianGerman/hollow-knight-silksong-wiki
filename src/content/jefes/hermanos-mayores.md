@@ -79,3 +79,12 @@ Si uno de los hermanos muere y el otro queda con poca salud, comienza una tercer
 - **Minions invocados:** en fases tempranas Signis puede invocar apoyos molestos.
 
 ---
+
+## Estrategia y consejos
+
+- **Magama Bell:** equiparse con este objeto reduce daño por fuego/lava y es altamente recomendado.
+- **Distancia y plataformas:** Gron tiende a permanecer en el aire, así que mantener movilidad y verticalidad ayuda.
+- **Eliminar minions rápido:** antes de concentrarse en los hermanos, reducir enemigos menores facilita el combate.
+- **Gestión de arenas:** evita zonas cerca de lava para no recibir daño ambiental.
+
+---
