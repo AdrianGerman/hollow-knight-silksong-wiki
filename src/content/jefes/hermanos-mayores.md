@@ -60,3 +60,12 @@ Gron usa:
 - Mientras tanto, Signis mantiene sus patrones iniciales, lo que obliga a Hornet a gestionar ataques cuerpo a cuerpo y distantes a la vez.
 
 ---
+
+### Fase 3 — Combate final con lava
+
+Si uno de los hermanos muere y el otro queda con poca salud, comienza una tercera fase:
+
+- **Lava fluye en el centro** del escenario, creando un riesgo ambiental.
+- El hermano restante adopta patrones más defensivos y mantiene ataques que obligan a mantener distancia y esquiva.
+
+---
