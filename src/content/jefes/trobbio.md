@@ -25,3 +25,19 @@ Se presenta como un artista excéntrico y exagerado, obsesionado con el espectá
 El combate contra Trobbio es rápido y visualmente caótico, obligando a mantener el movimiento constante y a leer con precisión los patrones de área.
 
 ---
+
+## Comportamiento y tácticas
+
+El enfrentamiento se divide en **dos fases**, marcadas por un aumento notable en la agresividad y el uso del entorno.
+
+### Fase 1
+
+Trobbio utiliza ataques amplios y móviles mientras se desplaza por todo el escenario:
+
+- Ejecuta **giros veloces** que recorren la arena de lado a lado.
+- Lanza **explosiones retardadas** que obligan a anticipar el movimiento.
+- Arroja **bombas de humo** que, tras rebotar, generan columnas dañinas.
+- Alterna saltos, vuelos cortos y reposicionamientos constantes.
+
+**Consejo:**  
+Ataca solo cuando termina un giro o tras una explosión fallida. Las ventanas son cortas pero claras.
