@@ -54,3 +54,17 @@ Al caer por debajo de la mitad de su salud:
 Observa el suelo constantemente. Las marcas indican dónde aparecerán las llamas; esquiva primero, ataca después.
 
 ---
+
+## Ataques
+
+- **Torbellino escénico**  
+  Giro rápido que atraviesa gran parte de la arena.
+
+- **Explosiones teatrales**  
+  Crea zonas que detonan tras un breve retraso.
+
+- **Bombas de humo**  
+  Proyectiles que generan columnas dañinas tras detenerse.
+
+- **Pirotecnia del escenario (fase 2)**  
+  Columnas de fuego que emergen desde el suelo en puntos marcados.
