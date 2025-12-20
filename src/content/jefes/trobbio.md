@@ -41,3 +41,16 @@ Trobbio utiliza ataques amplios y móviles mientras se desplaza por todo el esce
 
 **Consejo:**  
 Ataca solo cuando termina un giro o tras una explosión fallida. Las ventanas son cortas pero claras.
+
+### Fase 2
+
+Al caer por debajo de la mitad de su salud:
+
+- Trobbio añade ataques de **pirotecnia desde el suelo**.
+- Desaparece brevemente y hace surgir **columnas de fuego** desde el escenario, marcadas por señales previas en el suelo.
+- Mantiene todos los ataques anteriores con mayor frecuencia.
+
+**Consejo:**  
+Observa el suelo constantemente. Las marcas indican dónde aparecerán las llamas; esquiva primero, ataca después.
+
+---
