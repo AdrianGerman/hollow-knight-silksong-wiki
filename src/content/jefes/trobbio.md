@@ -68,3 +68,13 @@ Observa el suelo constantemente. Las marcas indican dónde aparecerán las llama
 
 - **Pirotecnia del escenario (fase 2)**  
   Columnas de fuego que emergen desde el suelo en puntos marcados.
+
+## Localización
+
+Trobbio se encuentra en:
+
+- **Bóvedas Susurrantes**, una región interna de la Ciudadela.
+- El combate se activa al entrar en **El Escenario**, una sala cerrada con forma teatral.
+- Es un enfrentamiento obligatorio para avanzar por esta ruta del Acto II.
+
+---
