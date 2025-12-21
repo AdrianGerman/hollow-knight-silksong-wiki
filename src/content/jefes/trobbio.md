@@ -78,3 +78,11 @@ Trobbio se encuentra en:
 - Es un enfrentamiento obligatorio para avanzar por esta ruta del Acto II.
 
 ---
+
+## Recompensas
+
+- **Espejo de Garra**  
+  Objeto clave que permite interactuar con mecanismos avanzados y progresar en la zona.
+
+- **Acceso a la Melodía del Custodio de la Bóveda**  
+  Desbloquea la continuación de la ruta principal a través de las Bóvedas Susurrantes.
