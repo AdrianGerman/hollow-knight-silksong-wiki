@@ -15,3 +15,11 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=IRkHTkV5jSY"
 ---
+
+## Descripción
+
+**Pecadora Original** es un jefe secreto de **Acto II** asociado a una Tejedora antigua, encerrada en una celda de **La Losa**. El enfrentamiento ocurre como una **secuencia de memoria**: al intentar enlazar su poder, el cuerpo reanima y comienza el combate.
+
+Se caracteriza por ser extremadamente veloz, por sus **teletransportes constantes** y por la capacidad de **curarse** si le dejas espacio.
+
+---
