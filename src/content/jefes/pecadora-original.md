@@ -23,3 +23,18 @@ videos:
 Se caracteriza por ser extremadamente veloz, por sus **teletransportes constantes** y por la capacidad de **curarse** si le dejas espacio.
 
 ---
+
+## Comportamiento y tácticas
+
+La pelea premia el “golpea y corre”: ventanas cortas, castigos rápidos y persecución constante para que no se cure.
+
+### Fase 1
+
+Pecadora Original alterna ataques de movilidad con patrones de agujas “tejidas” en el aire.
+
+- Se **teletransporta** a distintos puntos de la arena para reposicionarse antes de atacar.
+- Invoca **patrones de agujas** que caen o cruzan la pantalla (verticales, diagonales, horizontales y en forma de “X”).
+- Usa ataques cuerpo a cuerpo:
+  - **Carga frontal** por el suelo con garras.
+  - **Golpe en picado aéreo** tras teletransportarse en el aire, con varios cortes en diagonal.
+- Puede intentar **curarse** (enlazando seda). Si no la interrumpes, recupera vida.
