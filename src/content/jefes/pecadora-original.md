@@ -38,3 +38,9 @@ Pecadora Original alterna ataques de movilidad con patrones de agujas “tejidas
   - **Carga frontal** por el suelo con garras.
   - **Golpe en picado aéreo** tras teletransportarse en el aire, con varios cortes en diagonal.
 - Puede intentar **curarse** (enlazando seda). Si no la interrumpes, recupera vida.
+
+**Consejos**
+- En agujas, fíjate en la trayectoria y muévete “limpio”: salir de línea suele ser suficiente.
+- Cuando se cure, **interrumpe** con 1–2 golpes rápidos.
+- Tras el picado, suele quedar una ventana corta si esquivas pasando por debajo con dash.
+
