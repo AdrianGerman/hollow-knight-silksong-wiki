@@ -44,3 +44,17 @@ Pecadora Original alterna ataques de movilidad con patrones de agujas “tejidas
 - Cuando se cure, **interrumpe** con 1–2 golpes rápidos.
 - Tras el picado, suele quedar una ventana corta si esquivas pasando por debajo con dash.
 
+### Fase 2
+
+Alrededor de la mitad de vida, “finge” terminar el combate y empieza una segunda fase más frenética.
+
+- Mantiene los ataques anteriores, pero **más rápidos** y con combinaciones más seguidas.
+- Gana su ataque distintivo: **Furia Rúnica**.
+  - Aparecen **círculos** repartidos por la arena que, tras un breve retraso, **explotan** en el orden en que fueron creados.
+
+**Consejos**
+- Prioriza supervivencia durante Furia Rúnica: busca huecos seguros y evita quedarte sin espacio.
+- Sigue interrumpiendo su curación: en fase 2 lo intentará más veces.
+
+---
+
