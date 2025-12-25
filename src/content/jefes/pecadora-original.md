@@ -72,4 +72,16 @@ Alrededor de la mitad de vida, “finge” terminar el combate y empieza una seg
 
 ---
 
+## Localización
+
+Pecadora Original está en la **zona inferior de La Losa**.
+
+**Requisitos habituales para llegar:**
+- **Llave del Apóstata** para acceder al tramo oculto de La Losa.
+- **Llave del Hereje** para abrir la celda/barrera de la prisión.
+
+Dentro, hay una sala con cadenas/runas: al romper los anclajes se habilita la entrada y se activa la secuencia de memoria que inicia el combate.
+
+---
+
 
