@@ -58,3 +58,18 @@ Alrededor de la mitad de vida, “finge” terminar el combate y empieza una seg
 
 ---
 
+## Ataques
+
+- **Teletransporte**
+- **Golpe en picado aéreo** (cortes en diagonal)
+- **Carga frontal** (carrera con garras)
+- **Agujas en vertical**
+- **Agujas en diagonal**
+- **Agujas en horizontal** (deja un hueco, exige colocación)
+- **Agujas en “X”**
+- **Curación** (enlaza seda para recuperar vida; se puede cancelar)
+- **Furia Rúnica** (fase 2): círculos que estallan en runas/explosiones
+
+---
+
+
