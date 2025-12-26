@@ -84,4 +84,10 @@ Dentro, hay una sala con cadenas/runas: al romper los anclajes se habilita la en
 
 ---
 
+## Recompensas
+
+- **Habilidad de Seda: Furia Rúnica**  
+  Tras vencerla, avanzas por un tramo de plataformas “tejidas” y obtienes la habilidad, que reproduce su ataque de círculos explosivos.
+
+---
 
