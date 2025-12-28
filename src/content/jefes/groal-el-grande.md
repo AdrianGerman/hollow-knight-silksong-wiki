@@ -25,3 +25,9 @@ videos:
 Antes de poder enfrentarse a Groal, Hornet debe superar una serie de oleadas de enemigos que protegen el acceso a su guarida.
 
 ---
+
+---
+
+## Comportamiento y tácticas
+
+Antes de que Groal se manifieste, Hornet debe atravesar un **gauntlet de enemigos** (seis oleadas de adversarios) que incluye Stilkin, Stilkin Trappers y Swamp Squits. Al derrotarlos, Groal emerge del agua infestada de **gusanos** y comienza el combate principal.
