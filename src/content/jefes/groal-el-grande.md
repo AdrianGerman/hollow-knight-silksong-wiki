@@ -42,3 +42,14 @@ Groal está principalmente sobre el agua, donde hace lo siguiente:
 - **Invocación Stilkin:** Groal puede invocar Stilkin o trappers desde debajo del agua como amenaza adicional.
 
 **Táctica:** Mantente en movimiento, usa la arena elevada y plataformas laterales para evitar ataques del agua y prioriza herramientas como *Voltvessels* para interrumpir la gran inhalación.
+
+### Fase 2
+
+Al reducir su salud a un umbral, Groal gana acceso a un nuevo patrón:
+
+- **Espíritus vengativos:** canaliza luz desde el interior y lanza varias *Vengeful Spirits* hacia Hornet, al estilo de ataques típicos de Hollow Knight.
+
+Su cuerpo también puede recibir daño mientras está en el agua o cuando emerge, lo que obliga a mantener posicionamiento y tiempo de ataques cuidadoso.
+
+---
+
