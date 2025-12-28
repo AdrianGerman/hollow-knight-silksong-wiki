@@ -31,3 +31,14 @@ Antes de poder enfrentarse a Groal, Hornet debe superar una serie de oleadas de 
 ## Comportamiento y tácticas
 
 Antes de que Groal se manifieste, Hornet debe atravesar un **gauntlet de enemigos** (seis oleadas de adversarios) que incluye Stilkin, Stilkin Trappers y Swamp Squits. Al derrotarlos, Groal emerge del agua infestada de **gusanos** y comienza el combate principal.
+
+### Fase 1
+
+Groal está principalmente sobre el agua, donde hace lo siguiente:
+
+- **Escupitajo ácido:** lanza dos orbes ácidas que rebotan y explotan si no desaparecen en el agua.  
+- **Gran inhalación:** abre la boca y succiona, dañando si Hornet es atrapada; puede escupirte o tragarte parcialmente, permitiendo contraataque dentro de su estómago.  
+- **Emboscada de bola con pinchos:** deja caer una bola con pinchos desde arriba que barre buena parte de la arena.  
+- **Invocación Stilkin:** Groal puede invocar Stilkin o trappers desde debajo del agua como amenaza adicional.
+
+**Táctica:** Mantente en movimiento, usa la arena elevada y plataformas laterales para evitar ataques del agua y prioriza herramientas como *Voltvessels* para interrumpir la gran inhalación.
