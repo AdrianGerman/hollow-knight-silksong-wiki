@@ -53,3 +53,13 @@ Su cuerpo también puede recibir daño mientras está en el agua o cuando emerge
 
 ---
 
+## Ataques
+
+- **Escupitajo ácido:** dos proyectiles que rebotan y explotan si aterrizan.
+- **Gran inhalación:** succión directa hacia el centro; puede tragar al jugador.
+- **Bola con pinchos:** trampa que barre la parte baja del escenario.
+- **Invocación Stilkin:** apariciones de enemigos menores para complicar el combate.
+- **Espíritus vengativos:** disparos de espíritu rápidos en fase avanzada.
+
+---
+
