@@ -63,3 +63,11 @@ Su cuerpo también puede recibir daño mientras está en el agua o cuando emerge
 
 ---
 
+## Localización
+
+- **Área:** **Bilewater**, zona pantanosa del Acto II.  
+- La arena del combate se encuentra en la **parte superior del pantano**, antes de la entrada a **Bilehaven**.  
+- El acceso a la pelea exige atravesar un tramo difícil lleno de enemigos y obstáculos ambientales{index=13}
+
+---
+
