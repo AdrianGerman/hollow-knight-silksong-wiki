@@ -71,3 +71,11 @@ Su cuerpo también puede recibir daño mientras está en el agua o cuando emerge
 
 ---
 
+## Recompensas
+
+- **Alma del Buscador:** esencial para la misión *Seda y Alma*.
+- **Acceso a Bilehaven:** nueva región que permite progresar dentro de Bilewater.
+- **Progreso en la historia del Acto II.**
+
+---
+
