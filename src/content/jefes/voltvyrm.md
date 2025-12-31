@@ -15,3 +15,10 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=ay7Aq6A4k4s"
 ---
+
+## Descripción
+
+**Voltvyrm** es un jefe **opcional** de *Hollow Knight: Silksong* que reside en lo alto de un área oculta conocida como **Voltnest**, en las **Dunas de Karak**.  
+Se trata de un **nido enroscado de gusanos electrificados** que atacan a los intrusos con descargas de voltaje, lo que lo convierte en un desafío de movilidad y evaluación de patrones.
+
+---
