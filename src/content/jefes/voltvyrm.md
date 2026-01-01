@@ -38,3 +38,13 @@ Voltvyrm no tiene fases tradicionales como otros jefes, pero sus ataques llenan 
 2. **Campo de descargas:** varias zonas circulares marcadas que estallan en electricidad, obligando a Hornet a posicionarse rápidamente en espacios seguros.
 
 ---
+
+## Ataques
+
+- **Pilares de voltio**  
+  Varias columnas eléctricas que recorren verticalmente partes del escenario, forzando a moverte entre huecos seguros.
+- **Descargas en campo**  
+  Proyectiles eléctricos en forma de círculos que emergen en patrones que pueden cubrir suelo completo, requiriendo saltos o movimientos precisos para evitar daño.
+
+---
+
