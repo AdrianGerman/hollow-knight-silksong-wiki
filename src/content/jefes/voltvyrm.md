@@ -48,3 +48,9 @@ Voltvyrm no tiene fases tradicionales como otros jefes, pero sus ataques llenan 
 
 ---
 
+## Localización
+
+- Voltvyrm se encuentra en el **Voltnest**, un subárea escondida dentro de las **Dunas de Karak**, situada en el norte de la zona principal.  
+- Para acceder al Voltnest, normalmente se necesita escalar una ruta secreta en las Dunas de Karak que conduce al área del jefe a través de plataformas y secciones verticales.
+
+---
