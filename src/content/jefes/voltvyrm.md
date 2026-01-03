@@ -54,3 +54,10 @@ Voltvyrm no tiene fases tradicionales como otros jefes, pero sus ataques llenan 
 - Para acceder al Voltnest, normalmente se necesita escalar una ruta secreta en las Dunas de Karak que conduce al área del jefe a través de plataformas y secciones verticales.
 
 ---
+
+## Recompensas
+
+- **Filamento de Voltio (Volt Filament)**  
+  Tras derrotar a Voltvyrm, obtienes este objeto que puede usarse para añadir daño eléctrico a las habilidades de seda de Hornet mediante ranuras de blasón.
+
+---
