@@ -23,3 +23,15 @@ videos:
 Este combate representa una prueba de habilidad y dominio del movimiento, más que un obstáculo narrativo.
 
 ---
+
+## Desbloqueo del combate
+
+El duelo contra Shakra se activa tras completar su **ruta de exploración**, lo que incluye:
+
+- Encontrarla en todas sus ubicaciones conocidas durante el Acto II.
+- Adquirir todos los mapas que ofrece.
+- Completar su encargo final, tras el cual Shakra propone un combate amistoso para medir fuerzas.
+
+El enfrentamiento es **totalmente opcional** y no bloquea el progreso de la historia.
+
+---
