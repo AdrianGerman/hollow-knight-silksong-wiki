@@ -15,3 +15,11 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=yqq2cJmCnw8"
 ---
+
+## Descripción
+
+**Shakra** es una cartógrafa errante que Hornet encuentra en varias ocasiones durante el **Acto II**. Aunque normalmente actúa como NPC aliada, proporcionando mapas y orientación, puede llegar a desafiar a Hornet a un **duelo directo** que, sin ser un jefe principal, se compara en dificultad y diseño a un enfrentamiento de jefe.
+
+Este combate representa una prueba de habilidad y dominio del movimiento, más que un obstáculo narrativo.
+
+---
