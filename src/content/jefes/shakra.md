@@ -48,3 +48,16 @@ El combate contra Shakra es un **duelo ágil y limpio**, centrado en la lectura 
 Mantén la calma, esquiva primero y ataca solo tras identificar sus pausas naturales.
 
 ---
+
+## Ataques
+
+- **Lanzamiento de anillos**  
+  Proyectiles circulares que pueden viajar en línea recta o regresar como bumerán.
+
+- **Desplazamiento evasivo**  
+  Shakra se recoloca rápidamente para cambiar el ritmo del combate.
+
+- **Golpe rápido**  
+  Ataque cuerpo a cuerpo de corto alcance utilizado cuando Hornet se acerca demasiado.
+
+---
