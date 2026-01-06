@@ -35,3 +35,16 @@ El duelo contra Shakra se activa tras completar su **ruta de exploración**, lo 
 El enfrentamiento es **totalmente opcional** y no bloquea el progreso de la historia.
 
 ---
+
+## Comportamiento y tácticas
+
+El combate contra Shakra es un **duelo ágil y limpio**, centrado en la lectura de movimientos y la precisión.
+
+- Se mueve constantemente por la arena, usando saltos rápidos y desplazamientos laterales.
+- Prioriza ataques a distancia media combinados con reposicionamientos rápidos.
+- Castiga los errores de posicionamiento, pero deja ventanas claras tras fallar ataques.
+
+**Consejo general:**  
+Mantén la calma, esquiva primero y ataca solo tras identificar sus pausas naturales.
+
+---
