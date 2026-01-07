@@ -68,3 +68,10 @@ El combate tiene lugar en una cámara aislada de las **Aguas Biliares**, accesib
 La zona es amplia y abierta, diseñada para favorecer el movimiento constante.
 
 ---
+
+## Recompensas
+
+- **Entrada de Shakra en el Registro**  
+  Marca la superación del duelo y completa su registro como combatiente destacada del Acto II.
+
+---
