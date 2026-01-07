@@ -61,3 +61,10 @@ Mantén la calma, esquiva primero y ataca solo tras identificar sus pausas natur
   Ataque cuerpo a cuerpo de corto alcance utilizado cuando Hornet se acerca demasiado.
 
 ---
+
+## Localización
+
+El combate tiene lugar en una cámara aislada de las **Aguas Biliares**, accesible tras completar la ruta de Shakra como cartógrafa.  
+La zona es amplia y abierta, diseñada para favorecer el movimiento constante.
+
+---
