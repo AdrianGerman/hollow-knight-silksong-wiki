@@ -25,3 +25,14 @@ No son considerados un jefe como tal, pero su combate está diseñado de forma s
 Ambos combaten juntos desde el inicio, obligando a Hornet a adaptarse a ataques simultáneos y a decidir a cuál de los dos presionar en cada momento.
 
 ---
+
+## Dinámica del enfrentamiento
+
+El combate no se divide en fases, pero se basa en la **complementariedad** de los dos enemigos:
+
+- **Garmound** actúa como combatiente principal, presionando a corta y media distancia.
+- **Zaza** apoya con ataques rápidos, movimientos evasivos y presión constante desde los flancos.
+
+Derrotar a uno de ellos vuelve al otro más agresivo, acelerando sus ataques hasta el final del enfrentamiento.
+
+---
