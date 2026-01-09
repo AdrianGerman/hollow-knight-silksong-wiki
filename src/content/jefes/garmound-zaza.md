@@ -49,3 +49,20 @@ Derrotar a uno de ellos vuelve al otro más agresivo, acelerando sus ataques has
 - Evita quedarte atrapado entre los dos.
 
 ---
+
+## Ataques
+
+### Garmound
+- **Golpe pesado frontal**  
+  Ataque directo de gran alcance.
+- **Barrido amplio**  
+  Cubre un arco horizontal que castiga la cercanía.
+
+### Zaza
+- **Ataque rápido**  
+  Golpes veloces con poco tiempo de reacción.
+- **Desplazamiento evasivo**  
+  Saltos cortos para reposicionarse y volver a atacar.
+
+---
+
