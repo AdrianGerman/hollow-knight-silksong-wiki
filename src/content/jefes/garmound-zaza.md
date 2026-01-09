@@ -16,3 +16,12 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VIDEO_GARMOUND_ZAZA"
 ---
+
+## Descripción
+
+**Garmound y Zaza** protagonizan uno de los **enfrentamientos especiales** del **Acto II**.  
+No son considerados un jefe como tal, pero su combate está diseñado de forma similar a un duelo de jefe, exigiendo control del espacio, lectura de patrones y gestión de múltiples amenazas al mismo tiempo.
+
+Ambos combaten juntos desde el inicio, obligando a Hornet a adaptarse a ataques simultáneos y a decidir a cuál de los dos presionar en cada momento.
+
+---
