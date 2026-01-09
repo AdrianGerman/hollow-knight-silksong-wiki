@@ -36,3 +36,16 @@ El combate no se divide en fases, pero se basa en la **complementariedad** de lo
 Derrotar a uno de ellos vuelve al otro más agresivo, acelerando sus ataques hasta el final del enfrentamiento.
 
 ---
+
+## Comportamiento y tácticas
+
+- Ambos enemigos se mueven constantemente, reduciendo las ventanas de ataque prolongadas.
+- Garmound tiende a ocupar el centro del área.
+- Zaza busca rodear a Hornet y castigar los errores de posicionamiento.
+
+**Consejos:**
+- Mantén a ambos en pantalla siempre que sea posible.
+- Elimina primero al que te resulte más incómodo según tu estilo de juego.
+- Evita quedarte atrapado entre los dos.
+
+---
