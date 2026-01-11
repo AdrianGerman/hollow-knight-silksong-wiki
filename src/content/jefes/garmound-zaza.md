@@ -66,3 +66,12 @@ Derrotar a uno de ellos vuelve al otro más agresivo, acelerando sus ataques has
 
 ---
 
+## Localización
+
+El enfrentamiento contra **Garmound y Zaza** ocurre en una **zona secundaria del Acto II**, normalmente asociada a exploración opcional o a una ruta alternativa.
+
+El combate se activa al entrar en la cámara donde ambos esperan a Hornet.
+
+---
+
+
