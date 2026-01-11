@@ -74,4 +74,15 @@ El combate se activa al entrar en la cámara donde ambos esperan a Hornet.
 
 ---
 
+## Recompensas
 
+- **Recompensa menor** (moneda, material o mejora secundaria).
+- **Progreso secundario**, como desbloqueo de ruta, evento o registro.
+
+---
+
+## Notas
+
+Aunque no se clasifica como jefe, este enfrentamiento es considerado por muchos jugadores como uno de los más exigentes entre los combates no principales del Acto II.
+
+---
