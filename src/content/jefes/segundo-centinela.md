@@ -25,4 +25,14 @@ Aunque no se clasifica como jefe, su encuentro se percibe como un duelo serio qu
 
 ---
 
+## Dinámica del combate
 
+El enfrentamiento es **directo y sin fases**, centrado en ataques bien definidos y ventanas de castigo claras:
+
+- El Segundo Centinela mantiene una **postura defensiva constante**.
+- Castiga el acercamiento descuidado con contraataques rápidos.
+- Obliga a respetar los tiempos de ataque y retirada.
+
+Es un combate más táctico que caótico, ideal para medir la consistencia del jugador.
+
+---
