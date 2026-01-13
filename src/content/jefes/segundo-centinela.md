@@ -15,3 +15,14 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VIDEO_SEGUNDO_CENTINELA"
 ---
+
+## Descripción
+
+El **Segundo Centinela** es un guardián de la **Ciudadela** que protagoniza un **enfrentamiento especial** durante el **Acto II**.  
+A diferencia de los centinelas comunes, este enemigo está claramente diseñado como una prueba de combate avanzada, con patrones más estrictos y castigos severos a los errores.
+
+Aunque no se clasifica como jefe, su encuentro se percibe como un duelo serio que evalúa el dominio del movimiento y el ritmo de combate de Hornet.
+
+---
+
+
