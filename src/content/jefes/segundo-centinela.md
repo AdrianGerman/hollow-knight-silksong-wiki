@@ -62,3 +62,10 @@ Es un combate más táctico que caótico, ideal para medir la consistencia del j
   Respuesta rápida tras recibir un golpe o bloquear.
 
 ---
+
+## Localización
+
+El Segundo Centinela se encuentra en una **sección interna de la Ciudadela**, normalmente bloqueando una ruta secundaria o un acceso importante.  
+El combate se activa automáticamente al entrar en la cámara.
+
+---
