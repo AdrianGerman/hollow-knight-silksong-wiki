@@ -49,3 +49,16 @@ Es un combate más táctico que caótico, ideal para medir la consistencia del j
 - Usa el desplazamiento lateral para crear aperturas.
 
 ---
+
+## Ataques
+
+- **Corte frontal preciso**  
+  Ataque directo y rápido, difícil de castigar si se esquiva tarde.
+
+- **Barrido defensivo**  
+  Ataque amplio diseñado para mantener distancia.
+
+- **Contraataque inmediato**  
+  Respuesta rápida tras recibir un golpe o bloquear.
+
+---
