@@ -69,3 +69,11 @@ El Segundo Centinela se encuentra en una **sección interna de la Ciudadela**, n
 El combate se activa automáticamente al entrar en la cámara.
 
 ---
+
+## Recompensas
+
+- **Progreso secundario**, como desbloqueo de ruta, acceso a una nueva sala o activación de un evento posterior.
+
+(No se obtiene un objeto único confirmado).
+
+---
