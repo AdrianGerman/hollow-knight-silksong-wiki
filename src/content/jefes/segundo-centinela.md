@@ -36,3 +36,16 @@ El enfrentamiento es **directo y sin fases**, centrado en ataques bien definidos
 Es un combate más táctico que caótico, ideal para medir la consistencia del jugador.
 
 ---
+
+## Comportamiento y tácticas
+
+- Prioriza ataques frontales y barridos controlados.
+- Responde rápidamente tras bloquear o esquivar ataques.
+- Reduce al mínimo las oportunidades de curación durante el combate.
+
+**Consejos:**
+- Ataca solo tras esquivar un golpe completo.
+- Evita quedarte frente a él durante mucho tiempo.
+- Usa el desplazamiento lateral para crear aperturas.
+
+---
