@@ -24,3 +24,22 @@ A diferencia del primer combate en Muelles Profundos, aquí Lace deja atrás la 
 Este combate marca un punto importante del **Acto II**, tanto a nivel narrativo como mecánico, consolidando a Lace como rival recurrente y espejo de Hornet.
 
 ---
+
+## Comportamiento y tácticas
+
+El combate se divide en **dos fases**, con un claro aumento de agresividad y velocidad.
+
+### Fase 1
+
+Lace utiliza ataques rápidos y precisos, combinando movilidad constante con presión directa.
+
+- Se desplaza velozmente por la arena con saltos y carreras.
+- Ataca con estocadas rápidas de aguja.
+- Castiga los intentos de curación con ataques inmediatos.
+
+**Consejos:**
+- No intentes curarte a la vista de Lace.
+- Ataca tras esquivar, no antes.
+- Mantén la distancia media para reaccionar a sus embestidas.
+
+---
