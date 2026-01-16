@@ -15,3 +15,12 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VIDEO_LACE_CUNA"
 ---
+
+## Descripción
+
+**Lace** reaparece en **La Cuna** en su **segundo enfrentamiento** contra Hornet.  
+A diferencia del primer combate en Muelles Profundos, aquí Lace deja atrás la provocación y el juego, mostrando una actitud directa y peligrosa.
+
+Este combate marca un punto importante del **Acto II**, tanto a nivel narrativo como mecánico, consolidando a Lace como rival recurrente y espejo de Hornet.
+
+---
