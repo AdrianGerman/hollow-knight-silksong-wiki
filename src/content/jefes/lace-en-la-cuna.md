@@ -60,3 +60,19 @@ La arena se vuelve más peligrosa, reduciendo los espacios seguros.
 - Usa el desplazamiento vertical para evitar sus barridos.
 
 ---
+
+## Ataques
+
+- **Estocada directa**  
+  Ataque rápido en línea recta.
+
+- **Salto ofensivo**  
+  Lace se impulsa desde el aire para atacar en diagonal.
+
+- **Combo encadenado**  
+  Serie de ataques consecutivos con poco margen de error.
+
+- **Barrido amplio (fase 2)**  
+  Ataque horizontal que cubre gran parte de la arena.
+
+---
