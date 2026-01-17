@@ -43,3 +43,20 @@ Lace utiliza ataques rápidos y precisos, combinando movilidad constante con pre
 - Mantén la distancia media para reaccionar a sus embestidas.
 
 ---
+
+### Fase 2
+
+Al perder aproximadamente la mitad de su salud:
+
+- Lace se vuelve más agresiva.
+- Encadena ataques sin apenas pausa.
+- Añade ataques de área y saltos más largos.
+
+La arena se vuelve más peligrosa, reduciendo los espacios seguros.
+
+**Consejos:**
+- Prioriza la supervivencia sobre el daño.
+- Aprovecha los pocos momentos tras sus combos largos.
+- Usa el desplazamiento vertical para evitar sus barridos.
+
+---
