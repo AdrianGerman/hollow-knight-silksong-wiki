@@ -76,3 +76,10 @@ La arena se vuelve más peligrosa, reduciendo los espacios seguros.
   Ataque horizontal que cubre gran parte de la arena.
 
 ---
+
+## Localización
+
+El combate contra Lace tiene lugar en **La Cuna**, una cámara cerrada asociada a eventos clave del Acto II.  
+La pelea se activa automáticamente al entrar en la sala.
+
+---
