@@ -83,3 +83,10 @@ El combate contra Lace tiene lugar en **La Cuna**, una cámara cerrada asociada 
 La pelea se activa automáticamente al entrar en la sala.
 
 ---
+
+## Recompensas
+
+- **Progreso en la historia**  
+  Derrotar a Lace desbloquea la continuación de la ruta principal del Acto II y activa nuevos eventos narrativos.
+
+---
