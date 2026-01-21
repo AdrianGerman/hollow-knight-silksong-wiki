@@ -16,3 +16,11 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VIDEO_GRAN_MADRE_SEDA"
 ---
+
+## Descripción
+
+**Gran Madre Seda** es el **jefe final del Acto II** de *Hollow Knight: Silksong* y la **monarca primigenia de Pharloom**, así como la **fuente original de la seda** que impregna el reino. Su poder y presencia son fundamentales para la historia, y derrotarla no sólo termina el Acto II, sino que también puede abrir la puerta al **Acto III** en función de las decisiones y requisitos cumplidos por Hornet durante su viaje.
+
+Se la encuentra en la parte más alta de **El Berceo**, una zona oculta y elevada que representa el núcleo del poder de la seda en Pharloom.
+
+---
