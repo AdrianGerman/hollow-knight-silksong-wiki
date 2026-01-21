@@ -24,3 +24,22 @@ videos:
 Se la encuentra en la parte más alta de **El Berceo**, una zona oculta y elevada que representa el núcleo del poder de la seda en Pharloom.
 
 ---
+
+## Comportamiento y tácticas
+
+Gran Madre Seda es un combate largo y exigente, con mecánicas que mezclan ataques con agujas de seda, uso del escenario y manipulación de “hilos” como parte de su arsenal ofensivo.
+
+### Fase 1
+
+En la primera fase:
+
+- La Madre Seda ataca con **formaciones de agujas verticales y horizontales** que debes esquivar con saltos y dashes bien cronometrados.  
+- Puede activar **agarres de seda** que tratan de atrapar a Hornet.  
+- Los ataques se basan en **patrones de agujas en movimiento** que requieren lectura de espacios seguros antes de atacar.
+
+**Táctica general:**
+- Mantente en movimiento constante.  
+- Salta en los huecos de las formaciones de agujas.  
+- Aprovecha cualquier momento en que ella se reposicione para acercarte y atacar su punto débil (generalmente el torso).
+
+---
