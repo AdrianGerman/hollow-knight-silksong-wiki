@@ -43,3 +43,17 @@ En la primera fase:
 - Aprovecha cualquier momento en que ella se reposicione para acercarte y atacar su punto débil (generalmente el torso).
 
 ---
+
+### Fase 2
+
+Cuando entra en la segunda fase:
+
+- Los patrones de agujas se repiten con **mayor frecuencia y rapidez**.  
+- Puede derribar rocas o activarse ataques ambientales que reducen el espacio de la arena.  
+- Utiliza **lanza de seda elevada** y ataques en cadena más agresivos.
+
+**Consejo:**  
+- Mantén la paciencia y prioriza esquiva sobre daño cuando la arena se vuelva más saturada de ataques.  
+- La movilidad vertical es tan importante como la horizontal en esta fase.
+
+---
