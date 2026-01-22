@@ -70,3 +70,12 @@ Cuando entra en la segunda fase:
 
 ---
 
+## Localización
+
+- **Zona:** **El Berceo**  
+- Gran Madre Seda descansa originalmente en un enorme capullo en lo alto del Berceo, accesible tras progresar por el Acto II y superar los eventos clave del juego.
+
+Llegar a su cámara de combate es parte de la secuencia narrativa que lleva a Hornet a lo más profundo del misterio del **Assombro** y la influencia de la seda en Pharloom.
+
+---
+
