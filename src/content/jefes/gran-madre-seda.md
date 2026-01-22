@@ -57,3 +57,16 @@ Cuando entra en la segunda fase:
 - La movilidad vertical es tan importante como la horizontal en esta fase.
 
 ---
+
+## Ataques
+
+*(Resumen general de patrones visibles en combate)*
+
+- **Agujas verticales:** columnas que emergen desde arriba del escenario y caen.  
+- **Agujas horizontales:** filas de proyectiles cruzando la arena.  
+- **Agarre de seda:** intento de atrapar a Hornet con hilos de seda.  
+- **Colapso de rocas / obstáculos:** cambios en la arena que reducen el espacio seguro.  
+- **Agujas en secuencia múltiple:** combinaciones rápidas de patrones previsibles con huecos seguros que debes leer.
+
+---
+
