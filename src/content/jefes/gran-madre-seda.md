@@ -79,3 +79,11 @@ Llegar a su cámara de combate es parte de la secuencia narrativa que lleva a Ho
 
 ---
 
+## Recompensas
+
+- **Final del Acto II** — derrotar a Gran Madre Seda concluye formalmente la segunda parte del juego y muestra la cinemática de cierre correspondiente.
+- **Acceso al Acto III (condicional)** — si Hornet ha cumplido ciertos requisitos de deseos/objetivos secundarios, al derrotarla se desbloquea contenido adicional y la capacidad de avanzar al Acto III secreto.
+
+---
+
+
