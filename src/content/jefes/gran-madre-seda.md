@@ -93,4 +93,12 @@ Llegar a su cámara de combate es parte de la secuencia narrativa que lleva a Ho
 
 ---
 
+## Variantes del combate (3 formas)
+
+Tras derrotar a la **Gran Madre Seda**, el juego permite **tres desenlaces** dependiendo de lo que hagas al terminar el combate (y del estado de Hornet).
+
+### 1) Final estándar — **Reina Tejedora**
+Si terminas la pelea y eliges **enlazar/atar su poder**, obtienes el final estándar del Acto II, conocido como **Reina Tejedora**.
+
+
 
