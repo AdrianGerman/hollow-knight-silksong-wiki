@@ -86,4 +86,11 @@ Llegar a su cámara de combate es parte de la secuencia narrativa que lleva a Ho
 
 ---
 
+## Notas
+
+- Gran Madre Seda no sólo es un desafío de combate, sino también un punto narrativo crucial que revela gran parte de la historia de Pharloom y del origen de la seda.
+- En algunas rutas alternativas o finales, el combate puede tener modificaciones menores dependiendo de decisiones de juego o estado del mundo del jugador.
+
+---
+
 
