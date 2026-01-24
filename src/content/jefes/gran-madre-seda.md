@@ -103,5 +103,8 @@ Si terminas la pelea y eliges **enlazar/atar su poder**, obtienes el final está
 ### 2) Final para avanzar al Acto III — **Atadura de seda**
 Si llegas al combate con la ruta del Acto III preparada (misión/deseo de desbloqueo completado) y, al terminar, activas la **trampa** (también citada como **Trampa del Alma** en varias guías), se obtiene el desenlace **Atadura de seda**, que es el que **habilita la entrada al Acto III** tras los créditos.
 
+### 3) Final alternativo con el Cogollo — **Niña retorcida**
+Si derrotas a la Gran Madre Seda mientras Hornet está bajo la **maldición del Cogollo Retorcido** (vinculada al **Rito de renacimiento** en guías en español), se activa el final alternativo **Niña retorcida**.
+
 
 
