@@ -100,5 +100,8 @@ Tras derrotar a la **Gran Madre Seda**, el juego permite **tres desenlaces** dep
 ### 1) Final estándar — **Reina Tejedora**
 Si terminas la pelea y eliges **enlazar/atar su poder**, obtienes el final estándar del Acto II, conocido como **Reina Tejedora**.
 
+### 2) Final para avanzar al Acto III — **Atadura de seda**
+Si llegas al combate con la ruta del Acto III preparada (misión/deseo de desbloqueo completado) y, al terminar, activas la **trampa** (también citada como **Trampa del Alma** en varias guías), se obtiene el desenlace **Atadura de seda**, que es el que **habilita la entrada al Acto III** tras los créditos.
+
 
 
