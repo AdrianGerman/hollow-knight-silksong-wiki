@@ -23,3 +23,9 @@ El **Devorador de Campanas** es un jefe importante que aparece al comienzo del *
 Este enfrentamiento obliga a Hornet a combatir en un espacio restringido contra una criatura enorme cuyos ataques abarcan múltiples direcciones, obligando a la lectura de patrones y el uso estratégico del movimiento.
 
 ---
+
+## Comportamiento y tácticas
+
+El combate contra el Devorador de Campanas tiene **dos fases** principales, con cambios en la arena y en sus patrones ofensivos.
+
+### Fase 1
