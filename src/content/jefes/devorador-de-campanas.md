@@ -15,3 +15,11 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=8cYe7ADB_Z8"
 ---
+
+## Descripción
+
+El **Devorador de Campanas** es un jefe importante que aparece al comienzo del **Acto III** de *Hollow Knight: Silksong*. Es un centípodo gigantesco que ha permanecido dormido bajo Pharloom y despierta tras el colapso del reino, extendiéndose por las **Grandes Vías de Campanas** y haciendo que no puedan usarse hasta que sea derrotado.
+
+Este enfrentamiento obliga a Hornet a combatir en un espacio restringido contra una criatura enorme cuyos ataques abarcan múltiples direcciones, obligando a la lectura de patrones y el uso estratégico del movimiento.
+
+---
