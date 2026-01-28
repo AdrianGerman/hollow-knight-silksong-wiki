@@ -29,3 +29,13 @@ Este enfrentamiento obliga a Hornet a combatir en un espacio restringido contra 
 El combate contra el Devorador de Campanas tiene **dos fases** principales, con cambios en la arena y en sus patrones ofensivos.
 
 ### Fase 1
+
+- El Devorador suele permanecer **enterrado**, emergiendo partes de su cuerpo (como la cabeza o el extremo trasero) para atacar.
+- Sus **primeros ataques** incluyen:  
+  - **Proyectiles** que dispara con su cabeza, que caen en arco y pueden destruirse si se golpean con la aguja.
+  - **Ataques de patas** rápidas si te acercas demasiado al cuerpo principal.
+  - **Bombas rebotadoras** que salen de su cola y explotan después de varios rebotes.
+
+**Estrategia:** Mantente en constante movimiento, esquiva los proyectiles y busca golpear su cabeza o cola cuando estén expuestos.
+
+---
