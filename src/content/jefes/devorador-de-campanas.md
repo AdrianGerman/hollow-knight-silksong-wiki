@@ -39,3 +39,17 @@ El combate contra el Devorador de Campanas tiene **dos fases** principales, con 
 **Estrategia:** Mantente en constante movimiento, esquiva los proyectiles y busca golpear su cabeza o cola cuando estén expuestos.
 
 ---
+
+### Fase 2
+
+Cuando su salud baja a cierto umbral (alrededor de 600):
+
+- La arena **se expande**, dándote más espacio para moverte
+- El Devorador añade ataques como:  
+  - **Carga en bulldoze** a través del suelo o el techo, empujando su cuerpo colosal hacia adelante y hacia atrás.
+  - **Lluvia de campanas**, donde al moverse por la superficie hace caer campanas que rebotan y dañan al caer.
+  - Se repiten sus ataques de proyectiles y bombas con mayor frecuencia.
+
+**Estrategia:** Aprovecha la arena ampliada para esquivar y castigar cuando el jefe termine sus grandes embestidas.
+
+---
