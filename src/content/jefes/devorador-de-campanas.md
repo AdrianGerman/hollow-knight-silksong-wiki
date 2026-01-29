@@ -53,3 +53,22 @@ Cuando su salud baja a cierto umbral (alrededor de 600):
 **Estrategia:** Aprovecha la arena ampliada para esquivar y castigar cuando el jefe termine sus grandes embestidas.
 
 ---
+
+## Ataques
+
+- **Proyectiles desde la cabeza**  
+  Dispara múltiples orbes que caen en arco y se pueden destruir con la aguja al golpear.
+
+- **Ataque de patas**  
+  El centípodo golpea con sus patas adelantando movimientos cortos y rápidos.
+
+- **Bombas rebotadoras**  
+  La cola del jefe dispara bombas que rebotan varias veces antes de estallar.
+
+- **Carga bulldoze**  
+  Empuja su cuerpo a través del suelo o techo para cubrir el ancho de la arena.
+
+- **Lluvia de campanas**  
+  Mientras se desplaza, campanas gigantes caen y rebotan, obligando a esquivar en vertical u horizontal.
+
+---
