@@ -79,3 +79,10 @@ Cuando su salud baja a cierto umbral (alrededor de 600):
 - El combate se activa tras intentar invocar a la Bestia de Campanas en esta zona, momento en el cual el Devorador emerge y bloquea el acceso a todas las vías de campanas hasta ser derrotado.
 
 ---
+
+## Recompensas
+
+- **Llamada de Bestiálido** — una habilidad/melodía que permite invocar a pequeñas Bestias de Campanas para viajar por las vías de campanas. 
+- Derrotar al Devorador reestablece **el uso de las vías de campanas** permitiendo viajar rápidamente por el mundo.
+
+---
