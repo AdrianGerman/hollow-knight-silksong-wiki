@@ -72,3 +72,10 @@ Cuando su salud baja a cierto umbral (alrededor de 600):
   Mientras se desplaza, campanas gigantes caen y rebotan, obligando a esquivar en vertical u horizontal.
 
 ---
+
+## Localización
+
+- El Devorador de Campanas aparece en las **Grandes Vías de Campanas**, un punto de tránsito clave que conecta varias partes del mundo y sirve de transporte rápido.
+- El combate se activa tras intentar invocar a la Bestia de Campanas en esta zona, momento en el cual el Devorador emerge y bloquea el acceso a todas las vías de campanas hasta ser derrotado.
+
+---
