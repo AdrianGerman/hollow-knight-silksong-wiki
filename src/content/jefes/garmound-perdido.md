@@ -15,3 +15,12 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VIDEO_GARMOUND_PERDIDO"
 ---
+
+## Descripción
+
+**Garmound Perdido** es una variante solitaria de Garmound que Hornet encuentra durante el **Acto III**, tras la separación del dúo original.  
+A diferencia del enfrentamiento junto a Zaza, este combate se centra en un **duelo individual**, más directo y agresivo, que pone a prueba la lectura de ataques y el control del espacio.
+
+No se clasifica como jefe, pero su dificultad y diseño lo colocan al nivel de otros **combates destacados** del Acto III.
+
+---
