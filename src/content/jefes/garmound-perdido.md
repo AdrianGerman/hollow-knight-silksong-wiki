@@ -24,3 +24,13 @@ A diferencia del enfrentamiento junto a Zaza, este combate se centra en un **due
 No se clasifica como jefe, pero su dificultad y diseño lo colocan al nivel de otros **combates destacados** del Acto III.
 
 ---
+
+## Dinámica del enfrentamiento
+
+El combate es **continuo**, sin fases diferenciadas, pero con un aumento progresivo de presión:
+
+- Garmound Perdido ataca con mayor frecuencia que en su versión en dúo.
+- Reduce sus pausas entre ataques, castigando la pasividad.
+- Mantiene a Hornet bajo presión constante a corta y media distancia.
+
+---
