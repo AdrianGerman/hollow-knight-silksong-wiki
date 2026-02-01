@@ -34,3 +34,9 @@ El combate es **continuo**, sin fases diferenciadas, pero con un aumento progres
 - Mantiene a Hornet bajo presión constante a corta y media distancia.
 
 ---
+
+## Comportamiento y tácticas
+
+- Prefiere el combate frontal.
+- Utiliza ataques amplios para limitar el movimiento.
+- Castiga intentos de curación o retrocesos largos.
