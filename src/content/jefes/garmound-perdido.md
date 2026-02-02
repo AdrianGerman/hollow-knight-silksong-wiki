@@ -40,3 +40,10 @@ El combate es **continuo**, sin fases diferenciadas, pero con un aumento progres
 - Prefiere el combate frontal.
 - Utiliza ataques amplios para limitar el movimiento.
 - Castiga intentos de curación o retrocesos largos.
+
+**Consejos:**
+- Mantente a media distancia para leer sus ataques.
+- Ataca solo tras esquivar un golpe completo.
+- Evita quedarte contra paredes o esquinas.
+
+---
