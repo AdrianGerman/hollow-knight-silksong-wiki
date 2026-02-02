@@ -47,3 +47,16 @@ El combate es **continuo**, sin fases diferenciadas, pero con un aumento progres
 - Evita quedarte contra paredes o esquinas.
 
 ---
+
+## Ataques
+
+- **Golpe pesado frontal**  
+  Ataque directo de gran alcance.
+
+- **Barrido amplio**  
+  Cubre un arco horizontal que obliga a retroceder o saltar.
+
+- **Embate directo**  
+  Avance rápido para cerrar distancias.
+
+---
