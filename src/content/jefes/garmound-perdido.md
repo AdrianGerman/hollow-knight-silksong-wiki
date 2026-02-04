@@ -67,3 +67,11 @@ Garmound Perdido aparece en una **ruta secundaria del Acto III**, normalmente as
 El combate se activa automáticamente al entrar en la cámara.
 
 ---
+
+## Recompensas
+
+- **Progreso secundario**, como desbloqueo de una ruta, evento posterior o registro interno.
+
+(No se obtiene un objeto único confirmado).
+
+---
