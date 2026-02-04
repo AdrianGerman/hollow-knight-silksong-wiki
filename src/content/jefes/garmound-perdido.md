@@ -60,3 +60,10 @@ El combate es **continuo**, sin fases diferenciadas, pero con un aumento progres
   Avance rápido para cerrar distancias.
 
 ---
+
+## Localización
+
+Garmound Perdido aparece en una **ruta secundaria del Acto III**, normalmente asociada a exploración opcional o desvíos de las Grandes Vías.  
+El combate se activa automáticamente al entrar en la cámara.
+
+---
