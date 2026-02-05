@@ -75,3 +75,9 @@ El combate se activa automáticamente al entrar en la cámara.
 (No se obtiene un objeto único confirmado).
 
 ---
+
+## Notas
+
+Este enfrentamiento refuerza el contraste entre el combate en dúo del Acto II y el duelo individual del Acto III, mostrando la evolución del personaje.
+
+---
