@@ -15,3 +15,12 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VIDEO_ALFILERA"
 ---
+
+## Descripción
+
+**Alfilera** protagoniza uno de los **enfrentamientos especiales** del **Acto III**.  
+No es un jefe como tal, pero su combate está diseñado con la intensidad y el ritmo de uno, obligando a Hornet a ejecutar esquivas limpias y ataques precisos.
+
+El duelo destaca por su enfoque técnico: pocos ataques, pero rápidos y castigadores, donde cada error se paga caro.
+
+---
