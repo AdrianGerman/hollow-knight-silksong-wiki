@@ -36,3 +36,9 @@ El combate contra Alfilera es **directo y sin fases**, centrado en la lectura de
 No hay transición de fases, pero la intensidad se mantiene alta hasta el final.
 
 ---
+
+## Comportamiento y tácticas
+
+- Se desplaza rápidamente por la arena con saltos cortos y avances directos.
+- Alterna ataques frontales con reposicionamientos rápidos.
+- Reduce al mínimo las ventanas seguras para atacar.
