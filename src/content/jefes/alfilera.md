@@ -24,3 +24,15 @@ No es un jefe como tal, pero su combate está diseñado con la intensidad y el r
 El duelo destaca por su enfoque técnico: pocos ataques, pero rápidos y castigadores, donde cada error se paga caro.
 
 ---
+
+## Dinámica del enfrentamiento
+
+El combate contra Alfilera es **directo y sin fases**, centrado en la lectura de movimientos y el posicionamiento:
+
+- Alfilera mantiene presión constante a corta y media distancia.
+- Castiga los intentos de curación y los retrocesos largos.
+- Obliga a mantener la atención en todo momento.
+
+No hay transición de fases, pero la intensidad se mantiene alta hasta el final.
+
+---
