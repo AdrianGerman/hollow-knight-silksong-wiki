@@ -49,3 +49,16 @@ No hay transición de fases, pero la intensidad se mantiene alta hasta el final.
 - No intentes curarte sin una apertura clara.
 
 ---
+
+## Ataques
+
+- **Estocada rápida**  
+  Ataque directo y veloz con poco tiempo de reacción.
+
+- **Barrido bajo**  
+  Ataque horizontal que castiga la cercanía excesiva.
+
+- **Avance punzante**  
+  Desplazamiento rápido para cerrar distancia y atacar.
+
+---
