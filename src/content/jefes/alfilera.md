@@ -42,3 +42,10 @@ No hay transición de fases, pero la intensidad se mantiene alta hasta el final.
 - Se desplaza rápidamente por la arena con saltos cortos y avances directos.
 - Alterna ataques frontales con reposicionamientos rápidos.
 - Reduce al mínimo las ventanas seguras para atacar.
+
+**Consejos:**
+- Ataca solo tras esquivar completamente un ataque.
+- Evita quedarte cerca de paredes.
+- No intentes curarte sin una apertura clara.
+
+---
