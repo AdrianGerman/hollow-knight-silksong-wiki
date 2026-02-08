@@ -62,3 +62,11 @@ No hay transición de fases, pero la intensidad se mantiene alta hasta el final.
   Desplazamiento rápido para cerrar distancia y atacar.
 
 ---
+
+## Localización
+
+El enfrentamiento con **Alfilera** tiene lugar en una **cámara cerrada del Acto III**, generalmente asociada a una ruta secundaria u opcional.
+
+El combate se activa automáticamente al entrar en la sala.
+
+---
