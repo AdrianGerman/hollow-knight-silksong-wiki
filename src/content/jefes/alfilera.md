@@ -70,3 +70,17 @@ El enfrentamiento con **Alfilera** tiene lugar en una **cámara cerrada del Acto
 El combate se activa automáticamente al entrar en la sala.
 
 ---
+
+## Recompensas
+
+- **Progreso secundario**, como desbloqueo de ruta, evento posterior o registro interno.
+
+(No se obtiene un objeto único confirmado).
+
+---
+
+## Notas
+
+Alfilera es uno de los combates más técnicos del Acto III fuera de los jefes principales, funcionando como una prueba de precisión y control del ritmo.
+
+---
