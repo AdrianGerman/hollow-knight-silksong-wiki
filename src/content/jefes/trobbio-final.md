@@ -24,3 +24,15 @@ El antiguo artista deja de lado parte de su teatralidad para centrarse en un com
 Aunque no se presenta como jefe principal, este combate es considerado uno de los **enfrentamientos más exigentes** del Acto III.
 
 ---
+
+## Comportamiento y tácticas
+
+El combate se divide en **dos fases**, con una clara escalada de presión y velocidad.
+
+### Fase 1
+
+Trobbio reutiliza varios patrones conocidos, pero con menos pausas entre ataques:
+
+- Giros rápidos que recorren grandes secciones de la arena.
+- Explosiones retardadas colocadas para limitar el movimiento.
+- Bombas que rebotan antes de detonar, forzando reposicionamientos constantes.
