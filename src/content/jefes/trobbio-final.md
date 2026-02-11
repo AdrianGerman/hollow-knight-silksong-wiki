@@ -15,3 +15,12 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VIDEO_TROBBIO_ACTO_3"
 ---
+
+## Descripción
+
+**Trobbio** regresa durante el **Acto III** en un **segundo enfrentamiento**, notablemente más agresivo y menos indulgente que el del Acto II.  
+El antiguo artista deja de lado parte de su teatralidad para centrarse en un combate más directo, demostrando que su obsesión por el espectáculo ahora tiene un tono más oscuro y desesperado.
+
+Aunque no se presenta como jefe principal, este combate es considerado uno de los **enfrentamientos más exigentes** del Acto III.
+
+---
