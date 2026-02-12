@@ -60,3 +60,19 @@ El combate se vuelve más caótico, castigando la indecisión.
 - No intentes curarte sin un espacio completamente despejado.
 
 ---
+
+## Ataques
+
+- **Torbellino acelerado**  
+  Giro rápido con menor tiempo de recuperación.
+
+- **Explosiones encadenadas**  
+  Varias detonaciones consecutivas que cubren gran parte de la arena.
+
+- **Bombas rebotadoras**  
+  Proyectiles que cambian de trayectoria antes de explotar.
+
+- **Pirotecnia simultánea (fase 2)**  
+  Combinación de explosiones y proyectiles que saturan el espacio.
+
+---
