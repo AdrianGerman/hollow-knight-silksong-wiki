@@ -43,3 +43,20 @@ Trobbio reutiliza varios patrones conocidos, pero con menos pausas entre ataques
 - Mantén siempre una ruta de escape.
 
 ---
+
+### Fase 2
+
+Al bajar considerablemente su salud:
+
+- Trobbio intensifica el ritmo del combate.
+- Añade ataques encadenados con pirotecnia simultánea.
+- Reduce aún más las zonas seguras de la arena.
+
+El combate se vuelve más caótico, castigando la indecisión.
+
+**Consejos:**
+- Prioriza esquivar sobre atacar.
+- Aprovecha los momentos posteriores a las explosiones múltiples.
+- No intentes curarte sin un espacio completamente despejado.
+
+---
