@@ -36,3 +36,10 @@ Trobbio reutiliza varios patrones conocidos, pero con menos pausas entre ataques
 - Giros rápidos que recorren grandes secciones de la arena.
 - Explosiones retardadas colocadas para limitar el movimiento.
 - Bombas que rebotan antes de detonar, forzando reposicionamientos constantes.
+
+**Consejos:**
+- Reconoce los patrones del primer combate, pero no esperes las mismas ventanas.
+- Ataca solo tras los giros largos.
+- Mantén siempre una ruta de escape.
+
+---
