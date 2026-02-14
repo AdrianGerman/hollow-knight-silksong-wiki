@@ -76,3 +76,12 @@ El combate se vuelve más caótico, castigando la indecisión.
   Combinación de explosiones y proyectiles que saturan el espacio.
 
 ---
+
+
+## Localización
+
+Este enfrentamiento ocurre en una **ruta avanzada del Acto III**, generalmente asociada a exploración profunda o desvíos importantes.
+
+El combate se activa al entrar en la cámara donde Trobbio reaparece.
+
+---
