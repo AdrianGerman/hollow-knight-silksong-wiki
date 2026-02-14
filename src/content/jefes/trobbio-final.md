@@ -85,3 +85,11 @@ Este enfrentamiento ocurre en una **ruta avanzada del Acto III**, generalmente a
 El combate se activa al entrar en la cámara donde Trobbio reaparece.
 
 ---
+
+## Recompensas
+
+- **Progreso narrativo**, desbloqueando diálogos, eventos o rutas posteriores.
+
+(No se obtiene un objeto único confirmado).
+
+---
