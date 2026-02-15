@@ -93,3 +93,9 @@ El combate se activa al entrar en la cámara donde Trobbio reaparece.
 (No se obtiene un objeto único confirmado).
 
 ---
+
+## Notas
+
+El segundo combate contra Trobbio sirve como cierre de su arco dentro del juego, mostrando la degradación de su espectáculo y su creciente peligrosidad.
+
+---
