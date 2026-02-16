@@ -16,3 +16,12 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VIDEO_PADRE_CUERVON"
 ---
+
+## Descripción
+
+**Padre Cuervon** es un jefe opcional del **Acto III** que desafía a Hornet a un duelo formal.  
+El combate se activa tras descansar en un banco de **Campanilla**, donde Hornet encuentra una **nota** firmada por él citándola en el **Páramo Gris**.
+
+El enfrentamiento tiene un tono ceremonial y personal, más cercano a un duelo de honor que a una batalla salvaje.
+
+---
