@@ -25,3 +25,14 @@ El combate se activa tras descansar en un banco de **Campanilla**, donde Hornet 
 El enfrentamiento tiene un tono ceremonial y personal, más cercano a un duelo de honor que a una batalla salvaje.
 
 ---
+
+## Cómo se activa el combate
+
+1. Descansa en el banco de Campanilla durante el Acto III.
+2. Al levantarte, aparece una nota firmada por Padre Cuervon.
+3. Dirígete al punto indicado en el Páramo Gris.
+4. Al entrar en la zona señalada, se inicia automáticamente el duelo.
+
+Es un combate **opcional** y no bloquea el progreso principal.
+
+---
