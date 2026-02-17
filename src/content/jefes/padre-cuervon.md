@@ -36,3 +36,19 @@ El enfrentamiento tiene un tono ceremonial y personal, más cercano a un duelo d
 Es un combate **opcional** y no bloquea el progreso principal.
 
 ---
+
+## Comportamiento y tácticas
+
+El duelo contra Padre Cuervon se divide en **dos fases**, con un aumento claro en la agresividad.
+
+### Fase 1
+
+- Combate centrado en estocadas precisas.
+- Movimientos medidos y calculados.
+- Castiga errores con contraataques rápidos.
+
+**Consejos:**
+- No ataques primero sin confirmar su animación.
+- Mantén distancia media para leer sus avances.
+
+---
