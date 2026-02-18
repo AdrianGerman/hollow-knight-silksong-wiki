@@ -52,3 +52,19 @@ El duelo contra Padre Cuervon se divide en **dos fases**, con un aumento claro e
 - Mantén distancia media para leer sus avances.
 
 ---
+
+### Fase 2
+
+Al reducir su salud:
+
+- Aumenta la velocidad de sus embestidas.
+- Encadena ataques sin apenas pausa.
+- Reduce las ventanas seguras para curarse.
+
+El combate se vuelve más intenso, pero mantiene estructura de duelo limpio.
+
+**Consejos:**
+- Esquiva completamente antes de castigar.
+- Evita quedarte contra los bordes de la arena.
+
+---
