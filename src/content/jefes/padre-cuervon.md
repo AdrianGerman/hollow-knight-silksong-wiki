@@ -68,3 +68,19 @@ El combate se vuelve más intenso, pero mantiene estructura de duelo limpio.
 - Evita quedarte contra los bordes de la arena.
 
 ---
+
+## Ataques
+
+- **Estocada frontal**  
+  Ataque directo y rápido.
+
+- **Embate deslizante**  
+  Avanza cubriendo gran distancia.
+
+- **Combo encadenado (fase 2)**  
+  Serie rápida de golpes con mínima recuperación.
+
+- **Salto ofensivo**  
+  Ataque en diagonal desde el aire.
+
+---
