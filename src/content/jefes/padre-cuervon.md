@@ -92,3 +92,10 @@ El combate se vuelve más intenso, pero mantiene estructura de duelo limpio.
 - El combate ocurre en una cámara aislada del Páramo.
 
 ---
+
+## Recompensas
+
+- Evento narrativo adicional.
+- Registro del enfrentamiento como duelo destacado del Acto III.
+
+---
