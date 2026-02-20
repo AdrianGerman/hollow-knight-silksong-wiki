@@ -84,3 +84,11 @@ El combate se vuelve más intenso, pero mantiene estructura de duelo limpio.
   Ataque en diagonal desde el aire.
 
 ---
+
+## Localización
+
+- **Zona:** Páramo Gris  
+- Se accede tras recibir la nota en Campanilla.  
+- El combate ocurre en una cámara aislada del Páramo.
+
+---
