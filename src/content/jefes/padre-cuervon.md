@@ -99,3 +99,4 @@ El combate se vuelve más intenso, pero mantiene estructura de duelo limpio.
 - Registro del enfrentamiento como duelo destacado del Acto III.
 
 ---
+
