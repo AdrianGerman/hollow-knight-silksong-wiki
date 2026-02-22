@@ -15,3 +15,12 @@ recompensas:
 videos:
   - "https://www.youtube.com/watch?v=VIDEO_MOSCAROLA_FURIOSA"
 ---
+
+## Descripción
+
+La **Moscarola Furiosa** es una versión evolucionada y extremadamente agresiva de las moscarolas comunes.  
+Aparece como un **jefe intermedio** durante el Acto III, sorprendiendo al jugador con un combate centrado en movilidad vertical y presión aérea constante.
+
+Aunque no es un jefe principal, su velocidad y agresividad la convierten en uno de los enfrentamientos más intensos entre los eventos intermedios del acto.
+
+---
