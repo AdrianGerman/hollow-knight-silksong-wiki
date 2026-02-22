@@ -24,3 +24,13 @@ Aparece como un **jefe intermedio** durante el Acto III, sorprendiendo al jugado
 Aunque no es un jefe principal, su velocidad y agresividad la convierten en uno de los enfrentamientos más intensos entre los eventos intermedios del acto.
 
 ---
+
+## Comportamiento y tácticas
+
+El combate se divide en **dos fases**, ambas enfocadas en ataques aéreos y desplazamientos rápidos.
+
+### Fase 1
+
+- Se mantiene en el aire la mayor parte del tiempo.
+- Realiza embestidas diagonales rápidas.
+- Genera pequeños proyectiles al impactar contra superficies.
