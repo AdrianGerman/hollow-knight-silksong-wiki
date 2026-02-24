@@ -34,3 +34,20 @@ El combate se divide en **dos fases**, ambas enfocadas en ataques aéreos y desp
 - Se mantiene en el aire la mayor parte del tiempo.
 - Realiza embestidas diagonales rápidas.
 - Genera pequeños proyectiles al impactar contra superficies.
+
+### Fase 2
+
+Al reducir su salud:
+
+- Aumenta la frecuencia de embestidas.
+- Añade ataques en patrón circular.
+- Reduce el tiempo entre ataques consecutivos.
+
+El combate se vuelve más caótico y exige reflejos rápidos.
+
+**Consejos:**
+- Prioriza esquiva sobre daño.
+- No te quedes bajo su trayectoria aérea.
+- Ataca solo tras sus ataques largos.
+
+---
