@@ -67,3 +67,11 @@ El combate se vuelve más caótico y exige reflejos rápidos.
   Serie rápida de embestidas encadenadas.
 
 ---
+
+## Localización
+
+La Moscarola Furiosa aparece en una **ruta intermedia del Acto III**, generalmente bloqueando un acceso o sirviendo como prueba antes de una zona más avanzada.
+
+El combate se activa automáticamente al entrar en su arena.
+
+---
