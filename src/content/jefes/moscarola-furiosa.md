@@ -75,3 +75,11 @@ La Moscarola Furiosa aparece en una **ruta intermedia del Acto III**, generalmen
 El combate se activa automáticamente al entrar en su arena.
 
 ---
+
+## Recompensas
+
+- Progreso secundario o desbloqueo de ruta.
+
+(No se ha confirmado objeto único específico).
+
+---
