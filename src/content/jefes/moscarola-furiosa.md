@@ -51,3 +51,19 @@ El combate se vuelve más caótico y exige reflejos rápidos.
 - Ataca solo tras sus ataques largos.
 
 ---
+
+## Ataques
+
+- **Embestida aérea**  
+  Ataque en diagonal a gran velocidad.
+
+- **Impacto explosivo**  
+  Al chocar contra el suelo o pared, libera proyectiles.
+
+- **Patrón circular (fase 2)**  
+  Movimiento giratorio con daño continuo.
+
+- **Ataque en ráfaga**  
+  Serie rápida de embestidas encadenadas.
+
+---
