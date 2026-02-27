@@ -83,3 +83,9 @@ El combate se activa automáticamente al entrar en su arena.
 (No se ha confirmado objeto único específico).
 
 ---
+
+## Notas
+
+Este enfrentamiento destaca por su enfoque aéreo, diferenciándose de otros jefes más centrados en combate terrestre.
+
+---
