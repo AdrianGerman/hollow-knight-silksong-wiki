@@ -3,7 +3,7 @@ title: "Los Desentrañados"
 excerpt: "Cuerpos reconstruidos y sostenidos por seda viva que atacan en conjunto en las alturas de Ala Blanca."
 order: 11
 cover:
-  src: "/images/jefes/desentrañados.webp"
+  src: "/images/jefes/los-desentrañados.webp"
   alt: "Los Desentrañados en combate"
 tags: ["Ala Blanca", "Oleada", "Acto II"]
 location: "Ala Blanca"

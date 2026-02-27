@@ -3,7 +3,7 @@ title: "Cráneo Tirano"
 excerpt: "Un ejemplar descomunal de Teschio Brulicante que acecha en las profundidades de La Médula como parte de una cacería mayor."
 order: 8
 cover: { 
-  src: "/images/jefes/craneo-tirano.png", 
+  src: "/images/jefes/craneo-tirano.webp", 
   alt: "Cráneo Tirano en combate" 
 } 
 tags: ["La Médula", "Jefe opcional", "Silksong"]
