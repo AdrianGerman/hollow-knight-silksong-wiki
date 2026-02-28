@@ -16,9 +16,16 @@ const baseEntry = z.object({
   gallery: z.array(media).default([]),
 });
 
+const instrumentoEntry = baseEntry.extend({
+  category: z.string().default("herramientas"),
+  color: z.enum(["rojo", "azul", "amarillo"]).optional(),
+  type: z.enum(["activa", "pasiva"]).optional(),
+  obtained: z.string().optional(),
+});
+
 export const collections = {
   jefes: defineCollection({ type: "content", schema: baseEntry }),
   enemigos: defineCollection({ type: "content", schema: baseEntry }),
-  instrumentos: defineCollection({ type: "content", schema: baseEntry }),
+  instrumentos: defineCollection({ type: "content", schema: instrumentoEntry }),
   zonas: defineCollection({ type: "content", schema: baseEntry }),
 };
