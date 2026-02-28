@@ -1,20 +1,35 @@
 ---
-title: "NOMBRE DEL JEFE instrumentos"
-excerpt: "Descripción corta"
+title: "Nombre de la Herramienta"
+excerpt: "Breve descripción funcional de la herramienta."
 order: 1
-tags: ["zona-x", "tipo-y"]
-cover: { src: "./cover.jpg", alt: "" }
-videos: ["https://www.youtube.com/watch?v=XXXXXXXX"]
-gallery:
-  - { src: "./1.jpg", alt: "", caption: "Momento clave" }
+category: "herramientas"
+color: "rojo" # rojo | azul | amarillo
+type: "activa" # activa | pasiva
+slots: 1 # cantidad de ranuras que ocupa
+tags: ["ofensiva", "exploracion", "defensiva"]
+obtained: "Zona o NPC donde se consigue"
+cover: { src: "./cover.jpg", alt: "Nombre de la herramienta" }
 ---
 
-## Estrategia
-Notas y patrones.
+## Descripción
+Explicación completa del efecto de la herramienta y cómo funciona en gameplay.
 
-## Ataques
-- Ataque 1
-- Ataque 2
+## Tipo
+- 🟥 Roja (Activa – consume cargas en banco)
+- 🟦 Azul (Pasiva – efecto permanente equipado)
+- 🟨 Amarilla (Utilidad / Exploración)
 
-## Recompensas
-- Ítem X
+## Recarga (Solo herramientas rojas)
+- Se recarga en banco.
+- Costo en Shell Shards (si aplica).
+
+## Sinergias
+- Combina bien con:
+  - Herramienta X
+  - Crest Y
+
+## Ubicación / Obtención
+Explicación detallada de cómo conseguirla.
+
+## Notas
+Detalles técnicos, curiosidades o cambios entre versiones.
