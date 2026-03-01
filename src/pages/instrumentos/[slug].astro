@@ -15,6 +15,18 @@ if (!entry) return Astro.redirect("/instrumentos")
 
 const { data } = entry
 const { Content } = await entry.render()
+
+const colorLabel =
+  data.color === "rojo"
+    ? "🟥 Roja"
+    : data.color === "azul"
+      ? "🟦 Azul"
+      : data.color === "amarillo"
+        ? "🟨 Amarilla"
+        : null
+
+const typeLabel =
+  data.type === "activa" ? "Activa" : data.type === "pasiva" ? "Pasiva" : null
 ---
 
 <Layout title={data.title}>
