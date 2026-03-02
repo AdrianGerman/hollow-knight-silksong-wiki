@@ -4,8 +4,6 @@ excerpt: "Breve descripción funcional de la herramienta."
 order: 1
 category: "herramientas"
 color: "rojo" # rojo | azul | amarillo
-type: "activa" # activa | pasiva
-slots: 1 # cantidad de ranuras que ocupa
 tags: ["ofensiva", "exploracion", "defensiva"]
 obtained: "Zona o NPC donde se consigue"
 cover: { src: "./cover.jpg", alt: "Nombre de la herramienta" }
