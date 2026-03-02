@@ -10,13 +10,16 @@ import { getCollection } from "astro:content"
 const docs = await getCollection("instrumentos")
 
 const items = docs
-  .sort((a, b) => a.data.order - b.data.order)
+  .sort((a, b) => (a.data.order ?? 9999) - (b.data.order ?? 9999))
   .map(({ data, slug, collection }) => ({
     href: `/${collection}/${slug}`,
     title: data.title,
     excerpt: data.excerpt || "",
     cover: data.cover?.src || "",
     tags: data.tags || [],
+    color: data.color,
+    type: data.type,
+    obtained: data.obtained,
   }))
 ---
 
