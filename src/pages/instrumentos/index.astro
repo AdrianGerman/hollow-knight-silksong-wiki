@@ -6,21 +6,29 @@ import SectionHeader from "@/components/SectionHeader.astro"
 import EntriesGrid from "@/components/EntriesGrid.astro"
 import Background from "@/components/Background.astro"
 import { getCollection } from "astro:content"
+import type { CollectionEntry } from "astro:content"
 
 const docs = await getCollection("instrumentos")
 
-const items = docs
-  .sort((a, b) => (a.data.order ?? 9999) - (b.data.order ?? 9999))
-  .map(({ data, slug, collection }) => ({
-    href: `/${collection}/${slug}`,
-    title: data.title,
-    excerpt: data.excerpt || "",
-    cover: data.cover?.src || "",
-    tags: data.tags || [],
-    color: data.color,
-    type: data.type,
-    obtained: data.obtained,
-  }))
+const normalize = (d: CollectionEntry<"instrumentos">) => ({
+  href: `/${d.collection}/${d.slug}`,
+  title: d.data.title,
+  excerpt: d.data.excerpt || "",
+  cover: d.data.cover?.src || "",
+  tags: d.data.tags || [],
+  color: d.data.color,
+  type: d.data.type,
+  obtained: d.data.obtained,
+  order: d.data.order ?? 9999,
+})
+const items = docs.map(normalize).sort((a, b) => a.order - b.order)
+
+const rojos = items.filter((i) => i.color === "rojo")
+const azules = items.filter((i) => i.color === "azul")
+const amarillos = items.filter((i) => i.color === "amarillo")
+const sinColor = items.filter((i) => !i.color)
+---
+
 ---
 
 <Layout title="Instrumentos — Pharloom Archives">
@@ -31,5 +39,102 @@ const items = docs
     description="Herramientas, amuletos y objetos de utilidad que Hornet encuentra en su viaje. Descubre sus efectos, mejoras y combinaciones ideales."
   />
 
-  <EntriesGrid items={items} />
+  <section class="mx-auto max-w-6xl px-4 pb-12">
+    <!-- 🟥 ROJOS -->
+    <div class="mt-8">
+      <div class="mb-4 flex items-end justify-between gap-4">
+        <div>
+          <h2 class="font-[Cinzel] text-2xl text-white">🟥 Rojas</h2>
+          <p class="text-sm text-white/60">
+            Herramientas activas orientadas a combate (se recargan en banco).
+          </p>
+        </div>
+        <span class="text-xs text-white/50">{rojos.length} item(s)</span>
+      </div>
+
+      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
+        {
+          rojos.length > 0 ? (
+            <EntriesGrid items={rojos} />
+          ) : (
+            <div class="py-6 text-sm text-white/60">
+              Aún no hay herramientas rojas.
+            </div>
+          )
+        }
+      </div>
+    </div>
+
+    <!-- 🟦 AZULES -->
+    <div class="mt-10">
+      <div class="mb-4 flex items-end justify-between gap-4">
+        <div>
+          <h2 class="font-[Cinzel] text-2xl text-white">🟦 Azules</h2>
+          <p class="text-sm text-white/60">
+            Herramientas pasivas defensivas / supervivencia.
+          </p>
+        </div>
+        <span class="text-xs text-white/50">{azules.length} item(s)</span>
+      </div>
+
+      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
+        {
+          azules.length > 0 ? (
+            <EntriesGrid items={azules} />
+          ) : (
+            <div class="py-6 text-sm text-white/60">
+              Aún no hay herramientas azules.
+            </div>
+          )
+        }
+      </div>
+    </div>
+
+    <!-- 🟨 AMARILLOS -->
+    <div class="mt-10">
+      <div class="mb-4 flex items-end justify-between gap-4">
+        <div>
+          <h2 class="font-[Cinzel] text-2xl text-white">🟨 Amarillas</h2>
+          <p class="text-sm text-white/60">
+            Utilidad, exploración y soporte (calidad de vida).
+          </p>
+        </div>
+        <span class="text-xs text-white/50">{amarillos.length} item(s)</span>
+      </div>
+
+      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
+        {
+          amarillos.length > 0 ? (
+            <EntriesGrid items={amarillos} />
+          ) : (
+            <div class="py-6 text-sm text-white/60">
+              Aún no hay herramientas amarillas.
+            </div>
+          )
+        }
+      </div>
+    </div>
+
+    {
+      sinColor.length > 0 && (
+        <div class="mt-10">
+          <div class="mb-4 flex items-end justify-between gap-4">
+            <div>
+              <h2 class="font-[Cinzel] text-2xl text-white/90">
+                ⚪ Sin clasificar
+              </h2>
+              <p class="text-sm text-white/60">
+                Entradas sin <code>color</code> en el frontmatter.
+              </p>
+            </div>
+            <span class="text-xs text-white/50">{sinColor.length} item(s)</span>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
+            <EntriesGrid items={sinColor} />
+          </div>
+        </div>
+      )
+    }
+  </section>
 </Layout>
