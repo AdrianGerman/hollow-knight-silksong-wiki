@@ -17,7 +17,6 @@ const normalize = (d: CollectionEntry<"instrumentos">) => ({
   cover: d.data.cover?.src || "",
   tags: d.data.tags || [],
   color: d.data.color,
-  type: d.data.type,
   obtained: d.data.obtained,
   order: d.data.order ?? 9999,
 })

@@ -19,7 +19,6 @@ const baseEntry = z.object({
 const instrumentoEntry = baseEntry.extend({
   category: z.string().default("herramientas"),
   color: z.enum(["rojo", "azul", "amarillo"]).optional(),
-  type: z.enum(["activa", "pasiva"]).optional(),
   obtained: z.string().optional(),
 });
 
