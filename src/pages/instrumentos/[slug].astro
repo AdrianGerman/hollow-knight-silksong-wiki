@@ -24,9 +24,6 @@ const colorLabel =
       : data.color === "amarillo"
         ? "🟨 Amarilla"
         : null
-
-const typeLabel =
-  data.type === "activa" ? "Activa" : data.type === "pasiva" ? "Pasiva" : null
 ---
 
 <Layout title={data.title}>
@@ -50,14 +47,6 @@ const typeLabel =
         colorLabel && (
           <span class="text-[11px] px-2 py-1 rounded-full border border-white/10 text-white/80 bg-white/[0.03]">
             {colorLabel}
-          </span>
-        )
-      }
-
-      {
-        typeLabel && (
-          <span class="text-[11px] px-2 py-1 rounded-full border border-white/10 text-white/70 bg-white/[0.02]">
-            {typeLabel}
           </span>
         )
       }
