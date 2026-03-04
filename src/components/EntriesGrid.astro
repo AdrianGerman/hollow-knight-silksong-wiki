@@ -22,24 +22,21 @@ const norm = (s: string) =>
     .replace(/[\u0300-\u036f]/g, "")
 ---
 
-<section class="mx-auto max-w-6xl px-4 pb-12">
-  <ul id={id} class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    {
-      items.map((it) => (
-        <li
-          id="grid-item"
-          data-title={norm(it.title)}
-          data-tags={(it.tags || []).map(norm).join("|")}
-        >
-          <EntryCard
-            href={it.href}
-            title={it.title}
-            excerpt={it.excerpt}
-            cover={it.cover}
-            tags={it.tags}
-          />
-        </li>
-      ))
-    }
-  </ul>
-</section>
+<ul id={id} class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+  {
+    items.map((it) => (
+      <li
+        data-title={norm(it.title)}
+        data-tags={(it.tags || []).map(norm).join("|")}
+      >
+        <EntryCard
+          href={it.href}
+          title={it.title}
+          excerpt={it.excerpt}
+          cover={it.cover}
+          tags={it.tags}
+        />
+      </li>
+    ))
+  }
+</ul>
