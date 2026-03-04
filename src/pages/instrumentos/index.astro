@@ -4,6 +4,7 @@ import "../../styles/global.css"
 
 import SectionHeader from "@/components/SectionHeader.astro"
 import EntriesGrid from "@/components/EntriesGrid.astro"
+import EntriesList from "@/components/EntriesList.astro"
 import Background from "@/components/Background.astro"
 import { getCollection } from "astro:content"
 import type { CollectionEntry } from "astro:content"
@@ -78,7 +79,13 @@ const sinColor = items.filter((i) => !i.color)
       <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
         {
           rojos.length > 0 ? (
-            <EntriesGrid items={rojos} />
+            <div class="view-grid">
+              <EntriesGrid items={rojos} />
+            </div>
+
+            <div class="view-list hidden">
+              <EntriesList items={rojos} />
+            </div>
           ) : (
             <div class="py-6 text-sm text-white/60">
               Aún no hay herramientas rojas.
@@ -103,7 +110,13 @@ const sinColor = items.filter((i) => !i.color)
       <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
         {
           azules.length > 0 ? (
-            <EntriesGrid items={azules} />
+            <div class="view-grid">
+              <EntriesGrid items={azules} />
+            </div>
+
+            <div class="view-list hidden">
+              <EntriesList items={azules} />
+            </div>
           ) : (
             <div class="py-6 text-sm text-white/60">
               Aún no hay herramientas azules.
@@ -128,7 +141,13 @@ const sinColor = items.filter((i) => !i.color)
       <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
         {
           amarillos.length > 0 ? (
-            <EntriesGrid items={amarillos} />
+            <div class="view-grid">
+              <EntriesGrid items={amarillos} />
+            </div>
+
+            <div class="view-list hidden">
+              <EntriesList items={amarillos} />
+            </div>
           ) : (
             <div class="py-6 text-sm text-white/60">
               Aún no hay herramientas amarillas.
@@ -154,10 +173,17 @@ const sinColor = items.filter((i) => !i.color)
           </div>
 
           <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
-            <EntriesGrid items={sinColor} />
+            <div class="view-grid">
+              <EntriesGrid items={sinColor} />
+            </div>
+
+            <div class="view-list hidden">
+              <EntriesList items={sinColor} />
+            </div>
           </div>
         </div>
       )
     }
   </section>
 </Layout>
+
