@@ -1,0 +1,81 @@
+---
+type Item = {
+  href: string
+  title: string
+  excerpt?: string
+  cover?: string
+  tags?: string[]
+  color?: "rojo" | "azul" | "amarillo"
+  obtained?: string
+}
+
+interface Props {
+  items: Item[]
+}
+
+const { items = [] } = Astro.props as Props
+
+const colorLabel = (c?: Item["color"]) =>
+  c === "rojo"
+    ? "🟥 Roja"
+    : c === "azul"
+      ? "🟦 Azul"
+      : c === "amarillo"
+        ? "🟨 Amarilla"
+        : null
+---
+
+<ul class="divide-y divide-white/10">
+  {
+    items.map((it) => (
+      <li class="py-4">
+        <a href={it.href} class="flex gap-4 hover:opacity-95">
+          <div class="w-16 shrink-0">
+            {it.cover ? (
+              <img
+                src={it.cover}
+                alt={it.title}
+                class="h-16 w-16 rounded-xl border border-white/10 bg-white/[0.02] object-cover"
+                loading="lazy"
+              />
+            ) : (
+              <div class="h-16 w-16 rounded-xl border border-white/10 bg-white/[0.02]" />
+            )}
+          </div>
+
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-center gap-2">
+              <h3 class="truncate text-base text-white">{it.title}</h3>
+
+              {colorLabel(it.color) && (
+                <span class="text-[11px] px-2 py-1 rounded-full border border-white/10 text-white/80 bg-white/[0.03]">
+                  {colorLabel(it.color)}
+                </span>
+              )}
+
+              {it.obtained && (
+                <span class="text-[11px] px-2 py-1 rounded-full border border-white/10 text-white/70 bg-white/[0.02]">
+                  {it.obtained}
+                </span>
+              )}
+            </div>
+
+            {it.excerpt && (
+              <p class="mt-1 text-sm text-white/65">{it.excerpt}</p>
+            )}
+
+            {Array.isArray(it.tags) && it.tags.length > 0 && (
+              <div class="mt-2 flex flex-wrap gap-2">
+                {it.tags.map((t) => (
+                  <span class="text-[11px] px-2 py-1 rounded-full border border-white/10 text-white/60 bg-white/[0.02]">
+                    {t}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+        </a>
+      </li>
+    ))
+  }
+</ul>
