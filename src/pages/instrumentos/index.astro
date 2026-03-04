@@ -38,6 +38,30 @@ const sinColor = items.filter((i) => !i.color)
     description="Herramientas, amuletos y objetos de utilidad que Hornet encuentra en su viaje. Descubre sus efectos, mejoras y combinaciones ideales."
   />
 
+  <!-- test: vista multiple (cuadricula y lista) -->
+  <div class="mx-auto max-w-6xl px-4">
+    <div
+      class="mt-4 inline-flex overflow-hidden rounded-xl border border-white/10 bg-white/[0.03]"
+    >
+      <button
+        id="view-grid"
+        type="button"
+        class="px-4 py-2 text-sm text-white/80 hover:bg-white/[0.06]"
+        aria-pressed="true"
+      >
+        ⬛ Cuadrícula
+      </button>
+      <button
+        id="view-list"
+        type="button"
+        class="px-4 py-2 text-sm text-white/80 hover:bg-white/[0.06]"
+        aria-pressed="false"
+      >
+        ☰ Lista
+      </button>
+    </div>
+  </div>
+
   <section class="mx-auto max-w-6xl px-4 pb-12">
     <!-- 🟥 ROJOS -->
     <div class="mt-8">
