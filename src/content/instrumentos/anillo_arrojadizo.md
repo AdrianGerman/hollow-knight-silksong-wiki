@@ -5,7 +5,7 @@ order: 8
 color: "rojo"
 tags: ["ofensiva", "proyectil", "retorno", "trayectoria"]
 obtained: "Se obtiene de Shakra tras interactuar con ella en su ubicación."
-cover: { src: "/images/instrumentos/anillo_arrojadizo.webp", alt: "Anillo Arrojadizo" }
+cover: { src: "/images/instrumentos/anillo_arrojadizo.png", alt: "Anillo Arrojadizo" }
 ---
 
 ## Descripción

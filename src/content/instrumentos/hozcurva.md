@@ -5,7 +5,7 @@ order: 7
 color: "rojo"
 tags: ["ofensiva", "proyectil", "retorno", "trayectoria", "mejora"]
 obtained: "Se obtiene como una versión mejorada de la Garra Curva en etapas más avanzadas."
-cover: { src: "/images/instrumentos/hoz_curva.webp", alt: "Hoz Curva" }
+cover: { src: "/images/instrumentos/hoz_curva.png", alt: "Hoz Curva" }
 ---
 
 ## Descripción
