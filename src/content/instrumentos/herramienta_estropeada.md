@@ -1,42 +1,45 @@
 ---
 title: "Herramienta Estropeada"
-excerpt: "Una herramienta dañada que puede repararse para adoptar distintas formas."
+excerpt: "Restos de un antiguo implemento de Tejedora, roto e inoperativo."
 order: 11
 color: "rojo"
-tags: ["ofensiva", "variable", "modular"]
-obtained: "Se encuentra en estado dañado y debe repararse en una mesa de herramientas."
+tags: ["ofensiva", "variable", "material"]
+obtained: "Se encuentra en la zona sureste de Aguas Biliares."
 cover: { src: "/images/instrumentos/herramienta_estropeada.png", alt: "Herramienta Estropeada" }
 ---
 
 ## Descripción
-La Herramienta Estropeada es una herramienta incompleta que no puede utilizarse en su estado actual.
+La Herramienta Estropeada es un objeto inutilizable en su estado actual, compuesto por los restos de un antiguo implemento de las Tejedoras.
 
-Al ser reparada en una mesa de herramientas, puede transformarse en distintas variantes, cada una con un comportamiento y utilidad únicos en combate.
-
-Esta elección define el uso final de la herramienta.
+Debe ser reparada para convertirse en una herramienta funcional. Dependiendo de cómo se repare, adopta distintas formas con capacidades únicas.
 
 ## Uso
 - No puede utilizarse mientras esté estropeada.
-- Debe repararse en una mesa de herramientas.
-- Una vez reparada, se convierte en una herramienta funcional.
-- Consume cargas según la variante elegida.
-- Debe recargarse en un banco.
+- Debe repararse en una mesa o por NPCs especializados.
+- Se transforma en una herramienta roja funcional tras la reparación.
 
 ## Recarga
-Las herramientas rojas se recargan al descansar en un banco.
+Una vez reparada, seguirá las reglas de recarga de herramientas rojas (descansar en un banco).
 
 ## Reparación
-La Herramienta Estropeada puede repararse de distintas formas, dando lugar a diferentes variantes.
+La Herramienta Estropeada puede repararse de tres formas distintas, dando lugar a variantes diferentes.
 
-Cada variante modifica su comportamiento y estilo de uso.
+- **Opción 1:** Capacidad 30  
+- **Opción 2:** Capacidad 24  
+- **Opción 3:** Capacidad 16  
 
-<!-- variantes -->
+Cada variante cambia su rendimiento y estilo de uso.
+
+> ⚠️ Solo se puede elegir una variante por partida.
+
+<!-- Aquí van las variantes (Honda Sedeña, etc.) -->
 
 ## Ubicación / Obtención
-- Se encuentra en estado dañado durante la exploración.
-- Puede requerir superar un desafío o acceder a una zona específica.
+- Se encuentra en la zona **sureste de Aguas Biliares**.
+- Aparece como un objeto roto durante la exploración.
 
 ## Notas
-- No tiene uso directo hasta ser reparada.
-- La elección de reparación determina su función final.
-- Puede influir en el estilo de juego del jugador.
+- Es un **material**, no una herramienta funcional inicial.
+- Forma parte de un sistema de elección permanente.
+- Está relacionada con tecnología de las Tejedoras.
+- Su reparación define completamente su uso final.
