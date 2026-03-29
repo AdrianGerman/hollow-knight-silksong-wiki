@@ -32,7 +32,66 @@ Cada variante cambia su rendimiento y estilo de uso.
 
 > ⚠️ Solo se puede elegir una variante por partida.
 
-<!-- Aquí van las variantes (Honda Sedeña, etc.) -->
+## Variantes
+
+### Honda Sedeña — Opción 1
+
+![Honda Sedeña](/images/instrumentos/honda_sedeña_1.png)
+
+**Tipo:** Herramienta roja  
+**Capacidad:** 30/30  
+**Costo / requisitos:**
+- Herramienta Estropeada
+- 240 Rosarios
+- 1 Metal Artesano
+
+**Cómo obtenerla**
+Pídele a la **Hija de la Forja** que repare la **Herramienta Estropeada** encontrada en **Aguas Biliares**.
+
+**Descripción**
+Antigua arma de las Tejedoras, reparada y modificada por la Hija de la Forja.
+
+Utiliza cartuchos de coraza y la propia seda del portador para disparar.
+
+---
+
+### Honda Sedeña — Opción 2
+
+![Honda Sedeña](/images/instrumentos/honda_sedeña_2.png)
+
+**Tipo:** Herramienta roja  
+**Capacidad:** 24/24  
+**Costo / requisitos:**
+- Herramienta Estropeada
+- 1 Metal Artesano
+
+**Cómo obtenerla**
+Encuentra la **Herramienta Estropeada** en el sureste de **Aguas Biliares** y llévala al **Duodécimo Arquitecto** en los **Talleres Inferiores**.
+
+**Descripción**
+Antigua arma de las Tejedoras, reparada y modificada por el Duodécimo Arquitecto.
+
+Utiliza cartuchos de coraza y la propia seda del portador para disparar.
+
+---
+
+### Honda Sedeña — Opción 3
+
+![Honda Sedeña](/images/instrumentos/honda_sedeña_3.png)
+
+**Tipo:** Herramienta roja  
+**Capacidad:** 16/16  
+**Costo / requisitos:**
+- Herramienta Estropeada
+- 1 Metal Artesano
+
+**Cómo obtenerla**
+Encuentra la **Herramienta Estropeada** en la zona sureste de **Aguas Biliares** y llévala al noroeste del **Monte Fay**, donde una runa antigua muestra los planos para repararla.
+
+**Descripción**
+Antigua arma de las Tejedoras, reparada a su forma original.
+
+Utiliza cartuchos de coraza y la propia seda del portador para disparar.
 
 ## Ubicación / Obtención
 - Se encuentra en la zona **sureste de Aguas Biliares**.
