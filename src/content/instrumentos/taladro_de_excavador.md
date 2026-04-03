@@ -5,7 +5,7 @@ order: 12
 color: "rojo"
 tags: ["ofensiva", "ataque descendente", "multiimpacto"]
 obtained: "Se encuentra sobre una mesa en la parte suroeste de Talleres Inferiores."
-cover: { src: "/images/instrumentos/taladro_excavador.png", alt: "Taladro de Excavador" }
+cover: { src: "/images/instrumentos/red/taladro_excavador.webp", alt: "Taladro de Excavador" }
 ---
 
 ## Descripción

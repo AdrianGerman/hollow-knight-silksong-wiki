@@ -5,7 +5,7 @@ order: 13
 color: "rojo"
 tags: ["ofensiva", "proyectil", "mecánica", "superficie"]
 obtained: "La vende el Duodécimo Arquitecto en Talleres Inferiores."
-cover: { src: "/images/instrumentos/rueda_mecanica.png", alt: "Rueda Mecánica" }
+cover: { src: "/images/instrumentos/red/rueda_mecanica.webp", alt: "Rueda Mecánica" }
 ---
 
 ## Descripción

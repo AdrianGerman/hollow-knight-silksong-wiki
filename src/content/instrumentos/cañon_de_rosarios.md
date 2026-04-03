@@ -5,7 +5,7 @@ order: 15
 color: "rojo"
 tags: ["ofensiva", "ráfaga", "proyectil", "munición"]
 obtained: "Se encuentra en el Banco de Rosarios de Altos Salones, tras abrir la sala con una Llave Sencilla."
-cover: { src: "/images/instrumentos/canon_rosarios.png", alt: "Cañón de rosarios" }
+cover: { src: "/images/instrumentos/red/canon_rosarios.webp", alt: "Cañón de rosarios" }
 ---
 
 ## Descripción

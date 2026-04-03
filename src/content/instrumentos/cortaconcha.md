@@ -5,7 +5,7 @@ order: 10
 color: "rojo"
 tags: ["ofensiva", "proyectil", "penetrante"]
 obtained: "Se obtiene al fabricar la herramienta en una mesa."
-cover: { src: "/images/instrumentos/cortaconcha.png", alt: "Cortaconcha" }
+cover: { src: "/images/instrumentos/red/cortaconcha.webp", alt: "Cortaconcha" }
 ---
 
 ## Descripción

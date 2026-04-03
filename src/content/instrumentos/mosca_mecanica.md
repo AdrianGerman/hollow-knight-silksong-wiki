@@ -5,7 +5,7 @@ order: 14
 color: "rojo"
 tags: ["ofensiva", "invocación", "acompañante", "mecánica"]
 obtained: "Se fabrica en una mesa en Altos Salones."
-cover: { src: "/images/instrumentos/mosca_mecanica.png", alt: "Mosca mecánica" }
+cover: { src: "/images/instrumentos/red/mosca_mecanica.webp", alt: "Mosca mecánica" }
 ---
 
 ## Descripción

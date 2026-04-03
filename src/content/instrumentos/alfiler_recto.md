@@ -5,7 +5,7 @@ order: 1
 color: "rojo"
 tags: ["ofensiva", "proyectil"]
 obtained: "Se consigue al inicio del juego."
-cover: { src: "/images/instrumentos/alfiler_recto.webp", alt: "Alfiler Recto" }
+cover: { src: "/images/instrumentos/red/alfiler_recto.webp", alt: "Alfiler Recto" }
 ---
 
 ## Descripción

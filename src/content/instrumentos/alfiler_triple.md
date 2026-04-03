@@ -5,7 +5,7 @@ order: 2
 color: "rojo"
 tags: ["ofensiva", "proyectil", "multi-disparo"]
 obtained: "Se encuentra en Greymoor, sobre el Lago de los Craws, tras superar una sección de plataformas."
-cover: { src: "/images/instrumentos/alfiler_triple.png", alt: "Alfiler Triple" }
+cover: { src: "/images/instrumentos/red/alfiler_triple.webp", alt: "Alfiler Triple" }
 ---
 
 ## Descripción

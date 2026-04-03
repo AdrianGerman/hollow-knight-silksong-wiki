@@ -5,7 +5,7 @@ order: 16
 color: "rojo"
 tags: ["ofensiva", "electricidad", "proyectil", "transformable"]
 obtained: "Se encuentra en una mesa dentro de una sala secreta en la parte noreste de Memorium."
-cover: { src: "/images/instrumentos/recipientes_voltaicos.png", alt: "Recipientes voltaicos" }
+cover: { src: "/images/instrumentos/red/recipientes_voltaicos.webp", alt: "Recipientes voltaicos" }
 ---
 
 ## Descripción

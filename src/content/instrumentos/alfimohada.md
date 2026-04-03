@@ -5,7 +5,7 @@ order: 9
 color: "rojo"
 tags: ["ofensiva", "proyectil", "trayectoria", "impacto"]
 obtained: "Se fabrica en una mesa de herramientas."
-cover: { src: "/images/instrumentos/alfimohada.png", alt: "Alfimohada" }
+cover: { src: "/images/instrumentos/red/alfimohada.webp", alt: "Alfimohada" }
 ---
 
 ## Descripción

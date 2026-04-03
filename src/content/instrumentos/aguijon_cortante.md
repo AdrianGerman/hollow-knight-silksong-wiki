@@ -5,7 +5,7 @@ order: 3
 color: "rojo"
 tags: ["ofensiva", "mejora", "buff"]
 obtained: "Se obtiene en las primeras zonas del juego tras explorar áreas iniciales."
-cover: { src: "/images/instrumentos/aguijon_cortante.png", alt: "Aguijón Cortante" }
+cover: { src: "/images/instrumentos/red/aguijon_cortante.webp", alt: "Aguijón Cortante" }
 ---
 
 ## Descripción

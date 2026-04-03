@@ -3,7 +3,7 @@ title: "Viuda"
 excerpt: "Amenazante jefa arácnida que ha maldecido la aldea de Campanilla con telarañas y campanas de seda."
 order: 7
 cover: { 
-  src: "/images/jefes/viuda.png", 
+  src: "/images/jefes/viuda.webp", 
   alt: "Viuda en combate" 
 } 
 tags: ["Campanilla", "Jefa principal", "Silksong"]

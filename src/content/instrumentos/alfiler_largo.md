@@ -5,7 +5,7 @@ order: 5
 color: "rojo"
 tags: ["ofensiva", "proyectil", "alcance"]
 obtained: "Se obtiene al explorar zonas más avanzadas, como mejora del Alfiler Recto."
-cover: { src: "/images/instrumentos/alfiler_largo.png", alt: "Alfiler Largo" }
+cover: { src: "/images/instrumentos/red/alfiler_largo.webp", alt: "Alfiler Largo" }
 ---
 
 ## Descripción

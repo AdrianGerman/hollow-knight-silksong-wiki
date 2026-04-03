@@ -5,7 +5,7 @@ order: 17
 color: "rojo"
 tags: ["ofensiva", "mejora", "buff", "fuego"]
 obtained: "Se encuentra en Muelles Profundos."
-cover: { src: "/images/instrumentos/piedra_pedernal.png", alt: "Piedra de pedernal" }
+cover: { src: "/images/instrumentos/red/piedra_pedernal.webp", alt: "Piedra de pedernal" }
 ---
 
 ## Descripción

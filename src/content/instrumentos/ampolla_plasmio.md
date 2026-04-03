@@ -5,7 +5,7 @@ order: 20
 color: "rojo"
 tags: ["ofensiva", "plasmio", "proyectil", "misión"]
 obtained: "Se obtiene al completar la misión relacionada con la Ampolla con aguja."
-cover: { src: "/images/instrumentos/ampolla_plasmio.png", alt: "Ampolla de plasmio" }
+cover: { src: "/images/instrumentos/red/ampolla_plasmio.webp", alt: "Ampolla de plasmio" }
 ---
 
 ## Descripción
@@ -36,7 +36,7 @@ Las herramientas rojas se recargan al descansar en un banco.
 
 ### Ampolla con aguja
 
-![Ampolla con aguja](/images/instrumentos/ampolla_aguja.png)
+![Ampolla con aguja](/images/instrumentos/red/ampolla_aguja.webp)
 
 **Descripción**  
 Versión inicial de la herramienta.
@@ -49,7 +49,7 @@ Versión inicial de la herramienta.
 
 ### Ampolla de plasmio
 
-![Ampolla de plasmio](/images/instrumentos/ampolla_plasmio.png)
+![Ampolla de plasmio](/images/instrumentos/red/ampolla_plasmio.webp)
 
 **Descripción**  
 Versión final y permanente.

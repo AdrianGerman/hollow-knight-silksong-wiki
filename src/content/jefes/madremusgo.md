@@ -3,7 +3,7 @@ title: "Madremusgo"
 excerpt: "Una colosal criatura vegetal que defiende su guarida con ferocidad y astucia natural."
 order: 1
 cover: { 
-  src: "/images/jefes/madremusgo.png", 
+  src: "/images/jefes/madremusgo.webp", 
   alt: "Madremusgo en combate" 
 }
 tags: ["Campos de Musgo", "Bestia", "Jefe principal"]

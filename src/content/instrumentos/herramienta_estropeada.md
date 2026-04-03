@@ -5,7 +5,7 @@ order: 11
 color: "rojo"
 tags: ["ofensiva", "variable", "material"]
 obtained: "Se encuentra en la zona sureste de Aguas Biliares."
-cover: { src: "/images/instrumentos/herramienta_estropeada.png", alt: "Herramienta Estropeada" }
+cover: { src: "/images/instrumentos/red/herramienta_estropeada.webp", alt: "Herramienta Estropeada" }
 ---
 
 ## Descripción
@@ -36,7 +36,7 @@ Cada variante cambia su rendimiento y estilo de uso.
 
 ### Honda Sedeña — Opción 1
 
-![Honda Sedeña](/images/instrumentos/honda_sedeña_1.png)
+![Honda Sedeña](/images/instrumentos/red/honda_sedeña_1.webp)
 
 **Tipo:** Herramienta roja  
 **Capacidad:** 30/30  
@@ -57,7 +57,7 @@ Utiliza cartuchos de coraza y la propia seda del portador para disparar.
 
 ### Honda Sedeña — Opción 2
 
-![Honda Sedeña](/images/instrumentos/honda_sedeña_2.png)
+![Honda Sedeña](/images/instrumentos/red/honda_sedeña_2.webp)
 
 **Tipo:** Herramienta roja  
 **Capacidad:** 24/24  
@@ -77,7 +77,7 @@ Utiliza cartuchos de coraza y la propia seda del portador para disparar.
 
 ### Honda Sedeña — Opción 3
 
-![Honda Sedeña](/images/instrumentos/honda_sedeña_3.png)
+![Honda Sedeña](/images/instrumentos/red/honda_sedeña_3.webp)
 
 **Tipo:** Herramienta roja  
 **Capacidad:** 16/16  

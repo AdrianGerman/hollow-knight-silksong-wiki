@@ -5,7 +5,7 @@ order: 6
 color: "rojo"
 tags: ["ofensiva", "proyectil", "retorno", "trayectoria"]
 obtained: "Puede comprarse al Skarr moteado en Marcha del Cazador o encontrarse tras derrotarlo."
-cover: { src: "/images/instrumentos/garra_curva.png", alt: "Garra Curva" }
+cover: { src: "/images/instrumentos/red/garra_curva.webp", alt: "Garra Curva" }
 ---
 
 ## Descripción

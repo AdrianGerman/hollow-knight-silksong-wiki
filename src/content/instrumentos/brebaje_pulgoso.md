@@ -5,7 +5,7 @@ order: 18
 color: "rojo"
 tags: ["ofensiva", "invocación", "enjambre"]
 obtained: "Se obtiene en Páramo Gris."
-cover: { src: "/images/instrumentos/brebaje_pulgoso.png", alt: "Brebaje pulgoso" }
+cover: { src: "/images/instrumentos/red/brebaje_pulgoso.webp", alt: "Brebaje pulgoso" }
 ---
 
 ## Descripción

@@ -5,7 +5,7 @@ order: 4
 color: "rojo"
 tags: ["ofensiva", "trampa", "control de zona"]
 obtained: "Se obtiene explorando zonas tempranas, generalmente tras resolver un pequeño desafío."
-cover: { src: "/images/instrumentos/tachuelas.png", alt: "Tachuelas" }
+cover: { src: "/images/instrumentos/red/tachuelas.webp", alt: "Tachuelas" }
 ---
 
 ## Descripción

@@ -5,7 +5,7 @@ order: 19
 color: "rojo"
 tags: ["ofensiva", "trampa", "objeto de misión", "área"]
 obtained: "Se encuentra en una sala oculta del Nido de Tejedora Atla, una vez obtenida la Capa Faydown."
-cover: { src: "/images/instrumentos/fijatrampas.png", alt: "Fijatrampas" }
+cover: { src: "/images/instrumentos/red/fijatrampas.webp", alt: "Fijatrampas" }
 ---
 
 ## Descripción
