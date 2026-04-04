@@ -3,7 +3,7 @@ title: "Nombre de la Herramienta"
 excerpt: "Breve descripción funcional de la herramienta."
 order: 1
 category: "herramientas"
-color: "rojo" # rojo | azul | amarillo
+color: "" # rojo | azul | amarillo
 tags: ["ofensiva", "exploracion", "defensiva"]
 obtained: "Zona o NPC donde se consigue"
 cover: { src: "./cover.jpg", alt: "Nombre de la herramienta" }
