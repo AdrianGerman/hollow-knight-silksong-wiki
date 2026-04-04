@@ -1,5 +1,19 @@
 ---
-const { href = "#", title, excerpt = "", cover = "", tags = [] } = Astro.props
+interface Props {
+  href?: string
+  title: string
+  excerpt?: string
+  cover?: string
+  tags?: string[]
+}
+
+const {
+  href = "#",
+  title,
+  excerpt = "",
+  cover = "",
+  tags = [],
+} = Astro.props as Props
 ---
 
 <a
@@ -7,13 +21,15 @@ const { href = "#", title, excerpt = "", cover = "", tags = [] } = Astro.props
   class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03]
           hover:bg-white/[0.05] transition hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-black/30 block"
 >
-  <div class="relative w-full aspect-[4/3] bg-white/[0.02]">
+  <div
+    class="relative w-full aspect-[4/3] bg-white/[0.02] flex items-center justify-center p-3"
+  >
     {
       cover ? (
         <img
           src={cover}
           alt=""
-          class="h-full w-full object-cover"
+          class="h-full w-full object-contain"
           loading="lazy"
         />
       ) : (
