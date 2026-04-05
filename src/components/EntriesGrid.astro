@@ -1,7 +1,7 @@
 ---
 import EntryCard from "./EntryCard.astro"
 
-type Item = {
+interface Item {
   href: string
   title: string
   excerpt?: string
@@ -13,7 +13,8 @@ interface Props {
   items: Item[]
   id?: string
 }
-const { items = [], id = "grid" } = Astro.props as Props
+
+const { items = [], id = "entries-grid" } = Astro.props
 
 const norm = (s: string) =>
   s
@@ -22,12 +23,16 @@ const norm = (s: string) =>
     .replace(/[\u0300-\u036f]/g, "")
 ---
 
-<ul id={id} class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+<ul
+  id={id}
+  class="mx-auto max-w-6xl px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 pb-12"
+  role="list"
+>
   {
     items.map((it) => (
       <li
         data-title={norm(it.title)}
-        data-tags={(it.tags || []).map(norm).join("|")}
+        data-tags={(it.tags ?? []).map(norm).join("|")}
       >
         <EntryCard
           href={it.href}

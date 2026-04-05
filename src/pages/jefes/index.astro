@@ -25,17 +25,10 @@ const tags = Array.from(tagSet)
 
 <Layout title="Jefes — Pharloom Archives">
   <Background />
-
   <SectionHeader
     title="Jefes"
     description="Encuentros principales de Pharloom. Guías de estrategia, patrones y recompensas."
   />
-
-  <CategoryToolbar
-    targetId="grid-jefes"
-    tags={tags}
-    placeholder="Buscar jefe…"
-  />
-
-  <EntriesGrid items={items} />
+  <CategoryToolbar gridId="grid-jefes" tags={tags} placeholder="Buscar jefe…" />
+  <EntriesGrid items={items} id="grid-jefes" />
 </Layout>

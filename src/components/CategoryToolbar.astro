@@ -1,10 +1,11 @@
 ---
-const {
-  targetId,
-  tags = [],
-  placeholder = "Buscar…",
-  accent = "#d4b46a",
-} = Astro.props
+interface Props {
+  gridId: string
+  tags?: string[]
+  placeholder?: string
+}
+
+const { gridId, tags = [], placeholder = "Buscar…" } = Astro.props
 ---
 
 <section class="mx-auto max-w-6xl px-4 pb-4">
@@ -13,61 +14,131 @@ const {
   >
     <div class="relative w-full md:w-96">
       <input
-        id="q"
+        id="cat-search"
         type="search"
         placeholder={placeholder}
-        class="w-full bg-transparent border border-white/10 rounded-xl px-3 py-2 text-sm outline-none focus:border-[--accent]"
-        style={`--accent:${accent}`}
+        autocomplete="off"
+        class="w-full bg-transparent border border-white/10 rounded-xl px-3 py-2 pr-9 text-sm outline-none focus:border-white/30"
+        data-grid={gridId}
+        aria-label={placeholder}
       />
       <div
-        class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-white/50"
+        class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-white/40 text-lg select-none"
+        aria-hidden="true"
       >
         ⌕
       </div>
     </div>
 
-    <div class="text-sm text-white/60">
-      Mostrando <span id="count">0</span> resultados
-    </div>
+    <p class="text-sm text-white/50">
+      Mostrando <span id="cat-count" class="text-white/80">0</span> resultados
+    </p>
   </div>
 
   {
     tags.length > 0 && (
-      <div class="mt-3 flex flex-wrap gap-2">
-        <button class="chip" data-tag="__all__">
+      <div
+        class="mt-3 flex flex-wrap gap-2"
+        role="group"
+        aria-label="Filtrar por etiqueta"
+      >
+        <button class="chip active" data-tag="__all__" type="button">
           Todos
         </button>
         {tags
           .sort((a, b) => a.localeCompare(b))
           .map((t) => (
-            <button class="chip" data-tag={t}>
+            <button class="chip" data-tag={t} type="button">
               {t}
             </button>
           ))}
       </div>
     )
   }
-
-  <style>
-    .chip {
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      background: rgba(255, 255, 255, 0.03);
-      padding: 0.4rem 0.7rem;
-      border-radius: 0.75rem;
-      font-size: 0.8rem;
-      color: rgba(255, 255, 255, 0.85);
-      transition:
-        background 0.2s ease,
-        transform 0.1s ease;
-    }
-    .chip:hover {
-      background: rgba(255, 255, 255, 0.06);
-      transform: translateY(-1px);
-    }
-    .chip.active {
-      background: color-mix(in oklab, var(--accent, #d4b46a) 85%, black);
-      border-color: transparent;
-      color: #1a0e12;
-    }
-  </style>
 </section>
+
+<script>
+  function norm(s: string) {
+    return s
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+  }
+
+  function initToolbar() {
+    const input = document.getElementById(
+      "cat-search",
+    ) as HTMLInputElement | null
+    const counter = document.getElementById("cat-count")
+    if (!input) return
+
+    const gridId = input.dataset.grid ?? "entries-grid"
+    const grid = document.getElementById(gridId)
+    if (!grid) return
+
+    const items = Array.from(
+      grid.querySelectorAll<HTMLElement>("li[data-title]"),
+    )
+    const chips = Array.from(
+      document.querySelectorAll<HTMLButtonElement>("[data-tag]"),
+    )
+    let activeTag = "__all__"
+
+    function update() {
+      const q = norm(input!.value.trim())
+      let visible = 0
+
+      items.forEach((li) => {
+        const title = li.dataset.title ?? ""
+        const tags = li.dataset.tags ?? ""
+        const matchesQuery = !q || title.includes(q) || tags.includes(q)
+        const matchesTag =
+          activeTag === "__all__" || tags.split("|").includes(norm(activeTag))
+        const show = matchesQuery && matchesTag
+        li.style.display = show ? "" : "none"
+        if (show) visible++
+      })
+
+      if (counter) counter.textContent = String(visible)
+    }
+
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        activeTag = chip.dataset.tag ?? "__all__"
+        chips.forEach((c) =>
+          c.classList.toggle("active", c.dataset.tag === activeTag),
+        )
+        update()
+      })
+    })
+
+    input.addEventListener("input", update)
+    update()
+  }
+
+  document.addEventListener("DOMContentLoaded", initToolbar)
+</script>
+
+<style>
+  .chip {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 0.3rem 0.65rem;
+    border-radius: 0.625rem;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.7);
+    transition:
+      background 160ms,
+      color 160ms;
+    cursor: pointer;
+  }
+  .chip:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: white;
+  }
+  .chip.active {
+    background: rgba(212, 180, 106, 0.15);
+    border-color: rgba(212, 180, 106, 0.35);
+    color: #d4b46a;
+  }
+</style>
