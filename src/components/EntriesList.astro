@@ -17,11 +17,11 @@ const { items = [] } = Astro.props as Props
 
 const colorLabel = (c?: Item["color"]) =>
   c === "rojo"
-    ? "🟥 Roja"
+    ? "Activa"
     : c === "azul"
-      ? "🟦 Azul"
+      ? "Pasiva"
       : c === "amarillo"
-        ? "🟨 Amarilla"
+        ? "Utilidad"
         : null
 ---
 
@@ -29,8 +29,11 @@ const colorLabel = (c?: Item["color"]) =>
   {
     items.map((it) => (
       <li class="py-4">
-        <a href={it.href} class="flex gap-4 hover:opacity-95">
-          <div class="h-16 w-16 shrink-0 rounded-xl border border-white/10 bg-white/[0.02] p-1 flex items-center justify-center">
+        <a
+          href={it.href}
+          class="group flex items-start gap-4 rounded-2xl px-2 py-2 transition hover:bg-white/[0.03]"
+        >
+          <div class="h-14 w-14 shrink-0 rounded-xl border border-white/10 bg-white/[0.02] p-1.5 flex items-center justify-center">
             {it.cover ? (
               <img
                 src={it.cover}
@@ -39,35 +42,41 @@ const colorLabel = (c?: Item["color"]) =>
                 loading="lazy"
               />
             ) : (
-              <div class="h-full w-full rounded-lg bg-white/[0.02]" />
+              <div class="h-full w-full rounded-lg bg-gradient-to-br from-white/5 to-white/0" />
             )}
           </div>
 
           <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-2">
-              <h3 class="truncate text-base text-white">{it.title}</h3>
+            <div class="flex items-start justify-between gap-3">
+              <div class="min-w-0">
+                <h3 class="truncate font-[Cinzel] text-lg text-white transition group-hover:text-[#f1e6c8]">
+                  {it.title}
+                </h3>
 
-              {colorLabel(it.color) && (
-                <span class="text-[11px] px-2 py-1 rounded-full border border-white/10 text-white/80 bg-white/[0.03]">
-                  {colorLabel(it.color)}
-                </span>
-              )}
+                {(colorLabel(it.color) || it.obtained) && (
+                  <p class="mt-1 text-sm text-white/45">
+                    {colorLabel(it.color)}
+                    {colorLabel(it.color) && it.obtained ? " · " : ""}
+                    {it.obtained}
+                  </p>
+                )}
+              </div>
 
-              {it.obtained && (
-                <span class="text-[11px] px-2 py-1 rounded-full border border-white/10 text-white/70 bg-white/[0.02]">
-                  {it.obtained}
-                </span>
-              )}
+              <span class="mt-1 text-sm text-[#d4b46a]/80 opacity-0 transition group-hover:opacity-100">
+                →
+              </span>
             </div>
 
             {it.excerpt && (
-              <p class="mt-1 text-sm text-white/65">{it.excerpt}</p>
+              <p class="mt-2 line-clamp-2 text-sm text-white/65">
+                {it.excerpt}
+              </p>
             )}
 
             {Array.isArray(it.tags) && it.tags.length > 0 && (
-              <div class="mt-2 flex flex-wrap gap-2">
-                {it.tags.map((t) => (
-                  <span class="text-[11px] px-2 py-1 rounded-full border border-white/10 text-white/60 bg-white/[0.02]">
+              <div class="mt-3 flex flex-wrap gap-2">
+                {it.tags.map((t: string) => (
+                  <span class="text-[11px] uppercase tracking-wide text-white/35">
                     {t}
                   </span>
                 ))}
