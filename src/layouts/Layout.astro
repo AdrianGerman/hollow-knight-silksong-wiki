@@ -1,4 +1,5 @@
 ---
+import Nav from "@/components/Nav.astro"
 import "../styles/global.css"
 const { title = "Wiki HK", description = "Conocimiento de Hallownest" } =
   Astro.props
@@ -8,6 +9,7 @@ const { title = "Wiki HK", description = "Conocimiento de Hallownest" } =
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/images/silksong.ico" type="image/x-icon" />
     <meta name="description" content={description} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -21,6 +23,7 @@ const { title = "Wiki HK", description = "Conocimiento de Hallownest" } =
     class="min-h-screen text-[--color-ink] font-[--font-body] bg-[--color-bg] selection:bg-[--color-accent]/20"
   >
     <div class="blur-motes" aria-hidden="true"></div>
+    <Nav />
     <slot />
   </body>
 </html>
