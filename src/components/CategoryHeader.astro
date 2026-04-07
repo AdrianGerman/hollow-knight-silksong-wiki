@@ -1,9 +1,19 @@
-<section class="mx-auto max-w-6xl px-4 pt-12 pb-6">
-  <h1 class="font-[Cinzel] text-3xl md:text-5xl text-white">Jefes</h1>
-  <p class="mt-3 text-white/70 max-w-2xl">
-    Encuentros principales de Pharloom. Guías de estrategia, patrones y
-    recompensas.
-  </p>
+---
+interface Props {
+  title: string
+  description?: string
+}
+const { title, description } = Astro.props
+---
 
-  <div class="mt-6 h-px w-24 bg-white/10"></div>
+<section class="mx-auto max-w-6xl px-4 pt-12 pb-6">
+  <h1 class="font-(--font-display) text-3xl md:text-5xl text-(--color-ink)">
+    {title}
+  </h1>
+  {
+    description && (
+      <p class="mt-3 text-(--color-ink-muted) max-w-2xl">{description}</p>
+    )
+  }
+  <div class="mt-6 h-px w-24 bg-(--color-accent) opacity-20"></div>
 </section>

@@ -31,7 +31,7 @@ html {
 }
 
 .card {
-  @apply rounded-[--radius-xl] bg-[--color-surface] shadow-[--shadow-soft] border border-[--color-border];
+  @apply rounded-(--radius-xl) bg-(--color-surface) shadow-(--shadow-soft) border border-(--color-border);
 }
 
 .blur-motes {
@@ -47,7 +47,7 @@ html {
 }
 
 .hl-title {
-  @apply font-[--font-display] tracking-wide text-[--color-ink];
+  @apply font-(--font-display) tracking-wide text-(--color-ink);
 }
 .hl-accent {
   color: var(--color-accent);
