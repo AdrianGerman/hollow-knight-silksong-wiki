@@ -7,8 +7,11 @@
   --color-bg: #070b12;
   --color-surface: #0b1018;
   --color-border: #1a2230;
-  --color-accent: #8fd3ff;
-  --color-accent-2: #9aa2ff;
+
+  --color-accent: #d4b46a;
+  --color-accent-dim: rgba(212, 180, 106, 0.15);
+  --color-accent-glow: rgba(212, 180, 106, 0.1);
+
   --radius-xl: 1.25rem;
   --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.35);
 
