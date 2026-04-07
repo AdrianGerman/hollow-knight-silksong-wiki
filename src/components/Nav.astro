@@ -44,7 +44,7 @@ function isCurrent(href: string) {
               class={`px-3 py-1.5 rounded-lg font-[Cinzel] text-[0.7rem] tracking-widest uppercase transition
               ${
                 isCurrent(href)
-                  ? "text-[#d4b46a] bg-[#d4b46a]/10"
+                  ? "text-[--color-accent] bg-[--color-accent-dim]"
                   : "text-white/50 hover:text-white/90 hover:bg-white/5"
               }`}
               aria-current={isCurrent(href) ? "page" : undefined}
@@ -90,7 +90,7 @@ function isCurrent(href: string) {
               class={`block px-3 py-2 rounded-lg font-[Cinzel] text-[0.7rem] tracking-widest uppercase transition
               ${
                 isCurrent(href)
-                  ? "text-[#d4b46a] bg-[#d4b46a]/10"
+                  ? "text-[--color-accent] bg-[--color-accent-dim]"
                   : "text-white/50 hover:text-white/90 hover:bg-white/5"
               }`}
               aria-current={isCurrent(href) ? "page" : undefined}
