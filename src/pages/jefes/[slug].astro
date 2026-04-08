@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 import Background from "@/components/Background.astro"
+import Breadcrumb from "@/components/Breadcrumb.astro"
 import { getCollection, getEntry } from "astro:content"
 import { Image } from "astro:assets"
 
@@ -21,14 +22,13 @@ const { Content } = await entry.render()
   <Background />
 
   <section class="mx-auto max-w-4xl px-4 pt-10 pb-4">
-    <nav class="mb-3 text-sm text-white/60">
-      <a href="/" class="hover:underline">Inicio</a>
-      <span class="mx-2">/</span>
-      <a href="/jefes" class="hover:underline">Jefes</a>
-      <span class="mx-2">/</span>
-      <span class="text-white/80">{data.title}</span>
-    </nav>
-
+    <Breadcrumb
+      crumbs={[
+        { href: "/", label: "Inicio" },
+        { href: "/jefes", label: "Jefes" },
+        { label: data.title },
+      ]}
+    />
     <h1 class="font-[Cinzel] text-3xl md:text-5xl text-white">{data.title}</h1>
 
     {
