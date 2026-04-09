@@ -4,7 +4,7 @@ import SectionHeader from "@/components/SectionHeader.astro"
 import EntriesGrid from "@/components/EntriesGrid.astro"
 import CategoryToolbar from "@/components/CategoryToolbar.astro"
 import Background from "@/components/Background.astro"
-
+import Breadcrumb from "@/components/Breadcrumb.astro"
 import { getCollection } from "astro:content"
 
 const docs = await getCollection("jefes")
@@ -29,6 +29,9 @@ const tags = Array.from(tagSet)
     title="Jefes"
     description="Encuentros principales de Pharloom. Guías de estrategia, patrones y recompensas."
   />
+  <div class="mx-auto max-w-6xl px-4">
+    <Breadcrumb crumbs={[{ href: "/", label: "Inicio" }, { label: "Jefes" }]} />
+  </div>
   <CategoryToolbar gridId="grid-jefes" tags={tags} placeholder="Buscar jefe…" />
   <EntriesGrid items={items} id="grid-jefes" />
 </Layout>

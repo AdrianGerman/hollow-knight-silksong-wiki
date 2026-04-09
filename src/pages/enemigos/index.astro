@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro"
 import SectionHeader from "@/components/SectionHeader.astro"
 import EntriesGrid from "@/components/EntriesGrid.astro"
 import Background from "@/components/Background.astro"
+import Breadcrumb from "@/components/Breadcrumb.astro"
 import { getCollection } from "astro:content"
 
 const docs = await getCollection("enemigos")
@@ -24,6 +25,11 @@ const items = docs
     title="Criaturas"
     description="Enemigos y fauna de Pharloom. Patrones, resistencias y consejos para sobrevivir a sus ataques."
   />
+  <div class="mx-auto max-w-6xl px-4">
+    <Breadcrumb
+      crumbs={[{ href: "/", label: "Inicio" }, { label: "Criaturas" }]}
+    />
+  </div>
 
   <EntriesGrid items={items} />
 </Layout>

@@ -4,6 +4,7 @@ import SectionHeader from "@/components/SectionHeader.astro"
 import EntriesGrid from "@/components/EntriesGrid.astro"
 import EntriesList from "@/components/EntriesList.astro"
 import Background from "@/components/Background.astro"
+import Breadcrumb from "@/components/Breadcrumb.astro"
 import { getCollection } from "astro:content"
 import type { CollectionEntry } from "astro:content"
 
@@ -35,6 +36,9 @@ const sinColor = items.filter((i) => !i.color)
     title="Instrumentos"
     description="Herramientas, amuletos y objetos de utilidad que Hornet encuentra en su viaje. Descubre sus efectos, mejoras y combinaciones ideales."
   />
+  <div class="mx-auto max-w-6xl px-4">
+    <Breadcrumb crumbs={[{ href: "/", label: "Inicio" }, { label: "Instrumentos" }]} />
+  </div>
 
   <!-- test: vista multiple (cuadricula y lista) -->
 <div class="mx-auto max-w-6xl px-4">
@@ -211,4 +215,6 @@ const sinColor = items.filter((i) => !i.color)
   </section>
 </Layout>
 
-<script src="/src/scripts/viewToggle.js"></script>
+<script>
+  import "../../scripts/viewToggle.js"
+</script>

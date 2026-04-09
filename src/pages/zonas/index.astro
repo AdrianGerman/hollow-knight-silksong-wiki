@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro"
 import SectionHeader from "@/components/SectionHeader.astro"
 import EntriesGrid from "@/components/EntriesGrid.astro"
 import Background from "@/components/Background.astro"
+import Breadcrumb from "@/components/Breadcrumb.astro"
 import { getCollection } from "astro:content"
 
 const docs = await getCollection("zonas")
@@ -25,6 +26,9 @@ const items = docs
     title="Zonas"
     description="Regiones de Pharloom: rutas, puntos de interés y conexiones con otras áreas del mapa."
   />
+  <div class="mx-auto max-w-6xl px-4">
+    <Breadcrumb crumbs={[{ href: "/", label: "Inicio" }, { label: "Zonas" }]} />
+  </div>
 
   <EntriesGrid items={items} />
 </Layout>
