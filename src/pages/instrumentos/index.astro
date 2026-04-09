@@ -3,7 +3,6 @@ import Layout from "@/layouts/Layout.astro"
 import SectionHeader from "@/components/SectionHeader.astro"
 import EntriesGrid from "@/components/EntriesGrid.astro"
 import EntriesList from "@/components/EntriesList.astro"
-import Background from "@/components/Background.astro"
 import Breadcrumb from "@/components/Breadcrumb.astro"
 import { getCollection } from "astro:content"
 import type { CollectionEntry } from "astro:content"
@@ -13,206 +12,195 @@ const docs = await getCollection("instrumentos")
 const normalize = (d: CollectionEntry<"instrumentos">) => ({
   href: `/${d.collection}/${d.slug}`,
   title: d.data.title,
-  excerpt: d.data.excerpt || "",
-  cover: d.data.cover?.src || "",
-  tags: d.data.tags || [],
+  excerpt: d.data.excerpt ?? "",
+  cover: d.data.cover?.src ?? "",
+  tags: d.data.tags ?? [],
   color: d.data.color,
   obtained: d.data.obtained,
   order: d.data.order ?? 9999,
 })
+
 const items = docs.map(normalize).sort((a, b) => a.order - b.order)
 
-const rojos = items.filter((i) => i.color === "rojo")
-const azules = items.filter((i) => i.color === "azul")
-const amarillos = items.filter((i) => i.color === "amarillo")
+const grupos = [
+  {
+    key: "rojo",
+    label: "Rojas — Activas",
+    desc: "Herramientas activas orientadas a combate (se recargan en banco).",
+    dot: "bg-red-400",
+    items: items.filter((i) => i.color === "rojo"),
+    gridId: "grid-rojos",
+    listId: "list-rojos",
+  },
+  {
+    key: "azul",
+    label: "Azules — Pasivas",
+    desc: "Herramientas pasivas defensivas / supervivencia.",
+    dot: "bg-blue-400",
+    items: items.filter((i) => i.color === "azul"),
+    gridId: "grid-azules",
+    listId: "list-azules",
+  },
+  {
+    key: "amarillo",
+    label: "Amarillas — Utilidad",
+    desc: "Utilidad, exploración y soporte (calidad de vida).",
+    dot: "bg-yellow-400",
+    items: items.filter((i) => i.color === "amarillo"),
+    gridId: "grid-amarillos",
+    listId: "list-amarillos",
+  },
+]
+
 const sinColor = items.filter((i) => !i.color)
 ---
 
-
 <Layout title="Instrumentos — Pharloom Archives">
-  <Background />
-
   <SectionHeader
     title="Instrumentos"
-    description="Herramientas, amuletos y objetos de utilidad que Hornet encuentra en su viaje. Descubre sus efectos, mejoras y combinaciones ideales."
+    description="Herramientas, amuletos y objetos de utilidad que Hornet encuentra en su viaje."
   />
+
   <div class="mx-auto max-w-6xl px-4">
-    <Breadcrumb crumbs={[{ href: "/", label: "Inicio" }, { label: "Instrumentos" }]} />
+    <Breadcrumb
+      crumbs={[{ href: "/", label: "Inicio" }, { label: "Instrumentos" }]}
+    />
   </div>
 
-  <!-- test: vista multiple (cuadricula y lista) -->
-<div class="mx-auto max-w-6xl px-4">
-  <div class="mt-4 inline-flex overflow-hidden rounded-xl border border-white/10 bg-white/[0.03]">
-    <button
-      id="view-grid"
-      type="button"
-      class="group px-3 py-2 transition hover:bg-white/[0.06] data-[active=true]:bg-white/[0.06]"
-      aria-pressed="true"
-      data-active="true"
-      title="Vista en cuadrícula"
+  <!-- Toggle vista -->
+  <div class="mx-auto max-w-6xl px-4 mb-2">
+    <div
+      class="inline-flex overflow-hidden rounded-xl border border-white/10 bg-white/[0.03]"
     >
-      <svg
-        class="h-5 w-5 text-white/70 transition group-data-[active=true]:text-white"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="1.5"
-        viewBox="0 0 24 24"
+      <button
+        id="view-grid"
+        type="button"
+        class="group px-3 py-2 transition hover:bg-white/[0.06] data-[active=true]:bg-white/[0.06]"
+        aria-pressed="true"
+        data-active="true"
+        title="Vista en cuadrícula"
       >
-        <rect x="3" y="3" width="7" height="7" rx="1"></rect>
-        <rect x="14" y="3" width="7" height="7" rx="1"></rect>
-        <rect x="14" y="14" width="7" height="7" rx="1"></rect>
-        <rect x="3" y="14" width="7" height="7" rx="1"></rect>
-      </svg>
-    </button>
-
-    <button
-      id="view-list"
-      type="button"
-      class="group px-3 py-2 transition hover:bg-white/[0.06] data-[active=true]:bg-white/[0.06]"
-      aria-pressed="false"
-      data-active="false"
-      title="Vista en lista"
-    >
-      <svg
-        class="h-5 w-5 text-white/70 transition group-data-[active=true]:text-white"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="1.5"
-        viewBox="0 0 24 24"
+        <svg
+          class="h-5 w-5 text-(--color-ink-muted) transition group-data-[active=true]:text-(--color-ink)"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+          <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+          <rect x="14" y="14" width="7" height="7" rx="1"></rect>
+          <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+        </svg>
+      </button>
+      <button
+        id="view-list"
+        type="button"
+        class="group px-3 py-2 transition hover:bg-white/[0.06] data-[active=true]:bg-white/[0.06]"
+        aria-pressed="false"
+        data-active="false"
+        title="Vista en lista"
       >
-        <line x1="8" y1="6" x2="21" y2="6"></line>
-        <line x1="8" y1="12" x2="21" y2="12"></line>
-        <line x1="8" y1="18" x2="21" y2="18"></line>
-        <circle cx="4" cy="6" r="1"></circle>
-        <circle cx="4" cy="12" r="1"></circle>
-        <circle cx="4" cy="18" r="1"></circle>
-      </svg>
-    </button>
+        <svg
+          class="h-5 w-5 text-(--color-ink-muted) transition group-data-[active=true]:text-(--color-ink)"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <line x1="8" y1="6" x2="21" y2="6"></line>
+          <line x1="8" y1="12" x2="21" y2="12"></line>
+          <line x1="8" y1="18" x2="21" y2="18"></line>
+          <circle cx="4" cy="6" r="1"></circle>
+          <circle cx="4" cy="12" r="1"></circle>
+          <circle cx="4" cy="18" r="1"></circle>
+        </svg>
+      </button>
+    </div>
   </div>
-</div>
 
-  <section class="mx-auto max-w-6xl px-4 pb-12">
-    <!-- 🟥 ROJOS -->
-    <div class="mt-8">
-      <div class="mb-4 flex items-end justify-between gap-4">
-        <div>
-          <h2 class="font-[Cinzel] text-2xl text-white">🟥 Rojas</h2>
-          <p class="text-sm text-white/60">
-            Herramientas activas orientadas a combate (se recargan en banco).
-          </p>
-        </div>
-        <span class="text-xs text-white/50">{rojos.length} item(s)</span>
-      </div>
+  <!-- Grupos de color -->
+  <div class="mx-auto max-w-6xl px-4 pb-14 space-y-10">
+    {
+      grupos.map(({ label, desc, dot, items: grupoItems, gridId, listId }) => (
+        <section>
+          <div class="mb-4 flex items-end justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <span
+                class={`h-3 w-3 rounded-full shrink-0 ${dot}`}
+                aria-hidden="true"
+              />
+              <div>
+                <h2 class="font-[Cinzel] text-xl text-(--color-ink)">
+                  {label}
+                </h2>
+                <p class="text-sm text-(--color-ink-muted)">{desc}</p>
+              </div>
+            </div>
+            <span class="text-xs text-(--color-ink-muted) shrink-0">
+              {grupoItems.length}{" "}
+              {grupoItems.length === 1 ? "instrumento" : "instrumentos"}
+            </span>
+          </div>
 
-      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
-        {
-          rojos.length > 0 ? (
-            <div class="view-grid">
-              <EntriesGrid items={rojos} />
-            </div>
-
-            <div class="view-list hidden">
-              <EntriesList items={rojos} />
-            </div>
-          ) : (
-            <div class="py-6 text-sm text-white/60">
-              Aún no hay herramientas rojas.
-            </div>
-          )
-        }
-      </div>
-    </div>
-
-    <!-- 🟦 AZULES -->
-    <div class="mt-10">
-      <div class="mb-4 flex items-end justify-between gap-4">
-        <div>
-          <h2 class="font-[Cinzel] text-2xl text-white">🟦 Azules</h2>
-          <p class="text-sm text-white/60">
-            Herramientas pasivas defensivas / supervivencia.
-          </p>
-        </div>
-        <span class="text-xs text-white/50">{azules.length} item(s)</span>
-      </div>
-
-      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
-        {
-          azules.length > 0 ? (
-            <div class="view-grid">
-              <EntriesGrid items={azules} />
-            </div>
-
-            <div class="view-list hidden">
-              <EntriesList items={azules} />
-            </div>
-          ) : (
-            <div class="py-6 text-sm text-white/60">
-              Aún no hay herramientas azules.
-            </div>
-          )
-        }
-      </div>
-    </div>
-
-    <!-- 🟨 AMARILLOS -->
-    <div class="mt-10">
-      <div class="mb-4 flex items-end justify-between gap-4">
-        <div>
-          <h2 class="font-[Cinzel] text-2xl text-white">🟨 Amarillas</h2>
-          <p class="text-sm text-white/60">
-            Utilidad, exploración y soporte (calidad de vida).
-          </p>
-        </div>
-        <span class="text-xs text-white/50">{amarillos.length} item(s)</span>
-      </div>
-
-      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
-        {
-          amarillos.length > 0 ? (
-            <div class="view-grid">
-              <EntriesGrid items={amarillos} />
-            </div>
-
-            <div class="view-list hidden">
-              <EntriesList items={amarillos} />
-            </div>
-          ) : (
-            <div class="py-6 text-sm text-white/60">
-              Aún no hay herramientas amarillas.
-            </div>
-          )
-        }
-      </div>
-    </div>
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
+            {grupoItems.length > 0 ? (
+              <>
+                <div class="view-grid">
+                  <EntriesGrid items={grupoItems} id={gridId} />
+                </div>
+                <div class="view-list hidden">
+                  <EntriesList items={grupoItems} id={listId} />
+                </div>
+              </>
+            ) : (
+              <p class="py-6 text-sm text-(--color-ink-muted)">
+                Aún no hay instrumentos en esta categoría.
+              </p>
+            )}
+          </div>
+        </section>
+      ))
+    }
 
     {
       sinColor.length > 0 && (
-        <div class="mt-10">
+        <section>
           <div class="mb-4 flex items-end justify-between gap-4">
-            <div>
-              <h2 class="font-[Cinzel] text-2xl text-white/90">
-                ⚪ Sin clasificar
-              </h2>
-              <p class="text-sm text-white/60">
-                Entradas sin <code>color</code> en el frontmatter.
-              </p>
+            <div class="flex items-center gap-3">
+              <span
+                class="h-3 w-3 rounded-full shrink-0 bg-white/20"
+                aria-hidden="true"
+              />
+              <div>
+                <h2 class="font-[Cinzel] text-xl text-(--color-ink-muted)">
+                  Sin clasificar
+                </h2>
+                <p class="text-sm text-(--color-ink-muted)">
+                  Entradas sin <code>color</code> en el frontmatter.
+                </p>
+              </div>
             </div>
-            <span class="text-xs text-white/50">{sinColor.length} item(s)</span>
+            <span class="text-xs text-(--color-ink-muted) shrink-0">
+              {sinColor.length}{" "}
+              {sinColor.length === 1 ? "instrumento" : "instrumentos"}
+            </span>
           </div>
 
           <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
             <div class="view-grid">
-              <EntriesGrid items={sinColor} />
+              <EntriesGrid items={sinColor} id="grid-sin-color" />
             </div>
-
             <div class="view-list hidden">
-              <EntriesList items={sinColor} />
+              <EntriesList items={sinColor} id="list-sin-color" />
             </div>
           </div>
-        </div>
+        </section>
       )
     }
-  </section>
+  </div>
 </Layout>
 
 <script>

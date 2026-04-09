@@ -11,9 +11,10 @@ type Item = {
 
 interface Props {
   items: Item[]
+  id?: string
 }
 
-const { items = [] } = Astro.props as Props
+const { items = [], id = "entries-list" } = Astro.props
 
 const colorLabel = (c?: Item["color"]) =>
   c === "rojo"
