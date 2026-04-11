@@ -6,6 +6,8 @@ import CategoryToolbar from "@/components/CategoryToolbar.astro"
 import Background from "@/components/Background.astro"
 import Breadcrumb from "@/components/Breadcrumb.astro"
 import { getCollection } from "astro:content"
+import ViewToggle from "@/components/ViewToggle.astro"
+import EntriesList from "@/components/EntriesList.astro"
 
 const docs = await getCollection("jefes")
 const items = docs
@@ -13,18 +15,16 @@ const items = docs
   .map(({ data, slug, collection }) => ({
     href: `/${collection}/${slug}`,
     title: data.title,
-    excerpt: data.excerpt || "",
-    cover: data.cover?.src || "",
-    tags: data.tags || [],
+    excerpt: data.excerpt ?? "",
+    cover: data.cover?.src ?? "",
+    tags: data.tags ?? [],
   }))
 
-const tagSet = new Set<string>()
-items.forEach((i) => (i.tags || []).forEach((t) => tagSet.add(t)))
-const tags = Array.from(tagSet)
+const tags = [...new Set(items.flatMap((i) => i.tags))]
+const GRID_ID = "grid-jefes"
 ---
 
 <Layout title="Jefes — Pharloom Archives">
-  <Background />
   <SectionHeader
     title="Jefes"
     description="Encuentros principales de Pharloom. Guías de estrategia, patrones y recompensas."
@@ -32,6 +32,20 @@ const tags = Array.from(tagSet)
   <div class="mx-auto max-w-6xl px-4">
     <Breadcrumb crumbs={[{ href: "/", label: "Inicio" }, { label: "Jefes" }]} />
   </div>
-  <CategoryToolbar gridId="grid-jefes" tags={tags} placeholder="Buscar jefe…" />
-  <EntriesGrid items={items} id="grid-jefes" />
+  <CategoryToolbar gridId={GRID_ID} tags={tags} placeholder="Buscar jefe…" />
+
+  <ViewToggle />
+
+  <div class="mx-auto max-w-6xl px-4 pb-12">
+    <div class="view-grid">
+      <EntriesGrid items={items} id={GRID_ID} />
+    </div>
+    <div class="view-list hidden">
+      <EntriesList items={items} id="list-jefes" />
+    </div>
+  </div>
 </Layout>
+
+<script>
+  import "../../scripts/viewToggle.js"
+</script>
