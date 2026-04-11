@@ -72,17 +72,21 @@ const colorLabel =
 
   {
     data.cover?.src && (
-      <div class="mx-auto max-w-4xl px-4">
-        <img
-          src={data.cover.src}
-          alt={data.cover.alt ?? data.title}
-          class="w-full rounded-2xl border border-white/10 bg-white/[0.02]"
-          loading="lazy"
-        />
+      <div class="mx-auto max-w-4xl px-4 mt-6">
+        <div class="relative w-full h-72 rounded-2xl border border-white/10 bg-white/[0.02] overflow-hidden flex items-center justify-center">
+          <img
+            src={data.cover.src}
+            alt={data.cover.alt}
+            width={800}
+            height={400}
+            class="max-h-64 max-w-[60%] object-contain transition-opacity duration-500 opacity-0 onload"
+            loading="lazy"
+            onload="this.classList.remove('opacity-0')"
+          />
+        </div>
       </div>
     )
   }
-
   <section class="mx-auto max-w-4xl px-4 py-8">
     <article class="prose prose-invert max-w-none">
       <Content />
