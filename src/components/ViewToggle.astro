@@ -1,0 +1,56 @@
+---
+
+---
+
+<div class="mx-auto max-w-6xl px-4 mb-2">
+  <div
+    class="inline-flex overflow-hidden rounded-xl border border-white/10 bg-white/[0.03]"
+  >
+    <button
+      id="view-grid"
+      type="button"
+      class="group px-3 py-2 transition hover:bg-white/[0.06] data-[active=true]:bg-white/[0.06]"
+      aria-pressed="true"
+      data-active="true"
+      title="Vista en cuadrícula"
+    >
+      <svg
+        class="h-5 w-5 text-(--color-ink-muted) transition group-data-[active=true]:text-(--color-ink)"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+        <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+        <rect x="14" y="14" width="7" height="7" rx="1"></rect>
+        <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+      </svg>
+    </button>
+    <button
+      id="view-list"
+      type="button"
+      class="group px-3 py-2 transition hover:bg-white/[0.06] data-[active=true]:bg-white/[0.06]"
+      aria-pressed="false"
+      data-active="false"
+      title="Vista en lista"
+    >
+      <svg
+        class="h-5 w-5 text-(--color-ink-muted) transition group-data-[active=true]:text-(--color-ink)"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <line x1="8" y1="6" x2="21" y2="6"></line>
+        <line x1="8" y1="12" x2="21" y2="12"></line>
+        <line x1="8" y1="18" x2="21" y2="18"></line>
+        <circle cx="4" cy="6" r="1"></circle>
+        <circle cx="4" cy="12" r="1"></circle>
+        <circle cx="4" cy="18" r="1"></circle>
+      </svg>
+    </button>
+  </div>
+</div>
