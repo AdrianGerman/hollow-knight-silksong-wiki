@@ -6,7 +6,7 @@ cover: {
   src: "/images/jefes/bestia-alada.webp", 
   alt: "Bestia alada en combate" 
 } 
-tags: ["Páramo Gris", "Jefe", "Volador"]
+tags: ["Páramo Gris", "Acto I"]
 location: "Páramo Gris"
 difficulty: "media-alta"
 salud: 900

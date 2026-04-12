@@ -1,13 +1,13 @@
 ---
-title: "Bestia campana"
-excerpt: "Gran insecto duro-hueso que habita y recorre las venas de las campanas antiguas de Pharloom."
-order: 1
+title: "Bestia Campana"
+excerpt: "Gran insecto duro-hueso que habita y recorre las venas de las campanas antiguas de Telalejana."
+order: 2
 cover: { 
   src: "/images/jefes/bestia-campana.webp", 
-  alt: "Bestia campana en combate" 
+  alt: "Bestia Campana en combate" 
 }
-tags: ["Campos de Musgo", "Bestia", "Jefe principal"]
-location: "Campos de Musgo"
+tags: ["La Médula", "Acto I"]
+location: "La Médula"
 difficulty: "media"
 salud: 900
 fases: 2
@@ -17,39 +17,39 @@ videos:
 ---
 
 ## Descripción
-La Bestia Campana es una criatura enorme de caparazón duro que vive en la red de campanas antiguas del reino de Pharloom. Tras liberarla de sus ataduras de seda mediante la habilidad Lanza Seda, la criatura se convierte primero en rival y luego en aliada, permitiéndote utilizarla como medio de transporte entre estaciones de campana (viaje rápido).
-Se dice que recorre las “venas metálicas” que conectan las campanas de Pharloom, lo cual explica su presencia en la zona de “Los Campos de Musgo” (o equivalentes en la localización).
+La Bestia Campana es una criatura enorme de caparazón duro que vive en la red de campanas antiguas de Telalejana. Tras liberarla de sus ataduras de seda mediante la habilidad Lanza Sedeña, la criatura se convierte primero en rival y luego en aliada, permitiéndote utilizarla como medio de transporte entre estaciones de campana.
 
+Se dice que recorre las venas metálicas que conectan las campanas de Telalejana, lo cual explica su presencia en La Médula.
 
 ## Comportamiento y tácticas
-La batalla con la Bestia Campana se divide en dos fases. Durante el combate, la criatura pasa la mayor parte del tiempo bajo tierra o emergiendo desde el suelo, y emite señales visuales (como polvo, temblores o vapor) para indicar sus ataques.
-
+La batalla se divide en dos fases. Durante el combate, la criatura pasa la mayor parte del tiempo bajo tierra o emergiendo desde el suelo, emitiendo señales visuales como polvo, temblores o vapor para indicar sus ataques.
 
 ## Fase 1
-- Aparece emergiendo desde el suelo para cargar a través del escenario de un extremo al otro.
-- Salta en el aire para caer en el otro extremo del escenario. Evadirlo y atacar cuando aterriza es clave.
-- Dejará caer o lanzará dos campanas rodantes desde su aparición: cuando la nube de polvo aparece en el centro, prepárate para esquivar hacia los lados. 
+- Emerge desde el suelo para cargar a través del escenario de un extremo al otro.
+- Salta en el aire para caer en el otro extremo del escenario — evádelo y ataca cuando aterrice.
+- Lanza dos campanas rodantes al emerger: cuando aparezca una nube de polvo en el centro, prepárate para esquivar hacia los lados.
 
-## Fase 2 (al alcanzar aproximadamente la mitad de su salud)
-- Además de los ataques anteriores, la Bestia Campana emite un rugido, el suelo tiembla y caen múltiples campanas desde el techo. Debes estar pendiente del techo y moverte hacia los extremos para evitar ser alcanzado. 
-- Puede que tras alguno de sus ataques surja una campana adicional desde arriba justo al aterrizar o emerger. 
+## Fase 2
+*Se activa al reducir su salud aproximadamente a la mitad.*
 
-## Consejos generales
-- Observa y aprende los telegráficos: el polvo, el vapor o el temblor del suelo marcan sus apariciones. 
-- Mantente centrado en el escenario para reaccionar a sus cargas o saltos, pero muévete hacia los lados cuando veas que aparecen campanas rodantes o que van a caer del techo.
-- Aprovecha cuando aterriza para golpearle: tras saltar o emerger y caer, suele quedarse unos instantes vulnerable. 
-
+- Mantiene todos los ataques de la fase anterior.
+- Emite un rugido que hace temblar el suelo y provoca la caída de múltiples campanas desde el techo — muévete hacia los extremos para evitarlas.
+- Puede aparecer una campana adicional desde arriba justo al aterrizar o emerger.
 
 ## Ataques
-- **Arremetida (Carga):** Emerge desde el suelo y se lanza a toda velocidad hacia ti, desplazándose a través del escenario.
-- **Salto:** Se impulsa en el aire y aterriza con fuerza al otro extremo del escenario.
-- **Campanas rodantes:** Al emerger, lanza dos campanas que ruedan hacia los lados; en la fase 2 se puede agregar una tercera campana cerca de su punto de origen.
-- **Lluvia de campanas (fase 2):** Tras rugir, el techo se raja y caen múltiples campanas que rebotan una vez antes de desaparecer; debes esquivar observando señales en el techo.
+- **Arremetida:** Emerge desde el suelo y se lanza a toda velocidad hacia Hornet, cruzando el escenario de lado a lado.
+- **Salto:** Se impulsa en el aire y aterriza con fuerza en el extremo opuesto del escenario.
+- **Campanas rodantes:** Al emerger lanza dos campanas que ruedan hacia los lados. En fase 2 puede aparecer una tercera.
+- **Lluvia de campanas:** Exclusivo de fase 2. Tras rugir, caen múltiples campanas desde el techo que rebotan una vez antes de desaparecer.
 
+## Consejos
+- Aprende los telegráficos: el polvo, el vapor y el temblor del suelo anuncian sus apariciones.
+- Mantente en el centro del escenario para reaccionar a cargas y saltos, pero desplázate hacia los lados cuando aparezcan campanas rodantes o veas señales en el techo.
+- Aprovecha los momentos tras aterrizar o emerger — suele quedarse vulnerable unos instantes.
 
 ## Localización
-Se encuentra inicialmente en la zona de The Marrow (o “Los Campos de Musgo”/“Campos de Musgo”, dependiendo de la traducción) al norte-oeste del mapa del juego. Debes adquirir la habilidad Lanza Seda (Silkspear) para liberarla de sus ataduras de seda
-Tras vencerla, se convierte en la base de viaje rápido (“estación de campana”) y podrás usarla para desplazarte entre diferentes puntos de Pharloom.
+Se encuentra en La Médula. Necesitas la habilidad Lanza Sedeña para liberarla de sus ataduras.
 
+Tras vencerla se convierte en una estación de campana, permitiéndote viajar rápidamente entre distintos puntos de Telalejana.
 
 ## Video

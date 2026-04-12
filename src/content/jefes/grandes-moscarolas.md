@@ -1,12 +1,12 @@
 ---
 title: "Grandes Moscarolas"
 excerpt: "Dúo de moscas taladradoras que custodia el tramo final de Escalones Ajados, justo antes del enfrentamiento con la Última Jueza."
-order: 8
+order: 9
 cover: { 
   src: "/images/jefes/grandes-moscarolas.webp", 
   alt: "Grandes moscarolas en combate" 
 }
-tags: ["Escalones Ajados", "Jefe opcional", "Jefe doble"]
+tags: ["Escalones Ajados", "Acto I"]
 location: "Escalones Ajados"
 difficulty: "facil"
 salud: 900

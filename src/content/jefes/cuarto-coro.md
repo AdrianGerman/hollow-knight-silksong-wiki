@@ -6,7 +6,7 @@ cover: {
   src: "/images/jefes/cuarto-coro.webp", 
   alt: "Bestia campana en combate" 
 }
-tags: ["Campos Lejanos", "Jefe principal", "Construcción automática"]
+tags: ["Campos Lejanos", "Acto I"]
 location: "Campos Lejanos"
 difficulty: "media-alta"
 salud: 900
@@ -17,7 +17,7 @@ videos:
 ---
 
 ## Descripción
-El Cuarto Coro es una imponente máquina creada por la entidad La Ciudadela (The Citadel) en el reino de Pharloom, destinada para fines desconocidos.
+El Cuarto Coro es una imponente máquina creada por la entidad La Ciudadela (The Citadel) en el reino de Telalejana, destinada para fines desconocidos.
 Se encuentra inicialmente inactiva en una cámara de lava dentro de los Campos Lejanos. Tras que Hornet obtenga la capa “Drifter’s Cloak” (“Mantle del Vagabundo”), la máquina se reactiva y desencadena el combate.
 
 

@@ -1,13 +1,13 @@
 ---
 title: "Hermana Vestiguera"
-excerpt: "Antigua reina de ramas y espina, se alza en lo alto de Shellwood y bloquea el camino hacia la habilidad Agarre de pinza."
+excerpt: "Antigua reina de ramas y espina, se alza en lo alto de Bosque Coraza y bloquea el camino hacia la habilidad Agarre de pinza."
 order: 6
 cover: { 
   src: "/images/jefes/hermana-vestiguera.webp", 
   alt: "Hermana vestiguera en combate" 
 } 
-tags: ["Shellwood", "Jefe obligatorio", "Acto 1"]
-location: "Shellwood"
+tags: ["Bosque Coraza", "Acto I"]
+location: "Bosque Coraza"
 difficulty: "media"
 salud: 900
 fases: 2
@@ -17,7 +17,7 @@ videos:
 ---
 
 ## Descripción
-Sister Splinter es una criatura ancestral que domina la zona alta de Shellwood a través del control de ramas, espinas y criaturas menores. Su presencia asegura que ningún “peregrino” pase por su dominio sin sufrir.
+Sister Splinter es una criatura ancestral que domina la zona alta de Bosque Coraza a través del control de ramas, espinas y criaturas menores. Su presencia asegura que ningún “peregrino” pase por su dominio sin sufrir.
 Al derrotarla, se desbloquea el acceso a una habilidad esencial (“Cling Grip”) que permite escalar paredes y avanzar en el mundo.
 
 
@@ -44,7 +44,7 @@ El combate contra Sister Splinter exige buena gestión del espacio y evitar qued
 
 
 ## Localización
-La batalla tiene lugar en la región de Shellwood, en la parte más alta. Para acceder necesitas progresar por Shellwood hasta llegar al área del jefe.
+La batalla tiene lugar en la región de Bosque Coraza, en la parte más alta. Para acceder necesitas progresar por Bosque Coraza hasta llegar al área del jefe.
 Derrotarla es obligatorio para avanzar hacia la habilidad Cling Grip y continuar la historia.
 
 ## Video

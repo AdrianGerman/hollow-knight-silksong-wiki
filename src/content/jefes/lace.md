@@ -6,7 +6,7 @@ cover: {
   src: "/images/jefes/lace.webp", 
   alt: "Lace en combate" 
 }
-tags: ["Muelles Profundos", "Jefa recurrente", "Silksong"]
+tags: ["Muelles Profundos", "Acto I"]
 location: "Muelles Profundos"
 difficulty: "media"
 salud: 900
@@ -18,7 +18,7 @@ videos:
 
 ## Descripción
 Lace es una adversaria esbelta y ágil, completamente tejida con la seda de su progenitora, armada con una aguja o púa dorada (Gilded Pin).
-Su primer enfrentamiento sucede en los Muelles Profundos, donde protege el tránsito hacia zonas más avanzadas del reino de Pharloom.
+Su primer enfrentamiento sucede en los Muelles Profundos, donde protege el tránsito hacia zonas más avanzadas del reino de Telalejana.
 Actúa como rival directa de Hornet, poniendo a prueba la maestría del jugador en combate rápido y dominio del movimiento.
 
 

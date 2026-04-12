@@ -1,11 +1,11 @@
 ---
 title: "Última Jueza"
 excerpt: "Autoridad suprema de Escalones Ajados, guardiana implacable que juzga a Hornet con su aguja ceremonial."
-order: 9
+order: 10
 cover:
   src: "/images/jefes/ultima-jueza.webp"
   alt: "La Última Jueza en combate"
-tags: ["Escalones Ajados", "Jefe principal", "Acto I"]
+tags: ["Escalones Ajados", "Acto I"]
 location: "Escalones Ajados"
 difficulty: "alta"
 salud: "Alta"

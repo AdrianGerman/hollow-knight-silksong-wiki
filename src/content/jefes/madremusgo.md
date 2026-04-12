@@ -6,8 +6,8 @@ cover: {
   src: "/images/jefes/madremusgo.webp", 
   alt: "Madremusgo en combate" 
 }
-tags: ["Campos de Musgo", "Bestia", "Jefe principal"]
-location: "Campos de Musgo"
+tags: ["Gruta Musgosa", "Acto I"]
+location: "Gruta Musgosa"
 difficulty: "media"
 salud: 900
 fases: 2
@@ -17,7 +17,7 @@ videos:
 ---
 
 ## Descripción
-La Madre Musgo es un nuevo jefe para Hollow Knight: Silksong localizado en la Gruta del Musgo. Es uno de los primeros jefes que encontraremos en el juego. Al entrar a su arena, la habitación comenzará a sacudirse, luego, ella saldrá de un capullo-planta que explotará, dejándola en el medio de la arena y con ésta lanzando un chillido señalizando el principio de la batalla.
+La Madre Musgo es un nuevo jefe para Hollow Knight: Silksong localizado en la Gruta Musgosa. Es uno de los primeros jefes que encontraremos en el juego. Al entrar a su arena, la habitación comenzará a sacudirse, luego, ella saldrá de un capullo-planta que explotará, dejándola en el medio de la arena y con ésta lanzando un chillido señalizando el principio de la batalla.
 
 
 ## Comportamiento y tácticas
@@ -32,6 +32,6 @@ Localización
 
 
 ## Localización
-Se la puede encontrar encerrada en su capullo en una sub-área de la Gruta del Musgo: la Vieja Iglesia.Se la puede encontrar encerrada en su capullo en una sub-área de la Gruta del Musgo: la Vieja Iglesia.
+Se la puede encontrar encerrada en su capullo en una sub-área de la Gruta Musgosa: la Vieja Iglesia.Se la puede encontrar encerrada en su capullo en una sub-área de la Gruta Musgosa: la Vieja Iglesia.
 
 ## Video
