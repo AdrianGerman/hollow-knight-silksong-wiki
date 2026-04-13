@@ -1,7 +1,7 @@
 ---
 title: "Lace (La Cuna)"
 excerpt: "Segundo enfrentamiento contra Lace, donde abandona el juego y combate con intención letal dentro de la Cuna."
-order: 1
+order: 100 ## temporary
 cover:
   src: "/images/jefes/lace-cuna.webp"
   alt: "Lace en la Cuna"

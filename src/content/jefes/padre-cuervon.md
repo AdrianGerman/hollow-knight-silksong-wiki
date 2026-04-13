@@ -1,7 +1,7 @@
 ---
 title: "Padre Cuervon"
 excerpt: "Enigmático duelista que reta a Hornet mediante una nota dejada en un banco de Campanilla, citándola en el Páramo Gris."
-order: 1
+order: 100 ## temporary
 cover:
   src: "/images/jefes/padre-cuervon.webp"
   alt: "Padre Cuervon en combate"

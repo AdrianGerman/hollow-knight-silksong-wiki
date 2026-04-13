@@ -1,7 +1,7 @@
 ---
 title: "Trobbio (Segundo enfrentamiento)"
 excerpt: "Trobbio reaparece en el Acto III con un espectáculo mucho más peligroso, abandonando la teatralidad ligera por un combate letal."
-order: 1
+order: 100 ## temporary
 cover:
   src: "/images/jefes/trobbio-final.webp"
   alt: "Trobbio en su segundo enfrentamiento"
