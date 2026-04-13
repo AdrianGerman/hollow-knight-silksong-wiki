@@ -1,12 +1,12 @@
 ---
 title: "Gran Madre Seda"
 excerpt: "La deidad primigenia de la seda y jefe final del Acto II, cuya influencia marcó todo Pharloom y es clave en el destino de Hornet."
-order: 1
+order: 26
 cover:
   src: "/images/jefes/gran-madre-seda.webp"
   alt: "Gran Madre Seda en combate"
-tags: ["El Berceo", "Jefe principal", "Acto II"]
-location: "El Berceo"
+tags: ["La cuna", "Acto II"]
+location: "La cuna"
 difficulty: "muy alta"
 salud: "Muy alta"
 fases: 2

@@ -1,11 +1,11 @@
 ---
 title: "Madre Ponedora"
 excerpt: "Jefa opcional que aparece en La Losa solo después de activar el deseo “La madre que se lamenta”. Guarda un oscuro nido de moscas explosivas."
-order: 1
+order: 16
 cover:
   src: "/images/jefes/madre-ponedora.webp"
   alt: "Madre Ponedora en combate"
-tags: ["La Losa", "Jefe opcional", "Gran Caza"]
+tags: ["La Losa", "Acto II"]
 location: "La Losa"
 difficulty: "media-alta"
 salud: "Alta"

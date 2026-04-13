@@ -1,12 +1,12 @@
 ---
 title: "Trobbio"
 excerpt: "Maestro del escenario y artista delirante que convierte el combate en una representación caótica dentro de las Bóvedas Susurrantes."
-order: 1
+order: 13
 cover:
   src: "/images/jefes/trobbio.webp"
   alt: "Trobbio en combate"
-tags: ["Bóvedas Susurrantes", "El Escenario", "Jefe principal", "Acto II"]
-location: "Bóvedas Susurrantes — El Escenario"
+tags: ["Bóvedas Susurrantes", "Acto II"]
+location: "Bóvedas Susurrantes"
 difficulty: "alta"
 salud: 700
 fases: 2

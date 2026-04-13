@@ -1,11 +1,11 @@
 ---
 title: "Fantasma"
 excerpt: "Jefe secreto del Órgano de Escape que domina el parry y bloquea la salida de La Niebla. Otorga la poderosa habilidad de seda Punto de cruz"
-order: 1
+order: 14
 cover:
   src: "/images/jefes/fantasma.webp"
   alt: "Fantasma del Órgano de Escape"
-tags: ["Órgano de Escape", "La Niebla", "Jefe secreto", "Acto I"]
+tags: ["Órgano de Escape", "Acto I", "Acto II"]
 location: "Órgano de Escape"
 difficulty: "media-alta"
 salud: "Baja-media"

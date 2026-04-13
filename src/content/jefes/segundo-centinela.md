@@ -1,12 +1,12 @@
 ---
 title: "Segundo Centinela"
 excerpt: "Centinela reforzado que pone a prueba a Hornet en un combate directo y disciplinado durante el Acto II."
-order: 1
+order: 25
 cover:
   src: "/images/jefes/segundo-centinela.webp"
   alt: "Segundo Centinela en combate"
-tags: ["Ciudadela", "Enfrentamiento especial", "Acto II"]
-location: "Ciudadela"
+tags: ["Altos salones", "Acto II"]
+location: "Altos salones"
 difficulty: "media-alta"
 salud: "Alta"
 fases: 1

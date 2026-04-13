@@ -1,12 +1,12 @@
 ---
-title: "Devorador de Campanas"
+title: "Tragacampanas"
 excerpt: "Centípodo colosal que despierta en las Grandes Vías de Campanas y bloquea las rutas de campanas hasta que es derrotado."
-order: 1
+order: 27
 cover:
-  src: "/images/jefes/devorador-de-campanas.webp"
-  alt: "Devorador de Campanas en combate"
-tags: ["Grandes Vías de Campanas", "Jefe principal", "Acto III"]
-location: "Grandes Vías de Campanas"
+  src: "/images/jefes/tragacampanas.webp"
+  alt: "Tragacampanas en combate"
+tags: ["Gran Vía Campana", "Acto III"]
+location: "Gran Vía Campana"
 difficulty: "muy alta"
 salud: "800"
 fases: 2
@@ -18,7 +18,7 @@ videos:
 
 ## Descripción
 
-El **Devorador de Campanas** es un jefe importante que aparece al comienzo del **Acto III** de *Hollow Knight: Silksong*. Es un centípodo gigantesco que ha permanecido dormido bajo Pharloom y despierta tras el colapso del reino, extendiéndose por las **Grandes Vías de Campanas** y haciendo que no puedan usarse hasta que sea derrotado.
+El **Tragacampanas** es un jefe importante que aparece al comienzo del **Acto III** de *Hollow Knight: Silksong*. Es un centípodo gigantesco que ha permanecido dormido bajo Pharloom y despierta tras el colapso del reino, extendiéndose por las **Grandes Vías de Campanas** y haciendo que no puedan usarse hasta que sea derrotado.
 
 Este enfrentamiento obliga a Hornet a combatir en un espacio restringido contra una criatura enorme cuyos ataques abarcan múltiples direcciones, obligando a la lectura de patrones y el uso estratégico del movimiento.
 
@@ -26,7 +26,7 @@ Este enfrentamiento obliga a Hornet a combatir en un espacio restringido contra 
 
 ## Comportamiento y tácticas
 
-El combate contra el Devorador de Campanas tiene **dos fases** principales, con cambios en la arena y en sus patrones ofensivos.
+El combate contra el Tragacampanas tiene **dos fases** principales, con cambios en la arena y en sus patrones ofensivos.
 
 ### Fase 1
 
@@ -75,7 +75,7 @@ Cuando su salud baja a cierto umbral (alrededor de 600):
 
 ## Localización
 
-- El Devorador de Campanas aparece en las **Grandes Vías de Campanas**, un punto de tránsito clave que conecta varias partes del mundo y sirve de transporte rápido.
+- El Tragacampanas aparece en las **Grandes Vías de Campanas**, un punto de tránsito clave que conecta varias partes del mundo y sirve de transporte rápido.
 - El combate se activa tras intentar invocar a la Bestia de Campanas en esta zona, momento en el cual el Devorador emerge y bloquea el acceso a todas las vías de campanas hasta ser derrotado.
 
 ---

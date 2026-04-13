@@ -1,12 +1,12 @@
 ---
 title: "Moscarola Furiosa"
 excerpt: "Variante colosal y agresiva de las moscarolas que ataca sin descanso en un enfrentamiento aéreo de alta presión."
-order: 1
+order: 20
 cover:
   src: "/images/jefes/moscarola-furiosa.webp"
   alt: "Moscarola Furiosa en combate"
-tags: ["Acto III", "Jefe intermedio"]
-location: "Ruta intermedia del Acto III"
+tags: ["Arenas de Karak", "Acto II"]
+location: "Arenas de Karak"
 difficulty: "media-alta"
 salud: "Alta"
 fases: 2

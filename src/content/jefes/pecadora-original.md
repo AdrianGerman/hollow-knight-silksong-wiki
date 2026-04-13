@@ -1,11 +1,11 @@
 ---
 title: "Pecadora Original"
 excerpt: "Tejedora ancestral condenada por una falta olvidada. Encarcelada en La Losa, combate dentro de una memoria y domina runas de seda ardiente."
-order: 1
+order: 23
 cover:
   src: "/images/jefes/pecadora-original.webp"
   alt: "Pecadora Original en combate"
-tags: ["La Losa", "Jefe secreto", "Acto II"]
+tags: ["La Losa", "Acto II"]
 location: "La Losa"
 difficulty: "muy alta"
 salud: 1300

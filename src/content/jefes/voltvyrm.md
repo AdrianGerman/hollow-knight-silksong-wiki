@@ -1,11 +1,11 @@
 ---
 title: "Voltvyrm"
 excerpt: "Masa de gusanos electrificados escondida en lo alto de Voltnest, que ataca con poderosos descargas eléctricas."
-order: 1
+order: 22
 cover:
   src: "/images/jefes/voltvyrm.webp"
   alt: "Voltvyrm en combate"
-tags: ["Arenas de Karak", "Jefe opcional", "Acto II"]
+tags: ["Arenas de Karak", "Acto II"]
 location: "Arenas de Karak"
 difficulty: "alta"
 salud: 550

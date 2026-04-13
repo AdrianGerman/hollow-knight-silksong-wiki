@@ -1,11 +1,11 @@
 ---
 title: "Hermanos Mayores: Signis y Gron"
 excerpt: "Dúo de veteranos supervisores de los Muelles Profundos que bloquean el paso al Campanario de Buceo y desafían a Hornet con ataques combinados."
-order: 1
+order: 18
 cover:
   src: "/images/jefes/hermanos-mayores.webp"
   alt: "Signis y Gron en combate"
-tags: ["Muelles Profundos", "Jefe doble", "Opcional"]
+tags: ["Muelles Profundos", "Acto II"]
 location: "Muelles Profundos"
 difficulty: "muy alta"
 salud: "1240 total"

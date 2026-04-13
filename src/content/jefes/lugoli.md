@@ -1,11 +1,11 @@
 ---
 title: "Lugoli, chef caída en desgracia"
 excerpt: "Antigua chef de la Ciudadela, exiliada por sus recetas sacrílegas; ahora reina sobre el Camino del Pecador como enemigo peligroso y peculiar."
-order: 1
+order: 17
 cover:
   src: "/images/jefes/lugoli-chef.webp"
   alt: "Lugoli, chef caída en desgracia"
-tags: ["Camino del Pecador", "Jefe opcional", "Gran Caza / Misión secundaria"]
+tags: ["Camino del Pecador", "Acto II"]
 location: "Camino del Pecador"
 difficulty: "alta"
 salud: 600

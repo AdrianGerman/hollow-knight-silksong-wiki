@@ -5,7 +5,7 @@ order: 12
 cover:
   src: "/images/jefes/moscabestia.webp"
   alt: "Moscabestia salvaje en combate"
-tags: ["Marcha del Cazador", "Campos Lejanos", "Gran Caza", "Jefe opcional"]
+tags: ["Marcha del Cazador", "Acto I", "Acto II"]
 location: "Marcha del Cazador / Campos Lejanos"
 difficulty: "alta"
 salud: "Alta"

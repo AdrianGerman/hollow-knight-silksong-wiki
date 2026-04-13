@@ -1,12 +1,12 @@
 ---
 title: "Shakra"
 excerpt: "Guerrera cartógrafa que puede enfrentarse a Hornet en un duelo opcional tras completar su misión 'El final del sendero'."
-order: 1
+order: 29
 cover:
   src: "/images/jefes/shakra.webp"
   alt: "Shakra en combate"
-tags: ["Aguas Biliares", "Jefe opcional", "Acto II"]
-location: "Aguas Biliares / Greymoor"
+tags: ["Aguas Biliares", "Acto II"]
+location: "Aguas Biliares"
 difficulty: "alta"
 salud: "Media"
 fases: 1

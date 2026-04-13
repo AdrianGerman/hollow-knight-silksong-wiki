@@ -1,12 +1,12 @@
 ---
 title: "Garmound Perdido"
 excerpt: "Guerrero errante separado de su compañero, enfrentado a Hornet en un duelo directo durante el Acto III."
-order: 1
+order: 28
 cover:
   src: "/images/jefes/garmound-perdido.webp"
   alt: "Garmound Perdido en combate"
-tags: ["Enfrentamiento especial", "Acto III"]
-location: "Ruta secundaria del Acto III"
+tags: ["Escalones Ajados", "Acto III"]
+location: "Escalones Ajados"
 difficulty: "Baja"
 salud: "Media"
 fases: 1

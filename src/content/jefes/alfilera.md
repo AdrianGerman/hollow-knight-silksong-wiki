@@ -1,12 +1,12 @@
 ---
 title: "Alfilera"
 excerpt: "Combatiente veloz que desafía a Hornet en un enfrentamiento especial basado en precisión, castigo rápido y control del espacio."
-order: 1
+order: 30
 cover:
   src: "/images/jefes/alfilera.webp"
   alt: "Alfilera en combate"
-tags: ["Enfrentamiento especial", "Acto III"]
-location: "Zona secundaria del Acto III"
+tags: ["Monte Fay", "Acto III"]
+location: "Monte Fay"
 difficulty: "media-alta"
 salud: "Media"
 fases: 1

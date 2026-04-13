@@ -1,12 +1,12 @@
 ---
 title: "Garmound y Zaza"
 excerpt: "Dúo de combatientes errantes que ponen a prueba a Hornet en un enfrentamiento especial basado en coordinación y presión constante."
-order: 1
+order: 24
 cover:
   src: "/images/jefes/garmound-zaza.webp"
   alt: "Garmound y Zaza en combate"
-tags: ["Enfrentamiento especial", "Acto II"]
-location: "Zona secundaria del Acto II"
+tags: ["Bóvedas Susurrantes", "Acto II"]
+location: "Bóvedas Susurrantes"
 difficulty: "media-alta"
 salud: "Dos enemigos"
 fases: 1

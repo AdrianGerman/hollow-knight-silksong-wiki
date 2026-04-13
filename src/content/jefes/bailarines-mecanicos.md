@@ -1,11 +1,11 @@
 ---
 title: "Bailarines Mecánicos"
 excerpt: "Pareja de autómatas perfectamente sincronizados que ejecutan un mortífero ballet metálico en Ciudad Campanilla."
-order: 10
+order: 11
 cover:
   src: "/images/jefes/bailarines-mecanicos.webp"
   alt: "Bailarines mecánicos en combate"
-tags: ["Jefe doble", "Mecánico", "Acto II"]
+tags: ["Cámaras corales", "Acto II"]
 location: "Cámaras corales"
 difficulty: "alta"
 salud: "Alta"
