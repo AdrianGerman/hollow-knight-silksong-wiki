@@ -3,49 +3,73 @@ const meta = [
   { label: "Género", value: "Metroidvania / Acción y Aventura" },
   { label: "Desarrollador", value: "Team Cherry" },
   { label: "Protagonista", value: "Hornet" },
-  { label: "Ambientación", value: "Reino de Pharloom" },
+  { label: "Ambientación", value: "Telalejana" },
 ]
 ---
 
-<section class="mx-auto max-w-6xl px-4 pb-10">
-  <div class="card p-6 md:p-8">
-    <header class="mb-6">
-      <h2 class="font-[Cinzel] text-2xl md:text-3xl text-(--color-ink)">
-        Hollow Knight: Silksong — Introducción
-      </h2>
-      <div class="mt-2 h-px w-16 bg-(--color-accent) opacity-30"></div>
-    </header>
+<section class="mx-auto max-w-6xl px-4 pb-16">
+  <div class="card p-6 md:p-10">
+    <div class="flex flex-col md:flex-row md:items-start md:gap-10">
+      <div class="flex-1">
+        <p
+          class="font-[Cinzel] text-[0.7rem] tracking-[0.25em] uppercase text-(--color-accent) opacity-60 mb-3"
+        >
+          Sobre el juego
+        </p>
+        <h2 class="font-[Cinzel] text-2xl md:text-3xl text-(--color-ink) mb-4">
+          Hollow Knight: Silksong
+        </h2>
 
-    <dl class="mb-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-      {
-        meta.map(({ label, value }) => (
-          <div class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3">
-            <dt class="text-[10px] uppercase tracking-[0.22em] text-(--color-ink-muted)">
-              {label}
-            </dt>
-            <dd class="mt-1 text-sm text-(--color-ink)">{value}</dd>
-          </div>
-        ))
-      }
-    </dl>
+        <dl class="mb-6 grid grid-cols-2 lg:grid-cols-4 gap-3">
+          {
+            meta.map(({ label, value }) => (
+              <div class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3">
+                <dt class="text-[10px] uppercase tracking-[0.22em] text-(--color-ink-muted)">
+                  {label}
+                </dt>
+                <dd class="mt-1 text-sm text-(--color-ink)">{value}</dd>
+              </div>
+            ))
+          }
+        </dl>
 
-    <article class="prose prose-invert max-w-none text-(--color-ink-muted)">
-      <p>
-        <strong class="text-(--color-ink)">Silksong</strong> sigue el viaje de
-        <em>Hornet</em> hacia la cima de <em>Pharloom</em>, un reino desconocido
-        lleno de seda, canto y desafío. La aventura enfatiza la
-        <strong class="text-(--color-ink)">exploración vertical</strong>, el
-        <strong class="text-(--color-ink)">combate técnico</strong> y el descubrimiento
-        de atajos y secretos.
-      </p>
-      <p>
-        Esta wiki organiza <strong class="text-(--color-ink)">jefes</strong>,
-        <strong class="text-(--color-ink)">criaturas</strong>,
-        <strong class="text-(--color-ink)">instrumentos</strong> y
-        <strong class="text-(--color-ink)">zonas</strong>. Si es tu primera vez,
-        empieza por <a href="/zonas">Zonas</a> y luego visita
-        <a href="/instrumentos">Instrumentos</a> para planear tu build.
-      </p>
-    </article>
+        <div
+          class="prose prose-invert max-w-none text-(--color-ink-muted) text-sm leading-relaxed"
+        >
+          <p>
+            <strong class="text-(--color-ink)">Silksong</strong> sigue el viaje de
+            <em>Hornet</em> hacia la cima de <em>Telalejana</em>, un reino
+            desconocido lleno de seda, canto y desafío. La aventura enfatiza la
+            <strong class="text-(--color-ink)">exploración vertical</strong>, el
+            <strong class="text-(--color-ink)">combate técnico</strong> y el descubrimiento
+            de atajos y secretos.
+          </p>
+          <p>
+            Esta wiki organiza <strong class="text-(--color-ink)">jefes</strong
+            >,
+            <strong class="text-(--color-ink)">criaturas</strong>,
+            <strong class="text-(--color-ink)">instrumentos</strong> y
+            <strong class="text-(--color-ink)">zonas</strong>. Si es tu primera
+            vez, empieza por <a href="/zonas">Zonas</a> y luego visita
+            <a href="/instrumentos">Instrumentos</a> para planear tu build.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-8 md:mt-0 md:w-48 flex flex-col gap-3 shrink-0">
+        {
+          [
+            { n: "33", label: "Jefes documentados" },
+            { n: "20", label: "Instrumentos" },
+            { n: "∞", label: "Secretos por descubrir" },
+          ].map(({ n, label }) => (
+            <div class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-4 text-center">
+              <p class="font-[Cinzel] text-3xl text-(--color-accent)">{n}</p>
+              <p class="mt-1 text-xs text-(--color-ink-muted)">{label}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
   </div>
 </section>
