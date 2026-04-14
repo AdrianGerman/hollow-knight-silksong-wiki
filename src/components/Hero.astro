@@ -1,31 +1,54 @@
-<section class="mx-auto max-w-6xl px-4 pt-16 pb-10 text-center">
-  <h1
-    class="font-[Cinzel] tracking-wide text-4xl md:text-6xl lg:text-7xl text-white"
-  >
-    Pharloom <span class="text-(--color-accent)">Archives</span>
-  </h1>
-  <p
-    class="mt-4 md:mt-6 text-base md:text-lg text-white/80 max-w-3xl mx-auto leading-relaxed"
-  >
-    Una wiki minimalista dedicada a <strong class="text-white"
-      >Hollow Knight: Silksong</strong
-    >, para registrar jefes, criaturas, instrumentos y secretos del misterioso
-    reino de Pharloom.
-  </p>
-  <div
-    class="mx-auto mt-8 flex items-center justify-center gap-3 text-(--color-accent) opacity-70"
-  >
-    <span class="h-px w-12 bg-current opacity-40"></span>
-    <svg
-      class="h-5 w-5"
-      viewBox="0 0 24 24"
-      fill="currentColor"
+<section class="relative w-full overflow-hidden">
+  <div class="absolute inset-0 z-0">
+    <img
+      src="/images/banner.webp"
+      alt=""
+      class="h-full w-full object-cover object-center"
       aria-hidden="true"
+    />
+    <div
+      class="absolute inset-0 bg-gradient-to-r from-[#06080d]/95 via-[#06080d]/80 to-[#06080d]/40"
     >
-      <path
-        d="M12 3l2.7 5.47L21 9.24l-4.5 4.39L17.4 21 12 17.77 6.6 21l.9-7.37L3 9.24l6.3-.77L12 3z"
-      ></path>
-    </svg>
-    <span class="h-px w-12 bg-current opacity-40"></span>
+    </div>
+    <div
+      class="absolute inset-0 bg-gradient-to-t from-[#06080d] via-transparent to-transparent"
+    >
+    </div>
+  </div>
+
+  <div class="relative z-10 mx-auto max-w-6xl px-4 py-24 md:py-36">
+    <p
+      class="font-[Cinzel] text-[0.7rem] tracking-[0.3em] uppercase text-(--color-accent) opacity-70 mb-3"
+    >
+      De fans para los fans · Telalejana
+    </p>
+    <h1
+      class="font-[Cinzel] text-4xl md:text-6xl text-(--color-ink) leading-tight"
+    >
+      Hollow Knight<br />
+      <span class="text-(--color-accent)">Silksong</span>
+    </h1>
+    <p
+      class="mt-5 text-base md:text-lg text-(--color-ink-muted) leading-relaxed max-w-lg"
+    >
+      Todo lo que necesitas saber sobre el viaje de Hornet a través de
+      <em class="text-(--color-ink) not-italic">Telalejana</em> — jefes, criaturas,
+      instrumentos y zonas, en un solo lugar.
+    </p>
+
+    <div class="mt-8 flex items-center gap-4">
+      <a
+        href="/jefes"
+        class="inline-flex items-center gap-2 rounded-xl bg-(--color-accent) px-5 py-2.5 font-[Cinzel] text-sm tracking-wide text-[#06080d] transition hover:brightness-110"
+      >
+        Explorar la wiki →
+      </a>
+      <a
+        href="/about"
+        class="inline-flex items-center gap-2 rounded-xl border border-white/15 px-5 py-2.5 font-[Cinzel] text-sm tracking-wide text-(--color-ink-muted) transition hover:text-(--color-ink) hover:border-white/30"
+      >
+        Sobre mí
+      </a>
+    </div>
   </div>
 </section>
