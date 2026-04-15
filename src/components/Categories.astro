@@ -1,34 +1,79 @@
 ---
 const categories = [
-  { href: "/jefes", label: "Jefes", desc: "Encuentros y estrategias" },
-  { href: "/enemigos", label: "Criaturas", desc: "Patrones y debilidades" },
+  {
+    href: "/jefes",
+    label: "Jefes",
+    desc: "Encuentros principales y estrategias de combate",
+    count: "33 entradas",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/>`,
+  },
+  {
+    href: "/enemigos",
+    label: "Criaturas",
+    desc: "Fauna de Telalejana, patrones y debilidades",
+    count: "Próximamente",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126z"/>`,
+  },
   {
     href: "/instrumentos",
     label: "Instrumentos",
-    desc: "Herramientas y builds",
+    desc: "Herramientas, builds y combinaciones ideales",
+    count: "20 entradas",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/>`,
   },
-  { href: "/zonas", label: "Zonas", desc: "Lugares y conexiones" },
+  {
+    href: "/zonas",
+    label: "Zonas",
+    desc: "Regiones de Telalejana y sus conexiones",
+    count: "Próximamente",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"/>`,
+  },
 ]
 ---
 
-<section class="mx-auto max-w-6xl px-4 pb-6">
+<section class="mx-auto max-w-6xl px-4 py-12">
+  <p
+    class="font-[Cinzel] text-[0.7rem] tracking-[0.25em] uppercase text-(--color-accent) opacity-60 mb-6"
+  >
+    Explorar
+  </p>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
     {
       categories.map((c) => (
         <a
           href={c.href}
-          class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition
-                hover:-translate-y-0.5 hover:bg-white/[0.05] hover:shadow-xl hover:shadow-black/30"
+          class="group card card-hover relative overflow-hidden p-5 block"
         >
-          <div class="text-[10px] tracking-[0.22em] uppercase text-white/60">
-            Categoría
+          <div class="mb-3 flex items-center justify-between">
+            <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-(--color-accent-glow) text-(--color-accent)">
+              <svg
+                class="h-5 w-5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                set:html={c.icon}
+              />
+            </div>
+            <span class="text-[10px] text-(--color-ink-muted) opacity-60">
+              {c.count}
+            </span>
           </div>
-          <div class="mt-2 font-[Cinzel] text-2xl text-white">{c.label}</div>
-          {c.desc && <p class="mt-1 text-sm text-white/60">{c.desc}</p>}
-          <div class="mt-6 flex items-center gap-2 text-sm text-(--color-accent) opacity-80 group-hover:opacity-100">
-            Explorar <span>→</span>
+
+          <p class="font-[Cinzel] text-xl text-(--color-ink)">{c.label}</p>
+          <p class="mt-1 text-sm text-(--color-ink-muted) leading-relaxed">
+            {c.desc}
+          </p>
+
+          <div class="mt-5 flex items-center gap-1.5 text-xs text-(--color-accent) opacity-60 group-hover:opacity-100 transition-opacity">
+            Explorar <span aria-hidden="true">→</span>
           </div>
-          <div class="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-(--color-accent-glow) blur-2xl" />
+
+          <div
+            class="pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-(--color-accent-glow) blur-2xl opacity-0 group-hover:opacity-100 transition-opacity"
+            aria-hidden="true"
+          />
         </a>
       ))
     }
