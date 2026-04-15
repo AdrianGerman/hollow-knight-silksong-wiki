@@ -5,7 +5,7 @@ order: 100 ## temporary
 cover:
   src: "/images/jefes/padre-cuervon.webp"
   alt: "Padre Cuervon en combate"
-tags: ["Páramo Gris", "Jefe opcional", "Acto III"]
+tags: ["Páramo Gris", "Acto III"]
 location: "Páramo Gris"
 difficulty: "alta"
 salud: "Alta"

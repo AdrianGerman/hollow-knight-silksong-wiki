@@ -5,7 +5,7 @@ order: 100 ## temporary
 cover:
   src: "/images/jefes/lace-cuna.webp"
   alt: "Lace en la Cuna"
-tags: ["La Cuna", "Jefe principal", "Acto II"]
+tags: ["La Cuna", "Acto II"]
 location: "La Cuna"
 difficulty: "alta"
 salud: "Alta"

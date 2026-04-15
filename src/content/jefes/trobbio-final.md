@@ -5,7 +5,7 @@ order: 100 ## temporary
 cover:
   src: "/images/jefes/trobbio-final.webp"
   alt: "Trobbio en su segundo enfrentamiento"
-tags: ["Enfrentamiento destacado", "Acto III"]
+tags: ["Bóvedas Susurrantes", "Acto III"]
 location: "Ruta avanzada del Acto III"
 difficulty: "alta"
 salud: "Alta"
