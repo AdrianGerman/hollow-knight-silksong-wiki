@@ -35,7 +35,7 @@ Las herramientas azules no consumen cargas como las herramientas rojas y funcion
 
 ### Ojos del druida
 
-![Ojos del druida](/images/instrumentos/red/ojos_druida.webp)
+![Ojos del druida](/images/instrumentos/blue/ojos_druida.webp)
 
 **Descripción**  
 Versión mejorada del Ojo del druida.
