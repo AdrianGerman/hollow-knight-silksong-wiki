@@ -1,36 +1,157 @@
 ---
-const meta = [
-  { label: "Género", value: "Metroidvania / Acción y Aventura" },
-  { label: "Desarrollador", value: "Team Cherry" },
-  { label: "Protagonista", value: "Hornet" },
-  { label: "Ambientación", value: "Telalejana" },
-]
+
 ---
 
 <section class="mx-auto max-w-6xl px-4 pb-16">
   <div class="card p-6 md:p-10">
-    <div class="flex flex-col md:flex-row md:items-start md:gap-10">
-      <div class="flex-1">
+    <div class="flex flex-col lg:flex-row lg:items-start gap-10">
+      <div class="flex-1 min-w-0">
         <p
           class="font-[Cinzel] text-[0.7rem] tracking-[0.25em] uppercase text-(--color-accent) opacity-60 mb-3"
         >
           Sobre el juego
         </p>
-        <h2 class="font-[Cinzel] text-2xl md:text-3xl text-(--color-ink) mb-4">
+        <h2 class="font-[Cinzel] text-2xl md:text-3xl text-(--color-ink) mb-6">
           Hollow Knight: Silksong
         </h2>
 
-        <dl class="mb-6 grid grid-cols-2 lg:grid-cols-4 gap-3">
-          {
-            meta.map(({ label, value }) => (
-              <div class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3">
-                <dt class="text-[10px] uppercase tracking-[0.22em] text-(--color-ink-muted)">
-                  {label}
-                </dt>
-                <dd class="mt-1 text-sm text-(--color-ink)">{value}</dd>
+        <dl class="mb-6 grid grid-cols-2 gap-3">
+          <div
+            class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3"
+          >
+            <dt
+              class="text-[10px] uppercase tracking-[0.22em] text-(--color-ink-muted) mb-2"
+            >
+              Género
+            </dt>
+            <dd class="flex flex-wrap items-center gap-1.5">
+              <span
+                class="text-[11px] px-2 py-0.5 rounded-full border border-(--color-accent)/30 text-(--color-accent) bg-(--color-accent-glow)"
+              >
+                Metroidvania
+              </span>
+              <span
+                class="text-[11px] px-2 py-0.5 rounded-full border border-white/10 text-(--color-ink-muted) bg-white/[0.02]"
+              >
+                Acción
+              </span>
+              <span
+                class="text-[11px] px-2 py-0.5 rounded-full border border-white/10 text-(--color-ink-muted) bg-white/[0.02]"
+              >
+                Aventura
+              </span>
+            </dd>
+          </div>
+
+          <div
+            class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3"
+          >
+            <dt
+              class="text-[10px] uppercase tracking-[0.22em] text-(--color-ink-muted) mb-2"
+            >
+              Desarrollador
+            </dt>
+            <dd class="flex items-center gap-3">
+              <div
+                class="flex h-8 w-8 items-center justify-center rounded-lg bg-(--color-accent-glow)"
+              >
+                <svg
+                  class="h-4 w-4 text-(--color-accent)"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
+                  ></path>
+                </svg>
               </div>
-            ))
-          }
+              <div>
+                <p class="text-sm text-(--color-ink)">Team Cherry</p>
+                <a
+                  href="https://www.teamcherry.com.au"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-[10px] text-(--color-accent) opacity-60 hover:opacity-100 transition"
+                >
+                  teamcherry.com.au ↗
+                </a>
+              </div>
+            </dd>
+          </div>
+
+          <div
+            class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3"
+          >
+            <dt
+              class="text-[10px] uppercase tracking-[0.22em] text-(--color-ink-muted) mb-2"
+            >
+              Protagonista
+            </dt>
+            <dd class="flex items-center gap-3">
+              <div
+                class="flex h-8 w-8 items-center justify-center rounded-lg bg-(--color-accent-glow)"
+              >
+                <svg
+                  class="h-4 w-4 text-(--color-accent)"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <p class="text-sm text-(--color-ink)">Hornet</p>
+                <p class="text-[10px] text-(--color-ink-muted)">
+                  Hija de la Tejedora Blanca
+                </p>
+              </div>
+            </dd>
+          </div>
+
+          <div
+            class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3"
+          >
+            <dt
+              class="text-[10px] uppercase tracking-[0.22em] text-(--color-ink-muted) mb-2"
+            >
+              Ambientación
+            </dt>
+            <dd class="flex items-center gap-3">
+              <div
+                class="flex h-8 w-8 items-center justify-center rounded-lg bg-(--color-accent-glow)"
+              >
+                <svg
+                  class="h-4 w-4 text-(--color-accent)"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <p class="text-sm text-(--color-ink)">Telalejana</p>
+                <p class="text-[10px] text-(--color-ink-muted)">
+                  Reino de seda y campanas
+                </p>
+              </div>
+            </dd>
+          </div>
         </dl>
 
         <div
@@ -42,7 +163,7 @@ const meta = [
             desconocido lleno de seda, canto y desafío. La aventura enfatiza la
             <strong class="text-(--color-ink)">exploración vertical</strong>, el
             <strong class="text-(--color-ink)">combate técnico</strong> y el descubrimiento
-            de atajos y secretos.
+            de atajos y secretos con nuevas mecánicas de movilidad.
           </p>
           <p>
             Esta wiki organiza <strong class="text-(--color-ink)">jefes</strong
@@ -54,21 +175,102 @@ const meta = [
             <a href="/instrumentos">Instrumentos</a> para planear tu build.
           </p>
         </div>
+
+        <div class="mt-6 flex flex-wrap gap-2">
+          <a
+            href="https://www.teamcherry.com.au/silksong"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.02] px-3 py-1.5 text-xs text-(--color-ink-muted) hover:text-(--color-ink) hover:border-(--color-accent)/30 hover:bg-(--color-accent-glow) transition"
+          >
+            <svg
+              class="h-3.5 w-3.5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253"
+              ></path>
+            </svg>
+            Web oficial
+          </a>
+          <a
+            href="https://hollowknightsilksong.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.02] px-3 py-1.5 text-xs text-(--color-ink-muted) hover:text-(--color-ink) hover:border-(--color-accent)/30 hover:bg-(--color-accent-glow) transition"
+          >
+            <svg class="h-3.5 w-3.5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0z"
+              ></path>
+            </svg>
+            Steam
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=pFAknD_9U7c"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.02] px-3 py-1.5 text-xs text-(--color-ink-muted) hover:text-(--color-ink) hover:border-(--color-accent)/30 hover:bg-(--color-accent-glow) transition"
+          >
+            <svg class="h-3.5 w-3.5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M23.5 6.19a3.02 3.02 0 00-2.12-2.14C19.54 3.5 12 3.5 12 3.5s-7.54 0-9.38.55A3.02 3.02 0 00.5 6.19C0 8.04 0 12 0 12s0 3.96.5 5.81a3.02 3.02 0 002.12 2.14C4.46 20.5 12 20.5 12 20.5s7.54 0 9.38-.55a3.02 3.02 0 002.12-2.14C24 15.96 24 12 24 12s0-3.96-.5-5.81zM9.75 15.5v-7l6.5 3.5-6.5 3.5z"
+              ></path>
+            </svg>
+            Tráiler oficial
+          </a>
+          <a
+            href="https://www.nintendo.com/es-mx/store/products/hollow-knight-silksong-nintendo-switch-2-edition-switch-2/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.02] px-3 py-1.5 text-xs text-(--color-ink-muted) hover:text-(--color-ink) hover:border-(--color-accent)/30 hover:bg-(--color-accent-glow) transition"
+          >
+            <svg class="h-3.5 w-3.5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M10.04 3.31A8.69 8.69 0 001.35 12a8.69 8.69 0 008.69 8.69h.63V3.31h-.63zm1.92 0v17.38h.63A8.69 8.69 0 0021.28 12a8.69 8.69 0 00-8.69-8.69h-.63zM8.5 8.25a1.75 1.75 0 110 3.5 1.75 1.75 0 010-3.5zm7 4a1.75 1.75 0 110 3.5 1.75 1.75 0 010-3.5z"
+              ></path>
+            </svg>
+            Nintendo Switch
+          </a>
+        </div>
       </div>
 
-      <div class="mt-8 md:mt-0 md:w-48 flex flex-col gap-3 shrink-0">
-        {
-          [
-            { n: "33", label: "Jefes documentados" },
-            { n: "20", label: "Instrumentos" },
-            { n: "∞", label: "Secretos por descubrir" },
-          ].map(({ n, label }) => (
-            <div class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-4 text-center">
-              <p class="font-[Cinzel] text-3xl text-(--color-accent)">{n}</p>
-              <p class="mt-1 text-xs text-(--color-ink-muted)">{label}</p>
-            </div>
-          ))
-        }
+      <div class="lg:w-56 flex flex-col items-center gap-6 shrink-0">
+        <div class="relative">
+          <div
+            class="absolute inset-0 bg-(--color-accent-glow) blur-3xl rounded-full scale-150"
+            aria-hidden="true"
+          >
+          </div>
+          <img
+            src="/images/hornet.webp"
+            alt="Hornet"
+            class="relative w-44 object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-105 hover:-translate-y-1"
+          />
+        </div>
+
+        <div class="w-full flex flex-col gap-3 cursor-pointer">
+          {
+            [
+              { n: "33", label: "Jefes documentados", sub: "y contando" },
+              { n: "20", label: "Instrumentos", sub: "herramientas y builds" },
+              { n: "∞", label: "Secretos", sub: "por descubrir" },
+            ].map(({ n, label, sub }) => (
+              <div class="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3 text-center group hover:border-(--color-accent)/20 hover:bg-(--color-accent-glow) transition">
+                <p class="font-[Cinzel] text-2xl text-(--color-accent)">{n}</p>
+                <p class="text-xs text-(--color-ink) mt-0.5">{label}</p>
+                <p class="text-[10px] text-(--color-ink-muted) opacity-0 group-hover:opacity-100 transition">
+                  {sub}
+                </p>
+              </div>
+            ))
+          }
+        </div>
       </div>
     </div>
   </div>
