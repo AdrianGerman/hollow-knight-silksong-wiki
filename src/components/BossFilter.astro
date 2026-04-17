@@ -1,0 +1,248 @@
+---
+interface Props {
+  gridId: string
+  tags: string[]
+}
+
+const { gridId, tags } = Astro.props
+
+const actos = ["Acto I", "Acto II", "Acto III"].filter((a) => tags.includes(a))
+const zonas = tags.filter((t) => !t.startsWith("Acto"))
+
+const norm = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+---
+
+<section class="mx-auto max-w-6xl px-4 pb-6">
+  <div
+    class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-4"
+  >
+    <div class="relative w-full md:w-96">
+      <input
+        id="boss-search"
+        type="search"
+        placeholder="Buscar jefe…"
+        autocomplete="off"
+        class="w-full bg-transparent border border-white/10 rounded-xl px-3 py-2 pr-9 text-sm outline-none focus:border-(--color-accent)/40 text-(--color-ink)"
+        data-grid={gridId}
+      />
+      <div
+        class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-(--color-ink-muted) text-lg select-none"
+        aria-hidden="true"
+      >
+        ⌕
+      </div>
+    </div>
+    <p class="text-sm text-(--color-ink-muted)">
+      Mostrando <span id="boss-count" class="text-(--color-ink)">0</span> resultados
+    </p>
+  </div>
+
+  <div class="flex flex-wrap gap-2 mb-3">
+    <button
+      class="boss-chip active"
+      data-type="acto"
+      data-value="__all__"
+      type="button"
+    >
+      Todos los actos
+    </button>
+    {
+      actos.map((a) => (
+        <button
+          class="boss-chip"
+          data-type="acto"
+          data-value={norm(a)}
+          type="button"
+        >
+          {a}
+        </button>
+      ))
+    }
+  </div>
+
+  <div class="flex flex-wrap gap-2">
+    <button
+      class="boss-chip zona active"
+      data-type="zona"
+      data-value="__all__"
+      type="button"
+    >
+      Todas las zonas
+    </button>
+    {
+      zonas
+        .sort((a, b) => a.localeCompare(b))
+        .map((z) => (
+          <button
+            class="boss-chip zona"
+            data-type="zona"
+            data-value={norm(z)}
+            type="button"
+          >
+            {z}
+          </button>
+        ))
+    }
+  </div>
+</section>
+
+<script>
+  function norm(s: string) {
+    return s
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+  }
+
+  function init() {
+    const input = document.getElementById(
+      "boss-search",
+    ) as HTMLInputElement | null
+    const counter = document.getElementById("boss-count")
+    if (!input) return
+
+    const gridId = input.dataset.grid ?? "entries-grid"
+    const grid = document.getElementById(gridId)
+    if (!grid) return
+
+    const items = Array.from(
+      grid.querySelectorAll<HTMLElement>("li[data-title]"),
+    )
+
+    let activeActo = "__all__"
+    let activeZona = "__all__"
+
+    function getZonasVisibles(): Set<string> {
+      const zonas = new Set<string>()
+      items.forEach((li) => {
+        const tags = li.dataset.tags ?? ""
+        const tagList = tags.split("|")
+        const matchesActo =
+          activeActo === "__all__" || tagList.includes(activeActo)
+        if (matchesActo) {
+          tagList.forEach((t) => {
+            if (!t.startsWith("acto")) zonas.add(t)
+          })
+        }
+      })
+      return zonas
+    }
+
+    function updateZonaChips() {
+      const zonasVisibles = getZonasVisibles()
+      document
+        .querySelectorAll<HTMLButtonElement>(".boss-chip[data-type='zona']")
+        .forEach((chip) => {
+          const val = chip.dataset.value ?? "__all__"
+          if (val === "__all__") return
+          const visible = zonasVisibles.has(val)
+          chip.style.display = visible ? "" : "none"
+          if (!visible && activeZona === val) {
+            activeZona = "__all__"
+            document
+              .querySelectorAll<HTMLButtonElement>(
+                ".boss-chip[data-type='zona']",
+              )
+              .forEach((c) => {
+                c.classList.toggle("active", c.dataset.value === "__all__")
+              })
+          }
+        })
+    }
+
+    function update() {
+      const q = norm(input!.value.trim())
+      let visible = 0
+
+      items.forEach((li) => {
+        const title = li.dataset.title ?? ""
+        const tags = li.dataset.tags ?? ""
+        const tagList = tags.split("|")
+
+        const matchesQuery = !q || title.includes(q) || tags.includes(q)
+        const matchesActo =
+          activeActo === "__all__" || tagList.includes(activeActo)
+        const matchesZona =
+          activeZona === "__all__" || tagList.includes(activeZona)
+
+        const show = matchesQuery && matchesActo && matchesZona
+        li.style.display = show ? "" : "none"
+        if (show) visible++
+      })
+
+      if (counter) counter.textContent = String(visible)
+    }
+
+    document
+      .querySelectorAll<HTMLButtonElement>(".boss-chip[data-type='acto']")
+      .forEach((chip) => {
+        chip.addEventListener("click", () => {
+          activeActo = chip.dataset.value ?? "__all__"
+          document
+            .querySelectorAll<HTMLButtonElement>(".boss-chip[data-type='acto']")
+            .forEach((c) => {
+              c.classList.toggle("active", c.dataset.value === activeActo)
+            })
+          updateZonaChips()
+          update()
+        })
+      })
+
+    document
+      .querySelectorAll<HTMLButtonElement>(".boss-chip[data-type='zona']")
+      .forEach((chip) => {
+        chip.addEventListener("click", () => {
+          activeZona = chip.dataset.value ?? "__all__"
+          document
+            .querySelectorAll<HTMLButtonElement>(".boss-chip[data-type='zona']")
+            .forEach((c) => {
+              c.classList.toggle("active", c.dataset.value === activeZona)
+            })
+          update()
+        })
+      })
+
+    input.addEventListener("input", update)
+    updateZonaChips()
+    update()
+  }
+
+  document.addEventListener("DOMContentLoaded", init)
+</script>
+<style>
+  .boss-chip {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 0.3rem 0.75rem;
+    border-radius: 0.625rem;
+    font-size: 0.75rem;
+    font-family: var(--font-display);
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.6);
+    transition:
+      background 160ms,
+      color 160ms,
+      border-color 160ms;
+    cursor: pointer;
+  }
+  .boss-chip:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: white;
+  }
+  .boss-chip.active {
+    background: rgba(212, 180, 106, 0.15);
+    border-color: rgba(212, 180, 106, 0.35);
+    color: #d4b46a;
+  }
+  .boss-chip.zona {
+    font-size: 0.7rem;
+    opacity: 0.85;
+  }
+  .boss-chip.zona.active {
+    opacity: 1;
+  }
+</style>

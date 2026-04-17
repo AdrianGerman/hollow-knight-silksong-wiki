@@ -2,8 +2,7 @@
 import Layout from "@/layouts/Layout.astro"
 import SectionHeader from "@/components/SectionHeader.astro"
 import EntriesGrid from "@/components/EntriesGrid.astro"
-import CategoryToolbar from "@/components/CategoryToolbar.astro"
-import Background from "@/components/Background.astro"
+import BossFilter from "@/components/BossFilter.astro"
 import Breadcrumb from "@/components/Breadcrumb.astro"
 import { getCollection } from "astro:content"
 import ViewToggle from "@/components/ViewToggle.astro"
@@ -32,7 +31,7 @@ const GRID_ID = "grid-jefes"
   <div class="mx-auto max-w-6xl px-4">
     <Breadcrumb crumbs={[{ href: "/", label: "Inicio" }, { label: "Jefes" }]} />
   </div>
-  <CategoryToolbar gridId={GRID_ID} tags={tags} placeholder="Buscar jefe…" />
+  <BossFilter gridId={GRID_ID} tags={tags} />
 
   <ViewToggle />
 
