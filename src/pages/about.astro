@@ -1,0 +1,248 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import Breadcrumb from "@/components/Breadcrumb.astro"
+---
+
+<Layout title="Sobre mí — Pharloom Archives">
+  <main class="mx-auto max-w-4xl px-4 pt-8 pb-16">
+    <Breadcrumb
+      crumbs={[{ href: "/", label: "Inicio" }, { label: "Sobre mí" }]}
+    />
+
+    <!-- Header -->
+    <div class="relative card overflow-hidden p-8 md:p-12 mt-4 mb-8">
+      <div
+        class="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-(--color-accent-glow) blur-3xl"
+        aria-hidden="true"
+      >
+      </div>
+      <div
+        class="pointer-events-none absolute -left-10 -bottom-10 h-48 w-48 rounded-full bg-(--color-accent-glow) blur-3xl opacity-50"
+        aria-hidden="true"
+      >
+      </div>
+
+      <div
+        class="relative z-10 flex flex-col md:flex-row md:items-center gap-8"
+      >
+        <div
+          class="shrink-0 h-28 w-28 rounded-2xl border border-(--color-accent)/20 bg-(--color-accent-glow) flex items-center justify-center"
+        >
+          <!-- <svg
+            class="h-12 w-12 text-(--color-accent)"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+            ></path>
+          </svg> -->
+          <img
+            src="https://pbs.twimg.com/profile_images/1776312145816227840/ISlE225__400x400.jpg"
+            alt="me"
+            class="h-16 w-16 rounded-full object-cover"
+          />
+        </div>
+
+        <div>
+          <p
+            class="font-[Cinzel] text-[0.7rem] tracking-[0.25em] uppercase text-(--color-accent) opacity-60 mb-2"
+          >
+            El autor
+          </p>
+          <h1 class="font-[Cinzel] text-3xl md:text-4xl text-(--color-ink)">
+            Gergi
+          </h1>
+          <p
+            class="mt-2 text-(--color-ink-muted) text-sm leading-relaxed max-w-lg"
+          >
+            Fan de Hollow Knight desde el día uno · Constructor de wikis ·
+            Jugador compulsivo
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span
+              class="text-[11px] px-2 py-0.5 rounded-full border border-(--color-accent)/30 text-(--color-accent) bg-(--color-accent-glow)"
+              >Fan de la chamba</span
+            >
+            <span
+              class="text-[11px] px-2 py-0.5 rounded-full border border-white/10 text-(--color-ink-muted) bg-white/[0.02]"
+              >Español</span
+            >
+            <span
+              class="text-[11px] px-2 py-0.5 rounded-full border border-white/10 text-(--color-ink-muted) bg-white/[0.02]"
+              >Wiki no oficial</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="md:col-span-2 space-y-6">
+        <div class="card p-6">
+          <h2 class="font-[Cinzel] text-xl text-(--color-ink) mb-1">
+            ¿Por qué esta wiki?
+          </h2>
+          <div class="h-px w-12 bg-(--color-accent) opacity-25 mb-4"></div>
+          <div
+            class="space-y-3 text-(--color-ink-muted) text-sm leading-relaxed"
+          >
+            <p>
+              Cuando comencé a jugar me di cuenta de que hacia falta una wiki en
+              español que recopilara toda la información del juego de manera
+              clara y accesible. Quería crear un recurso que no solo fuera útil
+              para los jugadores hispanohablantes, sino que también reflejara mi
+              pasión por el juego y mi deseo de compartir ese conocimiento con
+              la comunidad.
+            </p>
+            <p>Uno para todos - y todos para uno.</p>
+          </div>
+        </div>
+
+        <div class="card p-6">
+          <h2 class="font-[Cinzel] text-xl text-(--color-ink) mb-1">
+            Sobre el proyecto
+          </h2>
+          <div class="h-px w-12 bg-(--color-accent) opacity-25 mb-4"></div>
+          <div
+            class="space-y-3 text-(--color-ink-muted) text-sm leading-relaxed"
+          >
+            <p>
+              Esta wiki está construida con
+              <strong class="text-(--color-ink)">Astro</strong> y
+              <strong class="text-(--color-ink)">Tailwind CSS</strong>, con toda
+              la información traducida al español y organizada para que sea
+              fácil de navegar.
+            </p>
+            <p>
+              El contenido se actualiza de forma manual conforme se va
+              conociendo más del juego. Si encuentras algún error o quieres
+              contribuir, no dudes en contactarme.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna lateral -->
+      <div class="space-y-4">
+        <div class="card p-5">
+          <h3
+            class="font-[Cinzel] text-sm text-(--color-ink) mb-1 tracking-wide"
+          >
+            La wiki en números
+          </h3>
+          <div class="h-px w-8 bg-(--color-accent) opacity-25 mb-4"></div>
+          <ul class="space-y-3">
+            {
+              [
+                { n: "33", label: "Jefes documentados" },
+                { n: "20", label: "Instrumentos" },
+                { n: "4", label: "Secciones" },
+                { n: "∞", label: "Horas jugadas" },
+              ].map(({ n, label }) => (
+                <li class="flex items-center justify-between">
+                  <span class="text-sm text-(--color-ink-muted)">{label}</span>
+                  <span class="font-[Cinzel] text-lg text-(--color-accent)">
+                    {n}
+                  </span>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+
+        <div class="card p-5">
+          <h3
+            class="font-[Cinzel] text-sm text-(--color-ink) mb-1 tracking-wide"
+          >
+            Hecho con
+          </h3>
+          <div class="h-px w-8 bg-(--color-accent) opacity-25 mb-4"></div>
+          <ul class="space-y-2">
+            {
+              [
+                {
+                  label: "Astro",
+                  desc: "Framework",
+                  href: "https://astro.build",
+                },
+                {
+                  label: "Tailwind CSS",
+                  desc: "Estilos",
+                  href: "https://tailwindcss.com",
+                },
+                {
+                  label: "TypeScript",
+                  desc: "Tipado",
+                  href: "https://www.typescriptlang.org",
+                },
+                {
+                  label: "Markdown",
+                  desc: "Contenido",
+                  href: "https://www.markdownguide.org",
+                },
+              ].map(({ label, desc, href }) => (
+                <li>
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex items-center justify-between rounded-lg px-2 py-1.5 hover:bg-white/[0.03] transition group"
+                  >
+                    <span class="text-sm text-(--color-ink) group-hover:text-(--color-accent) transition">
+                      {label}
+                    </span>
+                    <span class="text-[11px] text-(--color-ink-muted)">
+                      {desc} ↗
+                    </span>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+
+        <div class="card p-5">
+          <h3
+            class="font-[Cinzel] text-sm text-(--color-ink) mb-1 tracking-wide"
+          >
+            Contacto
+          </h3>
+          <div class="h-px w-8 bg-(--color-accent) opacity-25 mb-4"></div>
+          <div class="flex flex-col gap-2">
+            <a
+              href="https://github.com/AdrianGerman"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.02] px-3 py-2 text-xs text-(--color-ink-muted) hover:text-(--color-ink) hover:border-(--color-accent)/30 hover:bg-(--color-accent-glow) transition"
+            >
+              <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                ></path>
+              </svg>
+              GitHub
+            </a>
+            <a
+              href="https://twitter.com/HeimCode"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.02] px-3 py-2 text-xs text-(--color-ink-muted) hover:text-(--color-ink) hover:border-(--color-accent)/30 hover:bg-(--color-accent-glow) transition"
+            >
+              <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                ></path>
+              </svg>
+              Twitter / X
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>
