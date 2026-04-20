@@ -5,7 +5,7 @@ order: 5
 color: "azul"
 tags: ["defensiva", "supervivencia", "protección"]
 obtained: "Se compra a Skarr Moteado en Marcha del Cazador."
-cover: { src: "/images/instrumentos/mascara_fracturada.webp", alt: "Máscara fracturada" }
+cover: { src: "/images/instrumentos/blue/mascara_fracturada.webp", alt: "Máscara fracturada" }
 ---
 
 ## Descripción
