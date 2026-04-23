@@ -2,6 +2,7 @@
 title: "Extensor de carrete"
 excerpt: "Aumenta la capacidad máxima de seda de Hornet."
 color: "azul"
+order: 10
 tags: ["utilidad", "seda", "capacidad"]
 obtained: "Lo vende Jubilana en Enclave Cancioneril."
 cover: { src: "/images/instrumentos/blue/extensor_carrete.webp", alt: "Extensor de carrete" }

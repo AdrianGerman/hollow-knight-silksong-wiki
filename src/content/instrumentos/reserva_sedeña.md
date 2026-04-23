@@ -2,6 +2,7 @@
 title: "Reserva sedeña"
 excerpt: "Almacena seda suficiente para realizar un enlace sin gastar la reserva natural de Hornet."
 color: "azul"
+order: 11
 tags: ["defensiva", "curación", "seda", "enlazar"]
 obtained: "Se obtiene en Altos Salones como recompensa del Segundo Centinela."
 cover: { src: "/images/instrumentos/blue/reserva_sedena.webp", alt: "Reserva sedeña" }
