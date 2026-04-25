@@ -2,9 +2,10 @@
 title: "Pico hurgón"
 excerpt: "Roba rosarios y fragmentos de coraza al golpear enemigos con Garrahilo."
 color: "azul"
+order: 14
 tags: ["utilidad", "botín", "rosarios", "fragmentos", "garrahilo"]
 obtained: "Lo vende Grindle en Escalones Ajados."
-cover: { src: "/images/instrumentos/pico_hurgon.webp", alt: "Pico hurgón" }
+cover: { src: "/images/instrumentos/blue/pico_hurgon.webp", alt: "Pico hurgón" }
 ---
 
 ## Descripción
