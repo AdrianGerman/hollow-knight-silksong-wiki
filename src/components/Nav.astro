@@ -9,27 +9,46 @@ const links = [
   { href: "/zonas", label: "Zonas" },
 ]
 
+const mecanicas = [
+  {
+    href: "/blasones",
+    label: "Blasones",
+    desc: "Equipamiento y slots de Hornet",
+  },
+  {
+    href: "/habilidades",
+    label: "Habilidades de Seda",
+    desc: "6 habilidades especiales de seda",
+  },
+]
+
 function isCurrent(href: string) {
   if (href === "/") return pathname === "/"
   return pathname.startsWith(href)
 }
+
+const mecanicasActive = mecanicas.some((m) => pathname.startsWith(m.href))
 ---
 
 <header
-  class="sticky top-0 z-50 border-b border-white/10 bg-[#06080d]/80 backdrop-blur-sm"
+  class="sticky top-0 z-50 border-b border-white/10 bg-(--color-bg)/80 backdrop-blur-sm"
 >
   <nav
     class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6"
   >
     <a href="/" class="flex items-center gap-2.5 group">
-      <img
-        class="block h-5 w-5 transition group-hover:scale-110"
-        src="/images/silksong.ico"
-        alt="silksong wiki icon"
-      />
-
+      <svg
+        class="h-5 w-5 text-(--color-accent) transition group-hover:scale-110"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7L12 2z"
+        ></path>
+      </svg>
       <span
-        class="block leading-none font-[Cinzel] text-sm tracking-widest text-white/90 uppercase"
+        class="font-[Cinzel] text-sm tracking-widest text-(--color-ink) uppercase"
       >
         Silksong Wiki
       </span>
@@ -44,8 +63,8 @@ function isCurrent(href: string) {
               class={`px-3 py-1.5 rounded-lg font-[Cinzel] text-[0.7rem] tracking-widest uppercase transition
               ${
                 isCurrent(href)
-                  ? "text-(--color-accent) bg-(--color-accent-dim)"
-                  : "text-white/50 hover:text-white/90 hover:bg-white/5"
+                  ? "text-(--color-accent) bg-(--color-accent-glow)"
+                  : "text-(--color-ink-muted) hover:text-(--color-ink) hover:bg-white/5"
               }`}
               aria-current={isCurrent(href) ? "page" : undefined}
             >
@@ -54,11 +73,62 @@ function isCurrent(href: string) {
           </li>
         ))
       }
+
+      <li class="relative group">
+        <button
+          type="button"
+          class={`flex items-center gap-1 px-3 py-1.5 rounded-lg font-[Cinzel] text-[0.7rem] tracking-widest uppercase transition
+            ${
+              mecanicasActive
+                ? "text-(--color-accent) bg-(--color-accent-glow)"
+                : "text-(--color-ink-muted) hover:text-(--color-ink) hover:bg-white/5"
+            }`}
+        >
+          Mecánicas
+          <svg
+            class="h-3 w-3 transition-transform group-hover:rotate-180"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+          </svg>
+        </button>
+
+        <div
+          class="absolute right-0 top-full mt-2 w-56 origin-top-right rounded-2xl border border-white/10 bg-(--color-surface) shadow-2xl opacity-0 scale-95 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto transition-all duration-150"
+        >
+          <div class="p-2">
+            {
+              mecanicas.map(({ href, label, desc }) => (
+                <a
+                  href={href}
+                  class={`block rounded-xl px-3 py-2.5 transition hover:bg-white/[0.05] ${isCurrent(href) ? "bg-(--color-accent-glow)" : ""}`}
+                >
+                  <p
+                    class={`font-[Cinzel] text-xs tracking-wide ${isCurrent(href) ? "text-(--color-accent)" : "text-(--color-ink)"}`}
+                  >
+                    {label}
+                  </p>
+                  <p class="mt-0.5 text-[11px] text-(--color-ink-muted)">
+                    {desc}
+                  </p>
+                </a>
+              ))
+            }
+          </div>
+        </div>
+      </li>
     </ul>
 
     <button
       id="nav-toggle"
-      class="md:hidden text-white/50 hover:text-white p-2 rounded-lg transition hover:bg-white/5"
+      class="md:hidden text-(--color-ink-muted) hover:text-(--color-ink) p-2 rounded-lg transition hover:bg-white/5"
       aria-label="Abrir menú"
       aria-expanded="false"
     >
@@ -90,8 +160,8 @@ function isCurrent(href: string) {
               class={`block px-3 py-2 rounded-lg font-[Cinzel] text-[0.7rem] tracking-widest uppercase transition
               ${
                 isCurrent(href)
-                  ? "text-(--color-accent) bg-(--color-accent-dim)"
-                  : "text-white/50 hover:text-white/90 hover:bg-white/5"
+                  ? "text-(--color-accent) bg-(--color-accent-glow)"
+                  : "text-(--color-ink-muted) hover:text-(--color-ink) hover:bg-white/5"
               }`}
               aria-current={isCurrent(href) ? "page" : undefined}
             >
@@ -100,6 +170,29 @@ function isCurrent(href: string) {
           </li>
         ))
       }
+      <li class="pt-1">
+        <p
+          class="px-3 py-1 text-[0.6rem] uppercase tracking-widest text-(--color-ink-muted) opacity-50"
+        >
+          Mecánicas
+        </p>
+        {
+          mecanicas.map(({ href, label }) => (
+            <a
+              href={href}
+              class={`block px-3 py-2 rounded-lg font-[Cinzel] text-[0.7rem] tracking-widest uppercase transition
+              ${
+                isCurrent(href)
+                  ? "text-(--color-accent) bg-(--color-accent-glow)"
+                  : "text-(--color-ink-muted) hover:text-(--color-ink) hover:bg-white/5"
+              }`}
+              aria-current={isCurrent(href) ? "page" : undefined}
+            >
+              {label}
+            </a>
+          ))
+        }
+      </li>
     </ul>
   </div>
 </header>
