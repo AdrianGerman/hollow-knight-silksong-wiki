@@ -74,19 +74,22 @@ const mecanicasActive = mecanicas.some((m) => pathname.startsWith(m.href))
         ))
       }
 
-      <li class="relative group">
+      <li class="relative">
         <button
+          id="nav-mecanicas-btn"
           type="button"
           class={`flex items-center gap-1 px-3 py-1.5 rounded-lg font-[Cinzel] text-[0.7rem] tracking-widest uppercase transition
-            ${
-              mecanicasActive
-                ? "text-(--color-accent) bg-(--color-accent-glow)"
-                : "text-(--color-ink-muted) hover:text-(--color-ink) hover:bg-white/5"
-            }`}
+      ${
+        mecanicasActive
+          ? "text-(--color-accent) bg-(--color-accent-glow)"
+          : "text-(--color-ink-muted) hover:text-(--color-ink) hover:bg-white/5"
+      }`}
+          aria-expanded="false"
         >
           Mecánicas
           <svg
-            class="h-3 w-3 transition-transform group-hover:rotate-180"
+            id="nav-mecanicas-arrow"
+            class="h-3 w-3 transition-transform"
             fill="none"
             stroke="currentColor"
             stroke-width="2.5"
@@ -101,7 +104,8 @@ const mecanicasActive = mecanicas.some((m) => pathname.startsWith(m.href))
         </button>
 
         <div
-          class="absolute right-0 top-full mt-2 w-56 origin-top-right rounded-2xl border border-white/10 bg-(--color-surface) shadow-2xl opacity-0 scale-95 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto transition-all duration-150"
+          id="nav-mecanicas-panel"
+          class="absolute right-0 top-full mt-2 w-56 origin-top-right rounded-2xl border border-white/10 bg-(--color-surface) shadow-2xl hidden"
         >
           <div class="p-2">
             {
@@ -203,5 +207,22 @@ const mecanicasActive = mecanicas.some((m) => pathname.startsWith(m.href))
   btn?.addEventListener("click", () => {
     const open = menu?.classList.toggle("hidden") === false
     btn.setAttribute("aria-expanded", String(open))
+  })
+
+  const mecBtn = document.getElementById("nav-mecanicas-btn")
+  const mecPanel = document.getElementById("nav-mecanicas-panel")
+  const mecArrow = document.getElementById("nav-mecanicas-arrow")
+
+  mecBtn?.addEventListener("click", (e) => {
+    e.stopPropagation()
+    const open = mecPanel?.classList.toggle("hidden") === false
+    mecBtn.setAttribute("aria-expanded", String(open))
+    mecArrow?.classList.toggle("rotate-180", open)
+  })
+
+  document.addEventListener("click", () => {
+    mecPanel?.classList.add("hidden")
+    mecBtn?.setAttribute("aria-expanded", "false")
+    mecArrow?.classList.remove("rotate-180")
   })
 </script>
