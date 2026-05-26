@@ -1,5 +1,5 @@
 ---
-const categories = [
+const principales = [
   {
     href: "/jefes",
     label: "Jefes",
@@ -29,6 +29,23 @@ const categories = [
     icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"/>`,
   },
 ]
+
+const mecanicas = [
+  {
+    href: "/blasones",
+    label: "Blasones",
+    desc: "7 blasones — equipamiento y slots de Hornet",
+    count: "7 entradas",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/>`,
+  },
+  {
+    href: "/habilidades",
+    label: "Habilidades de Seda",
+    desc: "6 habilidades especiales equipables en el blasón",
+    count: "6 entradas",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/>`,
+  },
+]
 ---
 
 <section class="mx-auto max-w-6xl px-4 py-12">
@@ -39,10 +56,10 @@ const categories = [
   </p>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
     {
-      categories.map((c) => (
+      principales.map((c) => (
         <a
           href={c.href}
-          class="group card card-hover relative overflow-hidden p-5 block"
+          class="group card relative overflow-hidden p-5 block transition hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-black/30"
         >
           <div class="mb-3 flex items-center justify-between">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-(--color-accent-glow) text-(--color-accent)">
@@ -60,16 +77,13 @@ const categories = [
               {c.count}
             </span>
           </div>
-
           <p class="font-[Cinzel] text-xl text-(--color-ink)">{c.label}</p>
           <p class="mt-1 text-sm text-(--color-ink-muted) leading-relaxed">
             {c.desc}
           </p>
-
           <div class="mt-5 flex items-center gap-1.5 text-xs text-(--color-accent) opacity-60 group-hover:opacity-100 transition-opacity">
             Explorar <span aria-hidden="true">→</span>
           </div>
-
           <div
             class="pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-(--color-accent-glow) blur-2xl opacity-0 group-hover:opacity-100 transition-opacity"
             aria-hidden="true"
@@ -77,5 +91,54 @@ const categories = [
         </a>
       ))
     }
+  </div>
+
+  <div class="mt-8">
+    <div class="flex items-center gap-4 mb-4">
+      <p
+        class="font-[Cinzel] text-[0.7rem] tracking-[0.25em] uppercase text-(--color-ink-muted) opacity-40"
+      >
+        Mecánicas
+      </p>
+      <div class="flex-1 h-px bg-white/5"></div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {
+        mecanicas.map((c) => (
+          <a
+            href={c.href}
+            class="group card relative overflow-hidden p-5 block transition hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-black/30"
+          >
+            <div class="mb-3 flex items-center justify-between">
+              <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-(--color-accent-glow) text-(--color-accent)">
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  set:html={c.icon}
+                />
+              </div>
+              <span class="text-[10px] text-(--color-ink-muted) opacity-60">
+                {c.count}
+              </span>
+            </div>
+            <p class="font-[Cinzel] text-xl text-(--color-ink)">{c.label}</p>
+            <p class="mt-1 text-sm text-(--color-ink-muted) leading-relaxed">
+              {c.desc}
+            </p>
+            <div class="mt-5 flex items-center gap-1.5 text-xs text-(--color-accent) opacity-60 group-hover:opacity-100 transition-opacity">
+              Explorar <span aria-hidden="true">→</span>
+            </div>
+            <div
+              class="pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-(--color-accent-glow) blur-2xl opacity-0 group-hover:opacity-100 transition-opacity"
+              aria-hidden="true"
+            />
+          </a>
+        ))
+      }
+    </div>
   </div>
 </section>
