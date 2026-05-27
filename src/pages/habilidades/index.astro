@@ -1,0 +1,96 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import SectionHeader from "@/components/SectionHeader.astro"
+import Breadcrumb from "@/components/Breadcrumb.astro"
+import ViewToggle from "@/components/ViewToggle.astro"
+import EntriesGrid from "@/components/EntriesGrid.astro"
+import EntriesList from "@/components/EntriesList.astro"
+import { getCollection } from "astro:content"
+
+const docs = await getCollection("habilidades")
+const items = docs
+  .sort((a, b) => a.data.order - b.data.order)
+  .map(({ data, slug, collection }) => ({
+    href: `/${collection}/${slug}`,
+    title: data.title,
+    excerpt: data.excerpt ?? "",
+    cover: data.cover?.src ?? "",
+    tags: data.tags ?? [],
+  }))
+
+const tipoInfo = {
+  Ofensiva: { dot: "bg-red-400", desc: "Ataques y daño directo" },
+  Defensiva: { dot: "bg-blue-400", desc: "Protección y supervivencia" },
+  Movilidad: { dot: "bg-yellow-400", desc: "Movimiento y desplazamiento" },
+  Utilidad: { dot: "bg-white/40", desc: "Soporte y exploración" },
+}
+
+const GRID_ID = "grid-habilidades"
+---
+
+<Layout title="Habilidades de Seda — Silksong Wiki">
+  <SectionHeader
+    title="Habilidades de Seda"
+    description="Las 6 habilidades especiales de Hornet. Se equipan en los slots blancos del blasón activo y se intercambian libremente en cualquier banco."
+  />
+
+  <div class="mx-auto max-w-6xl px-4">
+    <Breadcrumb
+      crumbs={[
+        { href: "/", label: "Inicio" },
+        { label: "Habilidades de Seda" },
+      ]}
+    />
+  </div>
+
+  <div class="mx-auto max-w-6xl px-4 mb-6">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+      {
+        Object.entries(tipoInfo).map(([tipo, { dot, desc }]) => (
+          <div class="card px-4 py-3 flex items-center gap-3">
+            <span
+              class={`h-3 w-3 rounded-full shrink-0 ${dot}`}
+              aria-hidden="true"
+            />
+            <div>
+              <p class="text-sm font-[Cinzel] text-(--color-ink)">{tipo}</p>
+              <p class="text-xs text-(--color-ink-muted)">{desc}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <ViewToggle />
+
+  <div class="mx-auto max-w-6xl px-4 pb-12">
+    {
+      items.length > 0 ? (
+        <>
+          <div class="view-grid">
+            <EntriesGrid items={items} id={GRID_ID} />
+          </div>
+          <div class="view-list hidden">
+            <EntriesList items={items} id="list-habilidades" />
+          </div>
+        </>
+      ) : (
+        <div class="card p-12 text-center">
+          <p class="font-[Cinzel] text-xl text-(--color-ink-muted) mb-2">
+            Sin entradas aún
+          </p>
+          <p class="text-sm text-(--color-ink-muted) opacity-60">
+            Crea archivos .md en{" "}
+            <code class="text-(--color-accent)">src/content/habilidades/</code>{" "}
+            para empezar.
+          </p>
+        </div>
+      )
+    }
+  </div>
+</Layout>
+
+<script>
+  import "../../scripts/viewToggle.js"
+</script>
