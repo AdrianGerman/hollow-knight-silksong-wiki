@@ -1,7 +1,7 @@
 ---
 title: "Bóvedas Susurrantes"
 excerpt: "Catacumbas antiguas llenas de ecos y susurros de memorias pasadas. Zona secreta del Acto II con el lore más oscuro y algunos de los coleccionables más difíciles."
-order: 6
+order: 17
 acto: "Acto II"
 tipo: "Secundaria"
 tags: ["Acto II"]
